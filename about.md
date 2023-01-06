@@ -13,7 +13,7 @@ redirect_from:
 
 <!--author-->
 
-![Screenshot](assets/img/prof_pic.jpg){:.lead max-width="400" max-height="400" loading="lazy"}
+![Screenshot](assets/img/prof_pic.jpg){: width="400" height="50"}
 
 
 I am a PhD student at Harvard in many-body quantum physics. I am fortunate to be working with [Professor Norman Yao](https://www.physics.harvard.edu/people/norman-y-yao). I am a member of the inaugural cohort of the Quantum Science and Engineering program, part of the [Harvard Quantum Initiative](https://quantum.harvard.edu/). I am broadly interested in theoretical out-of-equilibrium many-body physics, topological phases and aspects of AI in many-body physics.
@@ -23,12 +23,8 @@ In the past, I have spent my time in the capital of England at UCL and at the [L
 
 Feel free to contact me at dkufel [at] g.harvard.edu
 
-1. this list will be replaced by the toc
+1. (This list will be replaced by the TOC)
 {:toc .large-only}
-
-Hydejack's cover page on a variety of screen sizes.
-{:.figcaption}
-
 
 **Hydejack** is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
 
