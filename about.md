@@ -1,6 +1,6 @@
 ---
 layout: about
-image: /assets/img/blog/hydejack-9.jpg
+image: /assets/img/logo.png
 description: >
   A boutique Jekyll theme for hackers, nerds, and academics,
   with a focus on personal sites that are meant to impress.
@@ -21,12 +21,10 @@ I am a PhD student at Harvard in many-body quantum physics. I am fortunate to be
 Not doing physics I mostly spend my time exercising, running/cycling and playing banjo.
 In the past, I have spent my time in the capital of England at UCL and at the [London Centre for Nanotechnology](https://www.london-nano.com/). I graduated with master's degrees in Physics and Quantum Technologies. I hail from [Lublin, Poland](https://en.wikipedia.org/wiki/Lublin).
 
-> Feel free to contact me at dkufel [at] g.harvard.edu 
+> Feel free to contact me at dkufel [at] g.harvard.edu
 {:.lead}
 
 
 [blog]: /
 [portfolio]: https://hydejack.com/examples/
 [resume]: https://hydejack.com/resume/
-
-[tinyletter]: https://tinyletter.com/
