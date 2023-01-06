@@ -13,7 +13,12 @@ redirect_from:
 
 <!--author-->
 
-## Hydejack
+## Dominik Kufel
+
+I am a PhD student at Harvard in many-body quantum physics. I am fortunate to be working with [Professor Norman Yao](https://www.physics.harvard.edu/people/norman-y-yao). I am a member of the inaugural cohort of the Quantum Science and Engineering program, part of the [Harvard Quantum Initiative](https://quantum.harvard.edu/). I am broadly interested in theoretical out-of-equilibrium many-body physics, topological phases and aspects of AI in many-body physics.
+Not doing physics I mostly spend my time exercising, running/cycling and playing banjo.
+In the past, I have spent my time in the capital of England at UCL and at the [London Centre for Nanotechnology](https://www.london-nano.com/). I graduated with master's degrees in Physics and Quantum Technologies. I hail from [Lublin, Poland](https://en.wikipedia.org/wiki/Lublin).
+Feel free to contact me at dkufel [at] g.harvard.edu
 
 A boutique Jekyll theme for hackers, nerds, and academics.  
 {:.lead}
@@ -21,13 +26,13 @@ A boutique Jekyll theme for hackers, nerds, and academics.
 1. this list will be replaced by the toc
 {:toc .large-only}
 
-![Screenshot](assets/img/blog/hydejack-9.jpg){:.lead width="1920" height="1080" loading="lazy"}
+![Screenshot](assets/img/prof_pic.jpg){:.lead width="1920" height="1080" loading="lazy"}
 
 Hydejack's cover page on a variety of screen sizes.
 {:.figcaption}
 
 
-**Hydejack** is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress. 
+**Hydejack** is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
 
 It includes a blog that is suitable for both prose and technical documentation, a portfolio to showcase your projects, and a resume template that looks amazing on the web and in print.
 
