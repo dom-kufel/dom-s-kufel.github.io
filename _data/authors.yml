@@ -1,26 +1,22 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
-author: Dom98
+author1:
   name:              <firstname> <lastname>
   email:             <mail@domain.tld>
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:
-            |
-I am a PhD student at Harvard in many-body quantum physics. I am fortunate to be working with [Professor Norman Yao](https://www.physics.harvard.edu/people/norman-y-yao). I am a member of the inaugural cohort of the Quantum Science and Engineering program, part of the [Harvard Quantum Initiative](https://quantum.harvard.edu/). I am broadly interested in theoretical out-of-equilibrium many-body physics, topological phases and aspects of AI in many-body physics.
-
-Not doing physics I mostly spend my time exercising, running/cycling and playing banjo.
-
-In the past, I have spent my time in the capital of England at UCL and at the [London Centre for Nanotechnology](https://www.london-nano.com/). I graduated with master's degrees in Physics and Quantum Technologies. I hail from [Lublin, Poland](https://en.wikipedia.org/wiki/Lublin).
-
-Feel free to contact me at dkufel [at] g.harvard.edu
-
+  about:             |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    
+    Open `_data/authors.yml` to edit this text.
 
   # This photo will be used in the about section
   picture:
-    path:            /assets/img/blog/hydejack-9.jpg #https://via.placeholder.com/128x128
+    path:            https://via.placeholder.com/128x128
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
       1x:            https://via.placeholder.com/128x128
@@ -30,8 +26,8 @@ Feel free to contact me at dkufel [at] g.harvard.edu
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    #twitter:         <username>
-    #github:          <username>
+    twitter:         <username>
+    github:          <username>
     # email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
@@ -61,7 +57,7 @@ Feel free to contact me at dkufel [at] g.harvard.edu
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    linkedin:        <dominik-kufel>
+    # linkedin:        <firstname-lastname-string>
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
