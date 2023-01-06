@@ -13,7 +13,7 @@ redirect_from:
 
 <!--author-->
 
-![Screenshot](assets/img/prof_pic.jpg){: width="250" height="80"}
+<!-- ![Screenshot](assets/img/prof_pic.jpg){: width="250" height="80"} -->
 
 
 I am a PhD student at Harvard in many-body quantum physics. I am fortunate to be working with [Professor Norman Yao](https://www.physics.harvard.edu/people/norman-y-yao). I am a member of the inaugural cohort of the Quantum Science and Engineering program, part of the [Harvard Quantum Initiative](https://quantum.harvard.edu/). I am broadly interested in theoretical out-of-equilibrium many-body physics, topological phases and aspects of AI in many-body physics.
