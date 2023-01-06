@@ -1,8 +1,8 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
-Dom-Kufel
-  name:              <firstname> <lastname>
+author1:
+  name:              Dominik Kufel
   email:             <mail@domain.tld>
 
   # Used at the bottom of each page and at the top of the `about` layout
