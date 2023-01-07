@@ -12,7 +12,7 @@ permalink: /publications/
 <details>
 <summary>Skier and loop the loop with friction </summary>
 <div markdown="1">
-<span style="font-size:0.9em;">**Field:** Classical Mechanics <br> **Main points:** Developed analytical solutions to the extension of two ‘classic’ problems in classical mechanics.  </span>
+<span style="font-size:0.85em;">**Field:** Classical Mechanics <br> **Main points:** Developed analytical solutions to the extension of two ‘classic’ problems in classical mechanics.  </span>
 </div>
 </details>
 <span style="color:grey"><ins>D. Kufel</ins>, A. Sokal (2022)</span>\
@@ -21,7 +21,7 @@ permalink: /publications/
 <details>
 <summary>Alternative quantisation condition for wavepacket dynamics in a hyperbolic double well</summary>
 <div markdown="1">
-<span style="font-family:Times New Roman; font-size:0.9em;">**Field:** Atomic Physics <br> **Main points:** Proposed a new analytical way of finding allowed energies in the class of hyperbolic-double well potentials by connecting it to a problem of finding roots of some polynomial. Applied this approach to understanding the role of non-adiabatic effects during enhanced ionization. </span>
+<span style="font-size:0.85em;">**Field:** Atomic Physics <br> **Main points:** Proposed a new analytical way of finding allowed energies in the class of hyperbolic-double well potentials by connecting it to a problem of finding roots of some polynomial. Applied this approach to understanding the role of non-adiabatic effects during enhanced ionization. </span>
 </div>
 </details>
 <span style="color:grey"><ins>D. Kufel</ins>, H. Chomet, C. Faria (2021)</span>\
@@ -30,7 +30,7 @@ permalink: /publications/
 <details>
 <summary>Online Learning and matching for resource allocation problems </summary>
 <div markdown="1">
-<span style="font-family:Times New Roman; font-size:0.9em;">**Field:** Machine Learning <br> **Main points:** Devised, provided performance guarantees, and implemented algorithms integrating dual problems in convex optimization with a subclass of reinforcement learning techniques. Applied this to the traffic-shaping problem.   </span>
+<span style="font-size:0.85em;">**Field:** Machine Learning <br> **Main points:** Devised, provided performance guarantees, and implemented algorithms integrating dual problems in convex optimization with a subclass of reinforcement learning techniques. Applied this to the traffic-shaping problem.   </span>
 </div>
 </details>
 <span style="color:grey">A. Boskovic, Q. Chen, <ins>D. Kufel</ins>, Z. Zhou (2019)</span>\
@@ -39,7 +39,7 @@ permalink: /publications/
 <details>
 <summary>Analytical modelling of temperature effects on AMPA-type synapse </summary>
 <div markdown="1">
-<span style="font-family:Times New Roman; font-size:0.9em;">**Field:** Computational Neuroscience <br> **Main Points:** Used ODE-based modelling for understanding temperature effects on AMPA-type synapses in brain. Simplified the ODEs using some physically-motivated assumptions and shown how the obtained analytical solution faithfully reproduces the results of biological experiments. </span>
+<span style="font-size:0.85em;">**Field:** Computational Neuroscience <br> **Main Points:** Used ODE-based modelling for understanding temperature effects on AMPA-type synapses in brain. Simplified the ODEs using some physically-motivated assumptions and shown how the obtained analytical solution faithfully reproduces the results of biological experiments. </span>
 </div>
 </details>
 <span style="color:grey"><ins>D. Kufel</ins>, G. Wojcik (2018)</span>\
