@@ -37,7 +37,7 @@ permalink: /publications/
 
 <summary>Analytical modelling of temperature effects on AMPA-type synapse </summary>
 <div markdown="1">
-<span style="font-family:Papyrus; font-size:1em;">Field: Computational Neuroscience; <br> Main Points: Used ODE-based modelling for understanding temperature effects on AMPA-type synapses in brain. Simplified the ODEs using some physically-motivated assumptions and shown how the obtained analytical solution faithfully reproduces the results of biological experiments. </span>
+<span style="font-family:Helvetica; font-size:1em;">Field: Computational Neuroscience; <br> Main Points: Used ODE-based modelling for understanding temperature effects on AMPA-type synapses in brain. Simplified the ODEs using some physically-motivated assumptions and shown how the obtained analytical solution faithfully reproduces the results of biological experiments. </span>
 </div>
 </details>
 <span style="color:grey"><ins>D. Kufel</ins>, G. Wojcik (2018)</span>\
