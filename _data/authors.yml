@@ -13,9 +13,9 @@ author1:
   picture:
     path:            /assets/img/prof_pic.jpg
     # srcset is optional, but can be used to provide higher res versions for retina displays
-    # srcset:
-    #   1x:            https://via.placeholder.com/128x128
-    #   2x:            https://via.placeholder.com/256x256
+    srcset:
+      1x:            /assets/img/prof_pic.jpg
+      2x:            /assets/img/prof_pic.jpg
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
@@ -61,17 +61,17 @@ author1:
     # download:        <url>
     # keybase          <username>
 
-# Another author (optional)
-author2:
-  name:              <firtname> <lastname>
-  email:             <mail@domain.tld>
-  about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-    Open `_data/authors.yml` to edit this text.
-
-  picture:           https://placehold.it/128x128
-  twitter:           <username>
-  github:            <username>
+# # Another author (optional)
+# author2:
+#   name:              <firtname> <lastname>
+#   email:             <mail@domain.tld>
+#   about:             |
+#     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+#     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+#
+#     Open `_data/authors.yml` to edit this text.
+#
+#   picture:           https://placehold.it/128x128
+#   twitter:           <username>
+#   github:            <username>
