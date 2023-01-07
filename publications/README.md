@@ -8,7 +8,7 @@ sitemap: false
 permalink: /publications/
 ---
 
-Skier and loop the loop with friction [PDF](https://arxiv.org/pdf/2003.02178.pdf)\
+*[Skier and loop the loop with friction]: Field: Classical Mechanics \ Main points: Developed analytical solutions to the extension of two ‘classic’ problems in classical mechanics.  [PDF](https://arxiv.org/pdf/2003.02178.pdf)\
 <span style="color:grey"><ins>D. Kufel</ins>, A. Sokal (2022)</span>\
 *American Journal of Physics 90, 573.*
 
