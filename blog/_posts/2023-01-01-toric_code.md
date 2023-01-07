@@ -16,7 +16,7 @@ In this blogpost I would like to approach toric code from a slightly more conden
 
 *[weird]: Read: interesting
 *[plaquettes]: Fancy term for each of the little squares in the lattice.
-[^1]: Note that some people (see e.g., <d-cite key="wenchenbook"></d-cite> define $$A_v$$ operators as products of Pauli $$Z$$ operators; and $$B_p$$ operators as products of Pauli $$X$$ - this is just the matter of convention and does not change the physics in any essential way.
+[^1]: Note that some people (see e.g., <a href="#wenchenbook">*[Zeng et al. (2015)]*</a> define $$A_v$$ operators as products of Pauli $$Z$$ operators; and $$B_p$$ operators as products of Pauli $$X$$ - this is just the matter of convention and does not change the physics in any essential way.
 
 ## Toric code basics
 
@@ -130,6 +130,8 @@ Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur e
 *[CSS]: Cascading Style Sheets
 *[JS]: JavaScript
 
+## References
+<a id="wenchenbook">*[Zeng et al. (2015)]*</a> Zeng, B., Chen, X., Zhou, D.L. and Wen, X.G., 2015. Quantum Information Meets Quantum Matter--From Quantum Entanglement to Topological Phase in Many-Body Systems. [*arXiv preprint arXiv:1508.02595*](https://arxiv.org/abs/1508.02595).
 
-### Hints to exercises
+## Hints to exercises
 <a id="hint1">**Hint:**</a> Whenever Pauli X and Z meet on the same site they anti-commute, otherwise (e.g., $$[X \otimes \mathbb{1},\mathbb{1} \otimes Z]$$ they commute.
