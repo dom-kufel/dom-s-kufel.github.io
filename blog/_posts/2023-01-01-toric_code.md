@@ -11,9 +11,9 @@ Working in the field of quantum technologies I often chat to people from a varie
 
 In this blogpost I would like to approach toric code from a slightly more condensed matter angle discuss few basic properties of a toric code model, viewing it from condensed matter perspective (since quantum error correction view of it is somewhat more well-known). Stay tuned: I promise there are few cute ideas along the way.
 
-<!-- [^1]: Read: interesting -->
 *[weird]: Read: interesting
 *[plaquettes]: Fancy term for each of the little squares in the lattice.
+[^1]: Note that some people (see e.g., <d-cite key="wenchenbook"></d-cite> define $$A_v$$ operators as products of Pauli $$Z$$ operators; and $$B_p$$ operators as products of Pauli $$X$$ - this is just the matter of convention and does not change the physics in any essential way.
 
 ## Toric code basics
 
@@ -22,7 +22,7 @@ In the simplest realization, toric code is a model of qubits (e.g., spins-1/2) p
 H = -\sum_v A_v - \sum_p B_p
 \label{eq:H_TC}
 \end{equation}
-where $$A_v = \prod_j X_j$$ acts on each of the vertices and $$B_p= \prod_j Z_j$$ acts on plaquettes. [Footnote: Note that some people (see e.g., <d-cite key="wenchenbook"></d-cite> define A_v operators as products of Pauli Z operators; and B_p operators as products of Pauli X - this is just the matter of convention and does not change the physics in any essential way]. For later we will also define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. !!!!b.  
+where $$A_v = \prod_j X_j$$ acts on[^1] each of the vertices and $$B_p= \prod_j Z_j$$ acts on plaquettes. For later we will also define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. !!!!b.  
 
 Our goal for now is to find the ground state of the above model. First, note that all the terms within the Hamiltonian mutually commute with one another i.e. $$[A_v, B_p]=0 \ \ \forall v,p$$ - you will prove it in the exercise below. (Terminology comment: Hamiltonian containing of Pauli strings which are mutually commuting (as above) is often called stabilizer Hamiltonian - language coming from error correction - more on this later). This remarkably simplifies the problem: we (i) minimize the energy of one of the sums in Eq. \ref{eq:H_TC} and then (ii) impose the other sum as the constraint on the choice of the ground state.
 
