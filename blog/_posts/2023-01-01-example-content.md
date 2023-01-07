@@ -2,7 +2,7 @@
 layout: post
 title: Toric code from condensed matter perspective.
 description: >
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+  After brief intro to toric code, I discuss its connections to topological order and long-range entanglement. 
 sitemap: false
 hide_last_modified: true
 ---
