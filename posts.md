@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Ordered & Disordered Thoughts
-description: >
+description: > 
 grouped: true
 permalink: /blog/
 ---
