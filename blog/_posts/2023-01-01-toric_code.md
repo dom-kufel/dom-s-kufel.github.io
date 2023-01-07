@@ -2,7 +2,7 @@
 layout: post
 title: Toric code from condensed matter perspective.
 description: >
-  With a brief intro to toric code, I discuss its connections to topological order, long-range entanglement and quantum spin liquids. 
+  With a brief intro to toric code, I discuss its connections to topological order, long-range entanglement and quantum spin liquids.
 sitemap: false
 hide_last_modified: true
 ---

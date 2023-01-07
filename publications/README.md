@@ -12,9 +12,15 @@ Skier and loop the loop with friction [PDF](https://arxiv.org/pdf/2003.02178.pdf
 <span style="color:grey"><ins>D. Kufel</ins>, A. Sokal (2022)</span>\
 [*American Journal of Physics 90, 573.*](https://doi.org/10.1119/5.0095150)
 
-Alternative quantisation condition for wavepacket dynamics in a hyperbolic double well [PDF](https://iopscience.iop.org/article/10.1088/1751-8121/abd267/pdf)\
+<details>
+<summary>Alternative quantisation condition for wavepacket dynamics in a hyperbolic double well</summary>
+<div markdown="1">
+**Atomic Physics** Proposed a new analytical way of finding allowed energies in the class of hyperbolic-double well potentials by connecting it to a problem of finding roots of some polynomial. Applied this approach to understanding the role of non-adiabatic effects during enhanced ionization.
+</div>
+</details>
+[PDF](https://iopscience.iop.org/article/10.1088/1751-8121/abd267/pdf)\
 <span style="color:grey"><ins>D. Kufel</ins>, H. Chomet, C. Faria (2021)</span>\
-[*Journal of Physics A: Mathematical and Theoretical 54, 035304.*](https://doi.org/10.1088/1751-8121/abd267) *[Description]: (Atomic Physics) Proposed a new analytical way of finding allowed energies in the class of hyperbolic-double well potentials by connecting it to a problem of finding roots of some polynomial. Applied this approach to understanding the role of non-adiabatic effects during enhanced ionization. 
+[*Journal of Physics A: Mathematical and Theoretical 54, 035304.*](https://doi.org/10.1088/1751-8121/abd267)
 
 Online Learning and matching for resource allocation problems [PDF](https://www.siam.org/Portals/0/Publications/SIURO/Vol13/S130053PDF.pdf?ver=2020-10-13-095206-423)\
 <span style="color:grey">A. Boskovic, Q. Chen, <ins>D. Kufel</ins>, Z. Zhou (2019)</span>\
