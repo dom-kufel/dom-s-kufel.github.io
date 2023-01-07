@@ -22,7 +22,7 @@ Not doing physics I mostly spend my time exercising, running/cycling and playing
 
 In the past, I have spent my time in the capital of England at UCL and at the [London Centre for Nanotechnology](https://www.london-nano.com/). I graduated with master's degrees in Physics and Quantum Technologies. I hail from [Lublin, Poland](https://en.wikipedia.org/wiki/Lublin).
 
-> **Contact:** dkufel [at] g.harvard.edu
+> **Contact:** dkufel [at] g.harvard.edu 
 {:.lead}
 
 
