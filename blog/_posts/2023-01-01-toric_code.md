@@ -7,11 +7,25 @@ sitemap: false
 hide_last_modified: true
 ---
 
-Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+Working in the field of quantum technologies I often chat to people from a variety of quantum-focused fields.  A weird[^1] thing happens if people from traditionally different communities talk about the same stuff. This is how I have first heard about the toric code: both condensed matter and quantum error correction people spoke about it a lot. At that stage I decided to get a better idea of this mysterious “toric code thing”. I soon discovered why people talk about it so much: toric code is a paradigmatic example for both topological quantum error correction and topological order in condensed matter. More broadly, toric code, nicely links topology to many-body quantum systems and displays some striking connections between quantum matter and information. Exciting! In this blogpost I would like to discuss few basic properties of a toric code model, viewing it from condensed matter perspective (since quantum error correction view of it is somewhat more well-known). Stay tuned: I promise there are few cute ideas along the way. [Footnote: If you have heard about the toric code before, you might safely skip the first section.]  
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+[^1] Read: interesting
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+## Toric code basics
+
+In the simplest realization, toric code is a model of qubits (e.g., spins-1/2) placed on the links of the 2D square lattice with periodic boundary conditions (thus making a torus). We define the Hamiltonian for the system to be
+\begin{equation}
+H = -\sum_v A_v - \sum_p B_p
+\label{eq:H_TC}
+\end{equation}
+where $$A_v = \prod_j X_j$$ acts on each of the vertices and $$B_p= \prod_j Z_j$$ acts on “plaquettes” (fancy term for each of the little squares in the lattice) [Footnote: Note that some people (see e.g., <d-cite key="wenchenbook"></d-cite> define A_v operators as products of Pauli Z operators; and B_p operators as products of Pauli X - this is just the matter of convention and does not change the physics in any essential way]. For later we will also define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. !!!!b.  
+
+Our goal for now is to find the ground state of the above model. First, note that all the terms within the Hamiltonian mutually commute with one another i.e. $$[A_v, B_p]=0 \ \ \forall v,p$$ - you will prove it in the exercise below. (Terminology comment: Hamiltonian containing of Pauli strings which are mutually commuting (as above) is often called stabilizer Hamiltonian - language coming from error correction - more on this later). This remarkably simplifies the problem: we (i) minimize the energy of one of the sums in Eq. \ref{eq:H_TC} and then (ii) impose the other sum as the constraint on the choice of the ground state.
+
+
+<blockquote>
+Exercise: Show that for the operators defined above $$[A_v, B_p]=0 \ \ \forall v,p.$$ Hint: Whenever Pauli X and Z meet on the same site they anti-commute, otherwise (e.g., $$[X \otimes \mathbb{1},\mathbb{1} \otimes Z]$$ they commute.
+</blockquote>
 
 ## Inline HTML elements
 
