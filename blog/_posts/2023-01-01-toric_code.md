@@ -20,11 +20,11 @@ In this blogpost I would like to approach toric code from a slightly more conden
 In the simplest realization, toric code is a model of qubits (e.g., spins-1/2) placed on the links of the 2D square lattice with periodic boundary conditions (thus making a torus). We define the Hamiltonian for the system to be
 \begin{equation}
 H = -\sum_v A_v - \sum_p B_p
-\label{eq:H_TC}
+<a id="eq:H_TC">Eq. 1</a>
 \end{equation}
 where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices[^1]. For later we will also define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. !!!!b.  
 
-Our goal for now is to <ins>find the ground state</ins> of the above model. First, note that all the terms within the Hamiltonian mutually commute with one another i.e. $$[A_v, B_p]=0 \ \ \forall v,p$$ - you will prove it in the exercise below. (Terminology comment: Hamiltonian containing of Pauli strings which are mutually commuting (as above) is often called stabilizer Hamiltonian - language coming from error correction - more on this later). This remarkably simplifies the problem: we (i) minimize the energy of one of the sums in Eq. \ref{eq:H_TC} and then (ii) impose the other sum as the constraint on the choice of the ground state.
+Our goal for now is to **find ground state(s)** of the above model. First, note that all the terms within the Hamiltonian mutually commute with one another i.e. $$[A_v, B_p]=0 \ \ \forall v,p$$ - you will prove it in the exercise below. (Terminology comment: Hamiltonian containing of Pauli strings which are mutually commuting (as above) is often called stabilizer Hamiltonian - language coming from error correction - more on this later). This remarkably simplifies the problem: we (i) minimize the energy of one of the sums in <a href="#eq:H_TC"> and then (ii) impose the other sum as the constraint on the choice of the ground state.
 
 **Exercise:** Show that for the operators defined above $$[A_v, B_p]=0 \ \ \forall v,p$$. <a href="#hint1">Hint</a>
 {:.message}
