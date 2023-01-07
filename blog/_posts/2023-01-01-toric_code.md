@@ -11,6 +11,9 @@ Working in the field of quantum technologies I often chat to people from a varie
 
 In this blogpost I would like to approach toric code from a slightly more condensed matter angle discuss few basic properties of a toric code model, viewing it from condensed matter perspective (since quantum error correction view of it is somewhat more well-known). Stay tuned: I promise there are few cute ideas along the way.
 
+- Table of Contents
+{:toc .large-only}
+
 *[weird]: Read: interesting
 *[plaquettes]: Fancy term for each of the little squares in the lattice.
 [^1]: Note that some people (see e.g., <d-cite key="wenchenbook"></d-cite> define $$A_v$$ operators as products of Pauli $$Z$$ operators; and $$B_p$$ operators as products of Pauli $$X$$ - this is just the matter of convention and does not change the physics in any essential way.
