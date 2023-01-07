@@ -23,13 +23,10 @@ where $$A_v = \prod_j X_j$$ acts on each of the vertices and $$B_p= \prod_j Z_j$
 
 Our goal for now is to find the ground state of the above model. First, note that all the terms within the Hamiltonian mutually commute with one another i.e. $$[A_v, B_p]=0 \ \ \forall v,p$$ - you will prove it in the exercise below. (Terminology comment: Hamiltonian containing of Pauli strings which are mutually commuting (as above) is often called stabilizer Hamiltonian - language coming from error correction - more on this later). This remarkably simplifies the problem: we (i) minimize the energy of one of the sums in Eq. \ref{eq:H_TC} and then (ii) impose the other sum as the constraint on the choice of the ground state.
 
-<details>
-<summary>**Exercise:** Show that for the operators defined above $$[A_v, B_p]=0 \ \ \forall v,p.$$</summary>
-<div markdown="1">
-<span style="font-family:Times New Roman; font-size:0.9em;">Hint: Whenever Pauli X and Z meet on the same site they anti-commute, otherwise (e.g., $$[X \otimes \mathbb{1},\mathbb{1} \otimes Z]$$ they commute. </span>
-</div>
-</details>
+**Exercise:** Show[^1] that for the operators defined above $$[A_v, B_p]=0 \ \ \forall v,p.
 {:.message}
+
+[^1]: Hint: Whenever Pauli X and Z meet on the same site they anti-commute, otherwise (e.g., $$[X \otimes \mathbb{1},\mathbb{1} \otimes Z]$$ they commute.
 
 ## Inline HTML elements
 
