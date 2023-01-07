@@ -30,7 +30,7 @@ permalink: /publications/
 <details>
 <summary>Online Learning and matching for resource allocation problems </summary>
 <div markdown="1">
-<span style="font-size:0.85em;">**Field:** Machine Learning <br> **Main points:** Devised, provided performance guarantees, and implemented algorithms integrating dual problems in convex optimization with a subclass of reinforcement learning techniques. Applied this to the traffic-shaping problem.   </span>
+<span style="font-size:0.85em;">**Field:** Machine Learning <br> **Main points:** Devised, provided performance guarantees, and implemented algorithms integrating dual problems in convex optimization with a subclass of reinforcement learning techniques. Applied these algorithms to the traffic-shaping problem. </span>
 </div>
 </details>
 <span style="color:grey">A. Boskovic, Q. Chen, <ins>D. Kufel</ins>, Z. Zhou (2019)</span>\
