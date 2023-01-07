@@ -15,7 +15,7 @@ Skier and loop the loop with friction [PDF](https://arxiv.org/pdf/2003.02178.pdf
 <details>
 <summary>Alternative quantisation condition for wavepacket dynamics in a hyperbolic double well</summary>
 <div markdown="1">
-<span style="font-family:Papyrus; font-size:3em>*(Atomic Physics)* Proposed a new analytical way of finding allowed energies in the class of hyperbolic-double well potentials by connecting it to a problem of finding roots of some polynomial. Applied this approach to understanding the role of non-adiabatic effects during enhanced ionization. </span>
+<span style="font-family:Papyrus; font-size:3em;">*(Atomic Physics)* Proposed a new analytical way of finding allowed energies in the class of hyperbolic-double well potentials by connecting it to a problem of finding roots of some polynomial. Applied this approach to understanding the role of non-adiabatic effects during enhanced ionization. </span>
 </div>
 </details>
 <span style="color:grey"><ins>D. Kufel</ins>, H. Chomet, C. Faria (2021)</span>\
