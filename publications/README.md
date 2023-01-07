@@ -9,7 +9,7 @@ permalink: /publications/
 ---
 
 Skier and loop the loop with friction [PDF](https://arxiv.org/pdf/2003.02178.pdf)\
-<span style="color:red"><ins>D. Kufel</ins>, A. Sokal (2022)</span>\
+<span style="color:grey"><ins>D. Kufel</ins>, A. Sokal (2022)</span>\
 *American Journal of Physics 90, 573.*
 
 Alternative quantisation condition for wavepacket dynamics in a hyperbolic double well [PDF](https://iopscience.iop.org/article/10.1088/1751-8121/abd267/pdf)\
