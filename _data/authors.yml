@@ -13,9 +13,9 @@ author1:
   picture:
     path:            /assets/img/prof_pic.jpg
     # srcset is optional, but can be used to provide higher res versions for retina displays
-    srcset:
-      1x:            /assets/img/prof_pic.jpg
-      2x:            /assets/img/prof_pic.jpg
+    # srcset:
+    #   1x:            /assets/img/prof_pic.jpg
+    #   2x:            /assets/img/prof_pic.jpg
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
