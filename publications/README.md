@@ -13,15 +13,15 @@ Skier and loop the loop with friction [PDF](https://arxiv.org/pdf/2003.02178.pdf
 *American Journal of Physics 90, 573.*
 
 Alternative quantisation condition for wavepacket dynamics in a hyperbolic double well [PDF](https://iopscience.iop.org/article/10.1088/1751-8121/abd267/pdf)\
-<ins>D. Kufel</ins>, H. Chomet, C. Faria (2021)\
+<span style="color:grey"><ins>D. Kufel</ins>, H. Chomet, C. Faria (2021)</span>\
 *Journal of Physics A: Mathematical and Theoretical 54, 035304.*
 
 Online Learning and matching for resource allocation problems [PDF](https://www.siam.org/Portals/0/Publications/SIURO/Vol13/S130053PDF.pdf?ver=2020-10-13-095206-423)\
-A. Boskovic, Q. Chen, <ins>D. Kufel</ins>, Z. Zhou (2019)\
-*SIAM Undergraduate Research Online Journal vol. 13.* [Link]
+<span style="color:grey">A. Boskovic, Q. Chen, <ins>D. Kufel</ins>, Z. Zhou (2019)</span>\
+*SIAM Undergraduate Research Online Journal vol. 13.*
 
 Analytical modelling of temperature effects on AMPA-type synapse [PDF](https://link.springer.com/content/pdf/10.1007/s10827-018-0684-x.pdf?pdf=button)\
-<ins>D. Kufel</ins>, G. Wojcik (2018)\
+<span style="color:grey"><ins>D. Kufel</ins>, G. Wojcik (2018)</span>\
 *Journal of Computational Neuroscience 44, 379-391.*
 
 
