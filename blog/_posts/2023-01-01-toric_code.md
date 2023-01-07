@@ -24,7 +24,7 @@ Our goal for now is to find the ground state of the above model. First, note tha
 
 
 <blockquote>
-Exercise: Show that for the operators defined above $$[A_v, B_p]=0 \ \ \forall v,p.$$ Hint: Whenever Pauli X and Z meet on the same site they anti-commute, otherwise (e.g., $$[X \otimes \mathbb{1},\mathbb{1} \otimes Z]$$ they commute.
+Exercise: Show that for the operators defined above $$[A_v, B_p]=0 \ \ \forall v,p.$$ Hint: Whenever Pauli X and Z meet on the same site they anti-commute, otherwise (e.g., $[X \otimes \mathbb{1},\mathbb{1} \otimes Z]$ they commute.
 </blockquote>
 
 ## Inline HTML elements
