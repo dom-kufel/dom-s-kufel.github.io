@@ -51,9 +51,9 @@ menu:
   - title:             About
     url:               /about/
   - title:             Blog
-    url:               /example/
+    url:               /blog/
   - title:             Publications
-    url:               /docs/
+    url:               /publications/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
