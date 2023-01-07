@@ -1,18 +1,31 @@
 ---
 layout: page
-title: Documentation
+title: Publications
 description: >
-  Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
+  List of papers
 hide_description: true
 sitemap: false
 permalink: /publications/
 ---
 
-Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
-Should you think something is missing, [please let me know](mailto:mail@qwtel.com).
-Should you discover a mistake in the docs (or a bug in general) feel free to [open an issue](https://github.com/hydecorp/hydejack/issues) on GitHub.
+“Skier and loop the loop with friction” [PDF](https://arxiv.org/pdf/2003.02178.pdf)
+**D. Kufel**, A. Sokal (2022)
+*American Journal of Physics 90, 573* (https://doi.org/10.1119/5.0095150)
 
-While this manual tries to be beginner-friendly, as a user of Jekyll it is assumed that you are comfortable running shell commands and editing text files.
+“Alternative quantisation condition for wavepacket dynamics in a hyperbolic double well” [PDF](https://iopscience.iop.org/article/10.1088/1751-8121/abd267/pdf)
+**D. Kufel**, H. Chomet, C. Faria (2021)
+*Journal of Physics A: Mathematical and Theoretical 54, 035304* (https://doi.org/10.1088/1751-8121/abd267).
+
+“Online Learning and matching for resource allocation problems” [PDF](https://www.siam.org/Portals/0/Publications/SIURO/Vol13/S130053PDF.pdf?ver=2020-10-13-095206-423)
+A. Boskovic, Q. Chen, **D. Kufel**, Z. Zhou (2019)
+*SIAM Undergraduate Research Online Journal vol. 13* (https://doi.org/10.1137/19S1300534).
+
+“Analytical modelling of temperature effects on AMPA-type synapse” [PDF](https://link.springer.com/content/pdf/10.1007/s10827-018-0684-x.pdf?pdf=button)
+**D. Kufel**, G. Wojcik (2018)
+*Journal of Computational Neuroscience 44, 379-391* (https://doi.org/10.1007/s10827-018-0684-x).
+
+
+<!-- While this manual tries to be beginner-friendly, as a user of Jekyll it is assumed that you are comfortable running shell commands and editing text files.
 {:.note}
 
 
@@ -46,4 +59,4 @@ While this manual tries to be beginner-friendly, as a user of Jekyll it is assum
 [advanced]: advanced.md
 [LICENSE]: ../LICENSE.md
 [NOTICE]: ../NOTICE.md
-[CHANGELOG]: ../CHANGELOG.md
+[CHANGELOG]: ../CHANGELOG.md -->
