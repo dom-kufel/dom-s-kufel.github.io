@@ -9,7 +9,7 @@ hide_last_modified: true
 
 Working in the field of quantum technologies I often chat to people from a variety of quantum-focused fields.  A weird[^1] thing happens if people from traditionally different communities talk about the same stuff. This is how I have first heard about the toric code: both condensed matter and quantum error correction people spoke about it a lot. At that stage I decided to get a better idea of this mysterious “toric code thing”. I soon discovered why people talk about it so much: toric code is a paradigmatic example for both topological quantum error correction and topological order in condensed matter. More broadly, toric code, nicely links topology to many-body quantum systems and displays some striking connections between quantum matter and information. Exciting! In this blogpost I would like to discuss few basic properties of a toric code model, viewing it from condensed matter perspective (since quantum error correction view of it is somewhat more well-known). Stay tuned: I promise there are few cute ideas along the way.
 
-[^1] Read: interesting
+[^1]: Read: interesting
 
 ## Toric code basics
 
