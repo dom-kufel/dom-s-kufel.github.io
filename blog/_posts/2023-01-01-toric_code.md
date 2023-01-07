@@ -7,7 +7,7 @@ sitemap: false
 hide_last_modified: true
 ---
 
-Working in the field of quantum technologies I often chat to people from a variety of quantum-focused fields.  A weird thing happens if people from traditionally different communities talk about the same stuff. This is how I have first heard about the toric code: both condensed matter and quantum error correction people spoke about it a lot. At that stage I decided to get a better idea of this mysterious “toric code thing”. I soon discovered why people talk about it so much: toric code is a paradigmatic example for both topological quantum error correction and topological order in condensed matter. More broadly, toric code, nicely links topology to many-body quantum systems and displays some striking connections between quantum matter and information. Exciting! In this blogpost I would like to discuss few basic properties of a toric code model, viewing it from condensed matter perspective (since quantum error correction view of it is somewhat more well-known). Stay tuned: I promise there are few cute ideas along the way.
+Working in the field of quantum technologies I often chat to people from a variety of quantum-focused fields.  A weird thing happens if people from traditionally different communities talk about the same stuff. This is how I have first heard about the toric code: both condensed matter and quantum error correction people spoke about it a lot. After I started reading about the toric code, I soon discovered why people talk about it so much: toric code is a paradigmatic example for both topological quantum error correction and topological order in condensed matter. More broadly, toric code, nicely links topology to many-body quantum systems and displays some striking connections between quantum matter and information. Curious! In this blogpost I would like to approach toric code from a slightly more condensed matter angle discuss few basic properties of a toric code model, viewing it from condensed matter perspective (since quantum error correction view of it is somewhat more well-known). Stay tuned: I promise there are few cute ideas along the way.
 
 <!-- [^1]: Read: interesting -->
 *[weird]: Read: interesting
@@ -23,13 +23,10 @@ where $$A_v = \prod_j X_j$$ acts on each of the vertices and $$B_p= \prod_j Z_j$
 
 Our goal for now is to find the ground state of the above model. First, note that all the terms within the Hamiltonian mutually commute with one another i.e. $$[A_v, B_p]=0 \ \ \forall v,p$$ - you will prove it in the exercise below. (Terminology comment: Hamiltonian containing of Pauli strings which are mutually commuting (as above) is often called stabilizer Hamiltonian - language coming from error correction - more on this later). This remarkably simplifies the problem: we (i) minimize the energy of one of the sums in Eq. \ref{eq:H_TC} and then (ii) impose the other sum as the constraint on the choice of the ground state.
 
-
-**Exercise:** Show that for the operators defined above $$[A_v, B_p]=0 \ \ \forall v,p.$$
-{:.message}
 <details>
-<summary>Hint</summary>
+<summary>**Exercise:** Show that for the operators defined above $$[A_v, B_p]=0 \ \ \forall v,p.$$</summary>
 <div markdown="1">
-<span style="font-family:Times New Roman; font-size:0.9em;">Whenever Pauli X and Z meet on the same site they anti-commute, otherwise (e.g., $$[X \otimes \mathbb{1},\mathbb{1} \otimes Z]$$ they commute. </span>
+<span style="font-family:Times New Roman; font-size:0.9em;">Hint: Whenever Pauli X and Z meet on the same site they anti-commute, otherwise (e.g., $$[X \otimes \mathbb{1},\mathbb{1} \otimes Z]$$ they commute. </span>
 </div>
 </details>
 {:.message}

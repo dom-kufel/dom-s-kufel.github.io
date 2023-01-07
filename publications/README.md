@@ -12,7 +12,7 @@ permalink: /publications/
 <details>
 <summary>Skier and loop the loop with friction </summary>
 <div markdown="1">
-<span style="font-family:Times New Roman; font-size:0.9em;">**Field:** Classical Mechanics <br> **Main points:** Developed analytical solutions to the extension of two ‘classic’ problems in classical mechanics.  </span>
+<span style="font-size:0.9em;">**Field:** Classical Mechanics <br> **Main points:** Developed analytical solutions to the extension of two ‘classic’ problems in classical mechanics.  </span>
 </div>
 </details>
 <span style="color:grey"><ins>D. Kufel</ins>, A. Sokal (2022)</span>\
