@@ -34,7 +34,7 @@ Our goal for now is to **find ground state(s)** of the above model. I claim that
 **Exercise:** Show that for the operators defined above $$[A_v, B_p]=0 \ \ \forall v,p$$. <a href="#hint1">Hint</a>
 {:.message}
 
-To realize (i), for convenience, let’s work in the computational[^3] basis and pick the sum over B_p operators. Undoubtedly all $$|0 \rangle$$ is one of the states which will be both an eigenstate (we are in Pauli Z basis) and minimize the $$- \sum_p B_p$$ term. But by far it is not the unique state: any state where qubits in $$|1 \rangle$$ state make closed loops on a dual lattice (see Fig.!!!) would work equally well. Eigenstate minimizing the energy of the $$- \sum_p B_p$$ term is simply a linear combination (with arbitrary coefficients) of configurations where qubits in $$|1\rangle$$ form closed loops on a dual lattice.
+To realize (i), for convenience, let’s work in the computational[^3] basis and pick the sum over B_p operators. Undoubtedly all $$|0 \right>$$ is one of the states which will be both an eigenstate (we are in Pauli Z basis) and minimize the $$- \sum_p B_p$$ term. But by far it is not the unique state: any state where qubits in $$|1 \rangle$$ state make closed loops on a dual lattice (see Fig.!!!) would work equally well. Eigenstate minimizing the energy of the $$- \sum_p B_p$$ term is simply a linear combination (with arbitrary coefficients) of configurations where qubits in $$|1\rangle$$ form closed loops on a dual lattice.
 
 **Exercise:** Convince yourself (in drawing) that this is true.
 {:.message}
