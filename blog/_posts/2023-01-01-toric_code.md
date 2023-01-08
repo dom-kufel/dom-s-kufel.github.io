@@ -9,26 +9,33 @@ hide_last_modified: true
 
 Working in the field of quantum technologies I often chat to people from a variety of quantum-focused fields.  A weird thing happens if people from traditionally different communities talk about the same stuff. This is how I have first heard about the toric code: both condensed matter and quantum error correction people spoke about it a lot. After I started reading about the toric code, I soon discovered why people talk about it so much: toric code is a paradigmatic example for both topological quantum error correction and topological order in condensed matter. More broadly, toric code, nicely links topology to many-body quantum systems and displays some striking connections between quantum matter and information. Curious!
 
-In this blogpost I would like to approach toric code from a slightly more condensed matter angle discuss few basic properties of a toric code model, viewing it from condensed matter perspective (since quantum error correction view of it is somewhat more well-known). Stay tuned: I promise there are few cute ideas along the way.
+In this blogpost I would like to approach toric code from a condensed matter angle and discuss its (somewhat confusing) properties such as long-range entanglement (yet $$0$$ correlation length!) and connections to a wider class of so-called quantum spin liquids - models which recently came within reach of the experiments. Stay tuned: I promise there are few cute ideas along the way.
 
 - Table of Contents
 {:toc .large-only}
 
 *[weird]: Read: interesting
 *[plaquettes]: Fancy term for each of the little squares in the lattice.
-[^1]: Note that some people (see e.g., <a href="#wenchenbook">*[Zeng et al. (2015)]*</a> define $$A_v$$ operators as products of Pauli $$Z$$ operators; and $$B_p$$ operators as products of Pauli $$X$$ - this is just the matter of convention and does not change the physics in any essential way.
+[^1]: Note that some people (see e.g., <a href="#wenchenbook">*[Zeng et al. (2015)]*</a> define $$A_v$$ operators as products of Pauli $$Z$$ operators; and $$B_p$$ operators as products of Pauli $$X$$ - this is just the matter of convention and does not change the physics in any essential way (since it corresponds to simply swapping $$X$$'s with $$Z$$'s i.e. a change of basis by conjugating all qubits with the Hadamard gate).
+[^2]: Terminology comment: Hamiltonian containing of Pauli strings which are mutually commuting (as above) is often called stabilizer Hamiltonian - language coming from error correction - more on this later
+[^3]: I.e. the eigenbasis of the Pauli $$Z$$ operator.
 
 ## Toric code basics
 
-In the simplest realization, toric code is a model of qubits (e.g., spins-1/2) placed on the links of the 2D square lattice with periodic boundary conditions (thus making a torus). We define the <a id="eq:H_TC">Hamiltonian</a> for the system to be
+In the simplest realization, toric code is a model of qubits (two-level systems) placed on the links of the 2D square lattice with periodic boundary conditions (thus making a torus). We define the <a id="eq:H_TC">Hamiltonian</a> for the system to be
 \begin{equation}
 H = -\sum_v A_v - \sum_p B_p
 \end{equation}
 where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices[^1]. For later we will also define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. !!!!b.  
 
-Our goal for now is to **find ground state(s)** of the above model. First, note that all the terms within the Hamiltonian mutually commute with one another i.e. $$[A_v, B_p]=0 \ \ \forall v,p$$ - you will prove it in the exercise below. (Terminology comment: Hamiltonian containing of Pauli strings which are mutually commuting (as above) is often called stabilizer Hamiltonian - language coming from error correction - more on this later). This remarkably simplifies the problem: we (i) minimize the energy of one of the sums in <a href="#eq:H_TC">Eq. 1</a> and then (ii) impose the other sum as the constraint on the choice of the ground state.
+Our goal for now is to **find ground state(s)** of the above model. I claim that each of the four ground states found consists of the **equal amplitude superposition of the closed loop configurations**, and that the ground states differ by which out of four topologically inequivalent loops on torus they contain. We will argue for this claim real quick. First, note that all the terms within the Hamiltonian mutually commute with one another i.e. $$[A_v, B_p]=0 \ \ \forall v,p$$ - you will prove it in the exercise below[^2]. This remarkably simplifies the problem, and our strategy becomes: first (i) minimize the energy of one of the sums in <a href="#eq:H_TC">Eq. 1</a> and then (ii) impose the other sum as the constraint on the choice of the ground state.
 
 **Exercise:** Show that for the operators defined above $$[A_v, B_p]=0 \ \ \forall v,p$$. <a href="#hint1">Hint</a>
+{:.message}
+
+To realize (i), for convenience, let’s work in the computational[^3] basis and pick the sum over B_p operators. Undoubtedly one of the states which will be an eigenstate (we are in Pauli Z basis) and minimize the energy is all $$\ket{0}$$ state. But by far it is not the unique state. It turns out that the energy is minimized for any of the states where qubits in $$\ket{1}$$ state make closed loops on a dual lattice.
+
+**Exercise**: Convince yourself (in drawing) that this is true.
 {:.message}
 
 ## Inline HTML elements
