@@ -78,8 +78,3 @@ function handlePrefix(prefix) {
     return new Request(url.toString(), defaultAssetKey)
   }
 }
-
-window.MathJax = {
-  loader: {load: ['[tex]/braket']},
-  tex: {packages: {'[+]': ['braket']}}
-};
