@@ -3,7 +3,7 @@ layout: post
 title: Example Content III
 description: >
   A page showing Hydejack-specific markdown content.
-image: 
+image:
   path: /assets/img/blog/example-content-iii.jpg
   srcset:
     1060w: /assets/img/blog/example-content-iii.jpg
@@ -18,6 +18,9 @@ sitemap: false
 Hydejack offers a few additional features to markup your markdown.
 Don't worry, these are merely CSS classes added with kramdown's `{:...}` syntax,
 so that your content remains compatible with other Jekyll themes.
+
+* toc
+{:toc .large-only}
 
 ## Large Tables
 
