@@ -7,7 +7,7 @@ sitemap: false
 hide_last_modified: true
 ---
 
-Working in the field of quantum technologies I often chat to people from a variety of quantum-focused fields.  A weird thing happens if people from traditionally different communities talk about the same stuff. This is how I have first heard about the toric code: both condensed matter and quantum error correction people spoke about it a lot. After I started reading about the toric code, I soon discovered why people talk about it so much: toric code is a paradigmatic example for both topological quantum error correction and topological order in condensed matter. More broadly, toric code, nicely links topology to many-body quantum systems and displays some striking connections between quantum matter and information. Curious!
+Working in the field of quantum technologies I often chat to people from a variety of quantum-focused fields.  A weird thing happens if people from traditionally different communities talk about the same stuff. This is how I have first heard about the toric code: both condensed matter and quantum error correction people spoke about it a lot. While learning a bit more about the toric code, I soon discovered why people talk about it so much: toric code is a paradigmatic example for both topological quantum error correction and topological order in condensed matter. More broadly, toric code, nicely links topology to many-body quantum systems and displays some striking connections between quantum matter and information. Curious!
 
 In this blogpost I would like to approach toric code from a condensed matter angle and discuss its (somewhat confusing) properties such as long-range entanglement (yet $$0$$ correlation length!) and connections to a wider class of so-called quantum spin liquids - models which recently came within reach of the experiments. Stay tuned: I promise there are few cute ideas along the way.
 
@@ -34,8 +34,13 @@ Our goal for now is to **find ground state(s)** of the above model. I claim that
 **Exercise:** Show that for the operators defined above $$[A_v, B_p]=0 \ \ \forall v,p$$. <a href="#hint1">Hint</a>
 {:.message}
 
+window.MathJax = {
+  loader: {load: ['[tex]/braket']},
+  tex: {packages: {'[+]': ['braket']}}
+};
+
 To realize (i), for convenience, let’s work in the computational[^3] basis and pick the sum over $$B_p$$ operators.
-<!-- Undoubtedly all $$\ket 0$$ is one of the states which will be both an eigenstate (we are in Pauli Z basis) -->
+Undoubtedly all $$\ket 0$$ is one of the states which will be both an eigenstate (we are in Pauli Z basis)
 
 
 <!-- and minimize the $$- \sum_p B_p$$ term. But by far it is not the unique state: any state where qubits in $$\ket 1$$ state make closed loops on a dual lattice (see Fig.!!!) would work equally well. Eigenstate minimizing the energy of the $$- \sum_p B_p$$ term is simply a linear combination (with arbitrary coefficients) of configurations where qubits in $$\ket 1$$ form closed loops on a dual lattice. -->
@@ -44,6 +49,10 @@ To realize (i), for convenience, let’s work in the computational[^3] basis and
 {:.message}
 
 But don’t forget: we still need to resolve (ii) i.e. impose the constraint of the $$-\sum_v A_v$$ term. Consider the action of $$A_v$$ operator on a vertex: it will simply flip the states of the qubits adjacent to that vertex. If we start from a particular closed loop configuration, the action of $A_v$ will change it to some other *topologically equivalent* closed loop configuration. We can thus think of the process of applying $A_v$’s as simply that of “reconnecting” the closed loops within the same topological equivalence class. Now we demand from a ground state[^4] $$ \ket \psi$$ to fulfill $$A_s \ket \psi  = +1 \ket \psi \forall s$$ i.e. loosely speaking after any reconnection of the closed loop configurations, state should remain invariant. This is only possible if we restrict an arbitrary superposition state $$\ket \psi$$ found before, to the one of the four ground states consisting of an equal amplitude superposition of all topologically equivalent closed loop configurations (See Fig. !!) -->
+
+Nice! Ground states formed from the equal superpositions of topologically equivalent loops is our first key result.
+
+
 
 ## Long-range entanglement
 Having found ground states of the toric code,
