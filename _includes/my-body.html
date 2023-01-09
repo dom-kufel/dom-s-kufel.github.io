@@ -1,7 +1,7 @@
 <!-- <script>
   document.querySelector('hy-push-state').setAttribute('prefetch', '');
 
-  document.querySelectorAll('.sidebar a[href^="/"]').forEach(function (el) { 
+  document.querySelectorAll('.sidebar a[href^="/"]').forEach(function (el) {
     el.addEventListener('click', function (e) {
       if (el.pathname === window.location.pathname) {
         e.preventDefault();
@@ -105,3 +105,14 @@ Example code for using Matamo as alternative analytics solution.
 </script>
 {% endif %}
 {% endcomment %}
+
+
+<!-- for mathjax support -->
+{% if page.usemathjax %}
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    TeX: { equationNumbers: { autoNumber: "AMS" } }
+    });
+  </script>
+  <script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+{% endif %}

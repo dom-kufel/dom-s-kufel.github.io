@@ -5,6 +5,7 @@ description: >
   With a brief intro to toric code, I discuss its connections to topological order, long-range entanglement and quantum spin liquids.
 sitemap: false
 hide_last_modified: true
+usemathjax: true
 ---
 
 Working in the field of quantum technologies I often chat to people from a variety of quantum-focused fields.  A weird thing happens if people from traditionally different communities talk about the same stuff. This is how I have first heard about the toric code: both condensed matter and quantum error correction people spoke about it a lot. While learning a bit more about the toric code, I soon discovered why people talk about it so much: toric code is a paradigmatic example for both topological quantum error correction and topological order in condensed matter. More broadly, toric code, nicely links topology to many-body quantum systems and displays some striking connections between quantum matter and information. Curious!
