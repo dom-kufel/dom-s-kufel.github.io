@@ -21,7 +21,7 @@ Define the 2D toric code as a set of qubits placed on the links of the 2D square
 \begin{equation}
 H = -\sum_v A_v - \sum_p B_p
 \end{equation}
-where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices[^1].
+where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices.
 
 **Fact 1:** Ground states formed from the equal superpositions of topologically equivalent loops on torus.
 {:.note}
