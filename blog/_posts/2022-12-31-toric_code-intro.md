@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Toric code intro
+title: Quick into the 2D toric code
 description: >
   A page showing how regular markdown content is styled in Hydejack.
 image: /assets/img/blog/example-content-ii.jpg
