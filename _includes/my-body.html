@@ -110,9 +110,9 @@ Example code for using Matamo as alternative analytics solution.
 <!-- for mathjax support -->
 {% if page.usemathjax %}
   <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-    TeX: { equationNumbers: { autoNumber: "AMS" } }
-    });
+    window.MathJax = {
+      loader: {load: ['[tex]/physics']},
+      tex: {packages: {'[+]': ['physics']}}
+    };
   </script>
-  <script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% endif %}
