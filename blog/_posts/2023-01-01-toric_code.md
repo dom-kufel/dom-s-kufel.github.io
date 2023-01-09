@@ -36,7 +36,7 @@ Our goal for now is to **find ground state(s)** of the above model. I claim that
 {:.message}
 
 To realize (i), for convenience, let’s work in the computational[^3] basis and pick the sum over $$B_p$$ operators.
-Undoubtedly all $$\ket 0$$
+Undoubtedly all $$|\psi\> 0$$
 
 <!-- is one of the states which will be both an eigenstate (we are in Pauli Z basis) and minimize the $$- \sum_p B_p$$ term. But by far it is not the unique state: any state where qubits in $$\ket 1$$ state make closed loops on a dual lattice (see Fig.!!!) would work equally well. Eigenstate minimizing the energy of the $$- \sum_p B_p$$ term is simply a linear combination (with arbitrary coefficients) of configurations where qubits in $$\ket 1$$ form closed loops on a dual lattice.
 
