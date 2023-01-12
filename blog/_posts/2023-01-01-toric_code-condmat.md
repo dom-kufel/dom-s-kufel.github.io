@@ -19,14 +19,15 @@ In this blogpost I would like to further highlight these matter-information conn
 *[weird]: Read: interesting
 
 ## Long-range entanglement
+What do we mean by long-range entanglement? We say that state is long-range entangled if it cannot be prepared by a quantum circuit with constant-depth i.e. depth required does not scale with the system size. What are some familiar states which are long-range entangled?
+
+
 Define the 2D toric code as a set of qubits placed on the links of the 2D square lattice with periodic boundary conditions with the <a id="eq:H_TC">Hamiltonian</a>
 \begin{equation}
 H = -\sum_v A_v - \sum_p B_p
 \end{equation}
 where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices.
 
-**Fact 1:** Ground states formed from the equal superpositions of topologically equivalent loops on torus.
-{:.note}
 
 ## Long-range entanglement and observables correlations
 

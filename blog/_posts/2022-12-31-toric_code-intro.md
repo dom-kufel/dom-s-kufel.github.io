@@ -1,21 +1,13 @@
 ---
 layout: post
-title: Quick into the 2D toric code
+title: Quick intro to the 2D toric code
 description: >
-  A page showing how regular markdown content is styled in Hydejack.
+  A simple, quick introduction to the 2D toric code.
 image: /assets/img/blog/example-content-ii.jpg
 sitemap: false
 ---
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-There should be whitespace between paragraphs.
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](another-page).
-
-* toc
+*
 {:toc .large-only}
 
 
@@ -24,8 +16,9 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 [^2]: Terminology comment: Hamiltonian containing of Pauli strings which are mutually commuting (as above) is often called stabilizer Hamiltonian - language coming from error correction - more on this later
 [^3]: I.e. the eigenbasis of the Pauli $$Z$$ operator.
 [^4]: Just to recap: ground state at this stage just being a generic linear combination of closed loop configurations as described before.
+[^5]: If this is not surprising I would encourage you to study symmetry-breaking paradigm due to Landau. Topological order allows us to 'disavow Landau' as [John Preskill says](http://theory.caltech.edu/~preskill/colloquium/Balents.htm).
 
-## Toric code basics
+## Hamiltonian and ground states
 
 In the simplest realization, toric code is a model of qubits (two-level systems) placed on the links of the 2D square lattice with periodic boundary conditions (thus making a torus). We define the <a id="eq:H_TC">Hamiltonian</a> for the system to be
 \begin{equation}
@@ -39,17 +32,34 @@ Our goal for now is to **find ground state(s)** of the above model. I claim that
 {:.message}
 
 To realize (i), for convenience, let’s work in the computational[^3] basis and pick the sum over $$B_p$$ operators.
-Undoubtedly all $$| 0 >$$ is one of the states which will be both an eigenstate (we are in Pauli Z basis) and minimize the $$- \sum_p B_p$$ term. But by far it is not the unique state: any state where qubits in $$|1>$$ state make closed loops on a dual lattice (see Fig.!!!) would work equally well. Eigenstate minimizing the energy of the $$- \sum_p B_p$$ term is simply a linear combination (with arbitrary coefficients) of configurations where qubits in $$|1>$$ form closed loops on a dual lattice.
+Undoubtedly all $$|0>$$ is one of the states which will be both an eigenstate (we are in Pauli Z basis) and minimize the $$- \sum_p B_p$$ term. But by far it is not the unique state: any state where qubits in $$|1>$$ state make closed loops on a dual lattice (see Fig.!!!) would work equally well. Eigenstate minimizing the energy of the $$- \sum_p B_p$$ term is simply a linear combination (with arbitrary coefficients) of configurations where qubits in $$|1>$$ form closed loops on a dual lattice.
 
 **Exercise:** Convince yourself (in drawing) that this is true.
 {:.message}
 
-But don’t forget: we still need to resolve (ii) i.e. impose the constraint of the $$-\sum_v A_v$$ term. Consider the action of $$A_v$$ operator on a vertex: it will simply flip the states of the qubits adjacent to that vertex. If we start from a particular closed loop configuration, the action of $A_v$ will change it to some other *topologically equivalent* closed loop configuration. We can thus think of the process of applying $A_v$’s as simply that of “reconnecting” the closed loops within the same topological equivalence class. Now we demand from a ground state[^4] $$ |\psi>$$ to fulfill $$A_s |\psi>  = +1 |\psi> \forall s$$ i.e. loosely speaking after any reconnection of the closed loop configurations, state should remain invariant. This is only possible if we restrict an arbitrary superposition state $$|\psi>$$ found before, to the one of the four ground states consisting of an equal amplitude superposition of all topologically equivalent closed loop configurations (See Fig. !!)
+But don’t forget: we still need to resolve (ii) i.e. impose the constraint of the $$-\sum_v A_v$$ term. Consider the action of $$A_v$$ operator on a vertex: it will simply flip the states of the qubits adjacent to that vertex. If we start from a particular closed loop configuration, the action of $$A_v$$ will change it to some other *topologically equivalent* closed loop configuration. We can thus think of the process of applying $$A_v$$’s as simply that of “reconnecting” the closed loops within the same topological equivalence class. Now we demand from a ground state[^4] $$ \vert \psi \rangle$$ to fulfill $$A_s |\psi>  = +1 |\psi> \forall s$$ i.e. loosely speaking after any reconnection of the closed loop configurations, state should remain invariant. This is only possible if we restrict an arbitrary superposition state $$|\psi>$$ found before, to the one of the four ground states consisting of an equal amplitude superposition of all topologically equivalent closed loop configurations (See Fig. !!)
 
 Nice! Summarizing the first key result:
 
-**Fact 1: ** Ground states formed from the equal superpositions of topologically equivalent loops on torus.
+**Fact 1:** Ground states formed from the equal superpositions of topologically equivalent loops on torus.
 {:.note}
+
+## Quasiparticles and homology
+
+## Topological order
+
+The main idea behind topological order is the existence of a ground state degeneracy without breaking any underlying symmetry[^5]. More formally <a href="wenchenbook">[Zeng et al. (2015) p. 166]</a>
+
+System exhibits *topological order* if (a) ground state degeneracy only dependent on the topology of space e.g., $$2^{2g}$$ on a genus $$g$$ Riemann surface (b) ground state degeneracy cannot be removed by any local, sufficiently weak perturbations of the Hamiltonian.
+{:.note}
+
+Does the toric code exhibit topological order? First, Hamiltonian has no underlying symmetries and yet ground state has a 4-fold degeneracy which purely depends on the topology of the space (we will discuss why geometry does not matter in the next section). Second, it might be shown that ground state degeneracy is stable to local, sufficiently weak perturbations of the Hamiltonian. TPQO...
+
+## Generalizations of the toric code
+*any lattice
+*higher dimensional toric cdoe
+*Z_N toric
+*Kitaev double
 
 ### Header 3
 
