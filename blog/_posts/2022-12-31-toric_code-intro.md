@@ -13,7 +13,7 @@ sitemap: false
 
 
 *[plaquettes]: Fancy term for each of the little squares in the lattice.
-[^1]: Note that some people (see e.g., <a href="#wenchenbook">*[Zeng et al. (2015)]*</a> define $$A_v$$ operators as products of Pauli $$Z$$ operators; and $$B_p$$ operators as products of Pauli $$X$$ - this is just the matter of convention and does not change the physics in any essential way (since it corresponds to simply swapping $$X$$'s with $$Z$$'s i.e. a change of basis by conjugating all qubits with the Hadamard gate).
+[^1]: Note that some people (see e.g., <a href="#references">*[Zeng et al. (2015)]*</a> define $$A_v$$ operators as products of Pauli $$Z$$ operators; and $$B_p$$ operators as products of Pauli $$X$$ - this is just the matter of convention and does not change the physics in any essential way (since it corresponds to simply swapping $$X$$'s with $$Z$$'s i.e. a change of basis by conjugating all qubits with the Hadamard gate).
 [^2]: Terminology comment: Hamiltonian containing of Pauli strings which are mutually commuting (as above) is often called stabilizer Hamiltonian - language coming from error correction - more on this later
 [^3]: I.e. the eigenbasis of the Pauli $$Z$$ operator.
 [^4]: Just to recap: ground state at this stage just being a generic linear combination of closed loop configurations as described before.
@@ -47,15 +47,17 @@ Nice! Summarizing the first key result:
 
 ## Quasiparticle Excitations
 
-Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators.  
+Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which might be thought to live on the vertices of the primal or dual lattice (see Fig !!!).
 
 What if the excitations form closed loops?
+
+The ground state of the toric code has a uniform energy density. We may define a ”particle-like” excitation (quasiparticle) to be a local excitation of this uniform energy density landscape <a href="references">[Zeng et al. (2015) p. 180]</a>. We can create a pair of quasiparticles excitations by applying string operators.
 
 ## Local indistinguishability
 
 So far we have on
 
-The main idea behind topological order is the existence of a ground state degeneracy without breaking any underlying symmetry[^5]. More formally <a href="wenchenbook">[Zeng et al. (2015) p. 166]</a>
+The main idea behind topological order is the existence of a ground state degeneracy without breaking any underlying symmetry[^5]. More formally <a href="references">[Zeng et al. (2015) p. 166]</a>
 
 System exhibits *topological order* if (a) ground state degeneracy only dependent on the topology of space e.g., $$2^{2g}$$ on a genus $$g$$ Riemann surface (b) ground state degeneracy cannot be removed by any local, sufficiently weak perturbations of the Hamiltonian.
 {:.note}
