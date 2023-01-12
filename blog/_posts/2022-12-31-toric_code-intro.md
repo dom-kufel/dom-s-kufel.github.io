@@ -47,7 +47,13 @@ Nice! Summarizing the first key result:
 
 ## Quasiparticle Excitations
 
+Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators.  
+
+What if the excitations form closed loops?
+
 ## Local indistinguishability
+
+So far we have on
 
 The main idea behind topological order is the existence of a ground state degeneracy without breaking any underlying symmetry[^5]. More formally <a href="wenchenbook">[Zeng et al. (2015) p. 166]</a>
 
