@@ -49,15 +49,18 @@ Nice! Summarizing the first key result:
 
 Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which might be thought to live on the vertices of the primal or dual lattice (see Fig !!!).
 
+The ground state of the toric code has a uniform energy density. We may *define* a ”particle-like” excitation (quasiparticle) to be a local excitation of this uniform energy density landscape <a href="#references">[Zeng et al. (2015) p. 180]</a>: such excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which live on the vertices of the primal or dual lattice (see Fig !!!).
+
+We can create a pair of quasiparticles excitations by applying string operators.
+
 What if the excitations form closed loops?
 
-The ground state of the toric code has a uniform energy density. We may define a ”particle-like” excitation (quasiparticle) to be a local excitation of this uniform energy density landscape <a href="references">[Zeng et al. (2015) p. 180]</a>. We can create a pair of quasiparticles excitations by applying string operators.
 
 ## Local indistinguishability
 
 So far we have on
 
-The main idea behind topological order is the existence of a ground state degeneracy without breaking any underlying symmetry[^5]. More formally <a href="references">[Zeng et al. (2015) p. 166]</a>
+The main idea behind topological order is the existence of a ground state degeneracy without breaking any underlying symmetry[^5]. More formally <a href="#references">[Zeng et al. (2015) p. 166]</a>
 
 System exhibits *topological order* if (a) ground state degeneracy only dependent on the topology of space e.g., $$2^{2g}$$ on a genus $$g$$ Riemann surface (b) ground state degeneracy cannot be removed by any local, sufficiently weak perturbations of the Hamiltonian.
 {:.note}
