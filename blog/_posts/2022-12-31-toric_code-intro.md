@@ -3,9 +3,10 @@ layout: post
 title: Quick intro to the 2D toric code
 description: >
   A simple, quick introduction to the 2D toric code.
-image: /assets/img/blog/example-content-ii.jpg
 sitemap: false
 ---
+
+<!-- image: /assets/img/blog/example-content-ii.jpg -->
 
 *
 {:toc .large-only}
@@ -44,9 +45,9 @@ Nice! Summarizing the first key result:
 **Fact 1:** Ground states formed from the equal superpositions of topologically equivalent loops on torus.
 {:.note}
 
-## Quasiparticles and homology
+## Quasiparticle Excitations
 
-## Topological order
+## Local indistinguishability
 
 The main idea behind topological order is the existence of a ground state degeneracy without breaking any underlying symmetry[^5]. More formally <a href="wenchenbook">[Zeng et al. (2015) p. 166]</a>
 
