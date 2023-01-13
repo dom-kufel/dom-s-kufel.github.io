@@ -71,7 +71,7 @@ Okay, so summarizing: we cannot create single excitations by applying Pauli stri
 
 ## Local indistinguishability
 
-In the previous section I stressed few times that the excitation loops considered are the ones which are *topologically trivial*. What if we considered e.g., Pauli $$X$$ strings which were making topologically *non-trivial* loops (e.g., ones corresponding to in Fig. !!!)?   
+In the previous section I stressed few times that the excitation loops considered are the ones which are *topologically trivial*. What if we considered e.g., Pauli $$X$$ strings which were making topologically *non-trivial* loops (e.g., ones corresponding to $$C_1, C_2 \textrm{or} C_3$$ in Fig. !!!)?    
 
 The main idea behind topological order is the existence of a ground state degeneracy without breaking any underlying symmetry[^5]. More formally <a href="#references">[Zeng et al. (2015) p. 166]</a>
 
