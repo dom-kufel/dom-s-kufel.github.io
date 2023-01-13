@@ -52,7 +52,7 @@ Nice! Summarizing the first key result:
 
 Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which might be thought to live on the vertices of the primal or dual lattice (see Fig !!!). These excitations are "particle-like" (thus often called quasiparticles) i.e. they correspond to the localized energy excitation on a toric code ground state with a uniform energy density profile[^6] <a href="#references">[Zeng et al. (2015) p. 180]</a>.
 
-We can create a *pair* of quasiparticles excitations by applying string operators. String operators consist of product of Pauli $$X$$ or $$Z$$ Pauli Z operators applied to the qubits (see Fig. !!!). A curious fact[^8] is that the total energy cost for the excitations created is dependent only on the number of excitations and not on a particular type of a string operator used e.g., both applying a single Pauli $$X$$ operator costs the same amount of energy as applying a (topologically equivalent[^7]) string of few Pauli $$X$$.  
+We can create a *pair* of quasiparticles excitations by applying string operators. String operators consist of product of Pauli $$X$$ or $$Z$$ Pauli Z operators applied to the qubits (see Fig. !!!). A curious fact[^8] is that the total energy cost for the excitations created is dependent only on the number of excitations and not on a particular type of a string operator used e.g., both applying a single Pauli $$X$$ operator costs the same amount of energy as applying a *topologically trivial*[^7] string of few Pauli $$X$$.  
 
 So far we have discussed how to create a pair of excitations. Is it possible to create a single, isolated, excitation by applying Pauli strings? Short answer: no. To see this, we first make the following <a id="eq:observation">observation</a>
 \begin{equation}
@@ -65,14 +65,15 @@ for the toric code defined on periodic boundary conditions (on torus) - as descr
 
 Equipped with the observation above it is easy to show why creation of single (or more generally any odd number of) excitations is impossible: this would violate the condition in the above <a href="eq:observation">equation</a> which holds throughout.
 
-Okay, so we cannot create single excitations by applying Pauli strings, we can easily create pairs of excitations. Given the "loopy" nature of the ground state we discovered in the <a href="#Hamiltonian-and-ground-states">first section</a> we naturally ask: does anything interesting happen if the excitations form closed loops? Absolutely: it turns out that creating a closed loop of excitations is equivalent to creating no excitations at all.
+Okay, so summarizing: we cannot create single excitations by applying Pauli strings but we can easily create pairs of excitations. Given the "loopy" nature of the ground state we discovered in the <a href="#Hamiltonian-and-ground-states">first section</a> we naturally ask: does anything interesting happen if the excitations form closed loops? Absolutely: it turns out that creating a *topologically trivial* closed loop of excitations is equivalent to creating no excitations at all. This is a really curious fact, so let me state it again in a different way: starting from a ground state we can create a set of excitations, pair them up (thus creating closed excitations loops) and get the ground state again! The physical intuition behind it is simple: since each of the
+
+This is one of the reasons why toric code is useful for the quantum error correction: if we say that the excitations were created by some unwanted "errors" in the form of Pauli strings then these errors might be removed by
 
 <!-- What changes if we introduce open boundary conditions? -->
 
-
 ## Local indistinguishability
 
-So far we have focused on topologically trivial excitation strings.
+In the previous section I stressed few times that the excitation loops considered are the ones which are *topologically trivial*. What if we considered e.g., Pauli $$X$$ strings which were making topologically *non-trivial* loops (e.g., ones corresponding to in Fig. !!!)?   
 
 The main idea behind topological order is the existence of a ground state degeneracy without breaking any underlying symmetry[^5]. More formally <a href="#references">[Zeng et al. (2015) p. 166]</a>
 
