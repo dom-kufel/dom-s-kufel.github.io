@@ -19,6 +19,7 @@ sitemap: false
 [^4]: Just to recap: ground state at this stage just being a generic linear combination of closed loop configurations as described before.
 [^5]: If this is not surprising I would encourage you to study symmetry-breaking paradigm due to Landau. Topological order allows us to 'disavow Landau' as [John Preskill says](http://theory.caltech.edu/~preskill/colloquium/Balents.htm).
 [^6]: If it is not immediately clear think about associating to each point in the primal and dual lattice the eigenvalue of the corresponding vertex/plaquette operator. The ground state would simply correspond to all $$+1$$ eigenvalues. Consequently regardless where we create excitations to it - they will correspond to $$-1$$ eigenvalue particle-like "peaks" in otherwise uniform energy density background.    
+[^7]: We will discuss what happens if we consider topologically inequivalent loops in the next <a href="#long-range-entanglement">section</a>.  
 
 ## Hamiltonian and ground states
 
@@ -50,17 +51,25 @@ Nice! Summarizing the first key result:
 
 Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which might be thought to live on the vertices of the primal or dual lattice (see Fig !!!). These excitations are "particle-like" (thus often called quasiparticles) i.e. they correspond to the localized energy excitation on a toric code ground state with a uniform energy density profile[^6] <a href="#references">[Zeng et al. (2015) p. 180]</a>.
 
-We can create a *pair* of quasiparticles excitations by applying string operators. String operators consist of product of Pauli $$X$$ or $$Z$$ Pauli Z operators applied to the qubits (see Fig. !!!). A curious fact is that the total energy cost for the excitations created is dependent only on the number of excitations and not on a particular type of a string operator used e.g., both applying a single Pauli $$X$$ operator costs the same amount of energy as applying a (sufficiently short) string of few Pauli $$X$$.  
+We can create a *pair* of quasiparticles excitations by applying string operators. String operators consist of product of Pauli $$X$$ or $$Z$$ Pauli Z operators applied to the qubits (see Fig. !!!). A curious fact is that the total energy cost for the excitations created is dependent only on the number of excitations and not on a particular type of a string operator used e.g., both applying a single Pauli $$X$$ operator costs the same amount of energy as applying a (topologically equivalent[^7]) string of few Pauli $$X$$.  
 
-Is it possible to create a single excitation by applying Pauli strings? To answer this question we first make the following observation: for toric code defined on periodic boundary conditions (on torus) $$\prod_{\textrm{all} v} A_v = \mathbb{1}$$ and $$\prod_{\textrm{all} p} B_p = \mathbb{1}$$ where we imply.  
+So far we have discussed how to create a pair of excitations. Is it possible to create a single, isolated, excitation by applying Pauli strings? Short answer: no. To see this, we first make the following <a id="eq:observation">observation</a>
+\begin{equation}
+\prod_{\textrm{all} v} A_v = \mathbb{1} \ \ \ \prod_{\textrm{all} p} B_p = \mathbb{1}
+\end{equation}
+for the toric code defined on periodic boundary conditions (on torus) - as described in the previous sections.
 
 **Exercise:** Convince yourself (in drawing) that this observation is true.
 {:.message}
 
+Equipped with the observation above it is easy to show why creation of single (or more generally any odd number of) excitations is impossible: this would violate the condition in the above <a href="eq:observation">equation</a> which holds throughout.
+
+Okay, so we cannot create single excitations by applying Pauli strings, we can easily create pairs of excitations - is there anything interesting left?
+
 What if the excitations form closed loops?
 
 
-What changes if we introduce open boundary conditions?
+<!-- What changes if we introduce open boundary conditions? -->
 
 
 ## Local indistinguishability
