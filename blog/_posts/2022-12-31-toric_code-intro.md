@@ -2,7 +2,7 @@
 layout: post
 title: Quick intro to the 2D toric code
 description: >
-  A simple, quick introduction to the 2D toric code.
+  A real quick introduction to the 2D toric code.
 sitemap: false
 ---
 
@@ -52,12 +52,15 @@ Having found the ground state, natural question is the following: what are the e
 
 We can create a *pair* of quasiparticles excitations by applying string operators. String operators consist of product of Pauli $$X$$ or $$Z$$ Pauli Z operators applied to the qubits (see Fig. !!!). A curious fact is that the total energy cost for the excitations created is dependent only on the number of excitations and not on a particular type of a string operator used e.g., both applying a single Pauli $$X$$ operator costs the same amount of energy as applying a (sufficiently short) string of few Pauli $$X$$.  
 
-Is it possible to create a single excitation by applying Pauli strings? To answer this question we first make the following observation: $$\prod_{\textrm{all} v} A_v = \mathbb{1}$$ and $$\prod_{\textrm{all} p} B_p = \mathbb{1}$$ where we imply.  
+Is it possible to create a single excitation by applying Pauli strings? To answer this question we first make the following observation: for toric code defined on periodic boundary conditions (on torus) $$\prod_{\textrm{all} v} A_v = \mathbb{1}$$ and $$\prod_{\textrm{all} p} B_p = \mathbb{1}$$ where we imply.  
 
-**Exercise:** Convince yourself (in drawing) that this is true.
+**Exercise:** Convince yourself (in drawing) that this observation is true.
 {:.message}
 
 What if the excitations form closed loops?
+
+
+What changes if we introduce open boundary conditions?
 
 
 ## Local indistinguishability
