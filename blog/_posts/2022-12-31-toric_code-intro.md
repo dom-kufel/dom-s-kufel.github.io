@@ -18,6 +18,7 @@ sitemap: false
 [^3]: I.e. the eigenbasis of the Pauli $$Z$$ operator.
 [^4]: Just to recap: ground state at this stage just being a generic linear combination of closed loop configurations as described before.
 [^5]: If this is not surprising I would encourage you to study symmetry-breaking paradigm due to Landau. Topological order allows us to 'disavow Landau' as [John Preskill says](http://theory.caltech.edu/~preskill/colloquium/Balents.htm).
+[^6]: If it is not immediately clear think about associating to each point in the primal and dual lattice the eigenvalue of the corresponding vertex/plaquette operator. The ground state would simply correspond to all $$+1$$ eigenvalues. Consequently regardless where we create excitations to it - they will correspond to $$-1$$ eigenvalue particle-like "peaks" in otherwise uniform energy density background.    
 
 ## Hamiltonian and ground states
 
@@ -47,18 +48,21 @@ Nice! Summarizing the first key result:
 
 ## Quasiparticle Excitations
 
-Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which might be thought to live on the vertices of the primal or dual lattice (see Fig !!!).
+Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which might be thought to live on the vertices of the primal or dual lattice (see Fig !!!). These excitations are "particle-like" (thus often called quasiparticles) i.e. they correspond to the localized energy excitation on a toric code ground state with a uniform energy density profile[^6] <a href="#references">[Zeng et al. (2015) p. 180]</a>.
 
-The ground state of the toric code has a uniform energy density. We may *define* a ”particle-like” excitation (quasiparticle) to be a local excitation of this uniform energy density landscape <a href="#references">[Zeng et al. (2015) p. 180]</a>: such excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which live on the vertices of the primal or dual lattice (see Fig !!!).
+We can create a *pair* of quasiparticles excitations by applying string operators. String operators consist of product of Pauli $$X$$ or $$Z$$ Pauli Z operators applied to the qubits (see Fig. !!!). A curious fact is that the total energy cost for the excitations created is dependent only on the number of excitations and not on a particular type of a string operator used e.g., both applying a single Pauli $$X$$ operator costs the same amount of energy as applying a (sufficiently short) string of few Pauli $$X$$.  
 
-We can create a pair of quasiparticles excitations by applying string operators.
+Is it possible to create a single excitation by applying Pauli strings? To answer this question we first make the following observation: $$\prod_{\textrm{all} v} A_v = \mathbb{1}$$ and $$\prod_{\textrm{all} p} B_p = \mathbb{1}$$ where we imply.  
+
+**Exercise:** Convince yourself (in drawing) that this is true.
+{:.message}
 
 What if the excitations form closed loops?
 
 
 ## Local indistinguishability
 
-So far we have on
+So far we have focused on topologically trivial excitation strings.
 
 The main idea behind topological order is the existence of a ground state degeneracy without breaking any underlying symmetry[^5]. More formally <a href="#references">[Zeng et al. (2015) p. 166]</a>
 
