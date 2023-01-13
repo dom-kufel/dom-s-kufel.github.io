@@ -56,7 +56,7 @@ We can create a *pair* of quasiparticles excitations by applying string operator
 
 So far we have discussed how to create a pair of excitations. Is it possible to create a single, isolated, excitation by applying Pauli strings? Short answer: no. To see this, we first make the following <a id="eq:observation">observation</a>
 \begin{equation}
-\prod_{\textrm{all} \ \v} A_v = \mathbb{1} \ \ \ \prod_{\textrm{all} \ \ p} B_p = \mathbb{1}
+\prod_{\textrm{all} \ \ v} A_v = \mathbb{1} \ \ \ \prod_{\textrm{all} \ \ p} B_p = \mathbb{1}
 \end{equation}
 for the toric code defined on periodic boundary conditions (on torus) - as described in the previous sections.
 
@@ -65,9 +65,7 @@ for the toric code defined on periodic boundary conditions (on torus) - as descr
 
 Equipped with the observation above it is easy to show why creation of single (or more generally any odd number of) excitations is impossible: this would violate the condition in the above <a href="eq:observation">equation</a> which holds throughout.
 
-Okay, so summarizing: we cannot create single excitations by applying Pauli strings but we can easily create pairs of excitations. Given the "loopy" nature of the ground state we discovered in the <a href="#Hamiltonian-and-ground-states">first section</a> we naturally ask: does anything interesting happen if the excitations form closed loops? Absolutely: it turns out that creating a *topologically trivial* closed loop of excitations is equivalent to creating no excitations at all. This is a really curious fact, so let me state it again in a different way: starting from a ground state we can create a set of excitations, pair them up (thus creating closed excitations loops) and get the ground state again! The physical intuition behind it is simple: since each of the
-
-This is one of the reasons why toric code is useful for the quantum error correction: if we say that the excitations were created by some unwanted "errors" in the form of Pauli strings then these errors might be removed by
+Okay, so summarizing: we cannot create single excitations by applying Pauli strings but we can easily create pairs of excitations. Given the "loopy" nature of the ground state we discovered in the <a href="#Hamiltonian-and-ground-states">first section</a> we naturally ask: does anything interesting happen if the excitations form closed loops? Absolutely: it turns out that creating a *topologically trivial* closed loop of excitations is equivalent to creating no excitations at all. This is a really curious fact, so let me state it again in a different way: starting from a ground state we can create a set of excitations, pair them up (thus creating closed excitations loops) and get the ground state again! The physical intuition behind it is simple: since the ground states correspond to equal amplitude sum of closed loop configurations, the action of the closed loop string simply reorders the terms within the sum without changing the overall result! This "completing the loop" trick is one of the reasons why toric code is useful for the [quantum error correction](arthurpesah.me): if we say that the excitations were created by some unwanted "errors" in the form of Pauli strings then these errors might be annihilated by applying more Pauli strings and completing the loops.
 
 <!-- What changes if we introduce open boundary conditions? -->
 
