@@ -21,6 +21,7 @@ sitemap: false
 [^6]: If it is not immediately clear think about associating to each point in the primal and dual lattice the eigenvalue of the corresponding vertex/plaquette operator. The ground state would simply correspond to all $$+1$$ eigenvalues. Consequently regardless where we create excitations to it - they will correspond to $$-1$$ eigenvalue particle-like "peaks" in otherwise uniform energy density background.    
 [^7]: We will discuss what happens if we consider topologically inequivalent loops in the next <a href="#long-range-entanglement">section</a>.  
 [^8]: There is a quite deep reason behind this, which we will explore more in the other blogpost. !!!
+[^9]: This observation allows us to prove the 4-fold ground state degeneracy in an alternative way to the one described in the <a href="#hamiltonian-and-ground-states">first section</a>. The main idea is as follows: eigenvalues of each of the vertex/plaquette operators can be $+1$ or $-1$ (they are formed of Pauli operators which are both unitary and Hermitian); this means that there are $$2^N$ possible states. The conditions $$\prod_{\textrm{all} \ \ v} A_v = \mathbb{1} \ \ \ \prod_{\textrm{all} \ \ p} B_p = \mathbb{1}$$ however imply that two of these operators will not be independent: effectively we have $$2^{N-2}$$ independent quantum numbers. This means that the ground state degeneracy will be $$2^N/2^{N-2}=4$$.  
 
 ## Hamiltonian and ground states
 
@@ -58,7 +59,7 @@ So far we have discussed how to create a pair of excitations. Is it possible to 
 \begin{equation}
 \prod_{\textrm{all} \ \ v} A_v = \mathbb{1} \ \ \ \prod_{\textrm{all} \ \ p} B_p = \mathbb{1}
 \end{equation}
-for the toric code defined on periodic boundary conditions (on torus) - as described in the previous sections.
+for the toric code defined on periodic boundary conditions (on torus) - as described in the previous sections[^9].
 
 **Exercise:** Convince yourself (in drawing) that this observation is true.
 {:.message}
@@ -66,6 +67,9 @@ for the toric code defined on periodic boundary conditions (on torus) - as descr
 Equipped with the observation above it is easy to show why creation of single (or more generally any odd number of) excitations is impossible: this would violate the condition in the above <a href="eq:observation">equation</a> which holds throughout.
 
 Okay, so summarizing: we cannot create single excitations by applying Pauli strings but we can easily create pairs of excitations. Given the "loopy" nature of the ground state we discovered in the <a href="#hamiltonian-and-ground-states">first section</a> we naturally ask: does anything interesting happen if the excitations form closed loops? Absolutely: it turns out that creating a *topologically trivial* closed loop of excitations is equivalent to creating no excitations at all. This is a really curious fact, so let me state it again in a different way: starting from a ground state we can create a set of excitations, pair them up (thus creating closed excitations loops) and get the ground state again! The physical intuition behind it is simple: since the ground states correspond to equal amplitude sum of closed loop configurations, the action of the closed loop string simply reorders the terms within the sum without changing the overall result! This "completing the loop" trick is one of the reasons why toric code is useful for the [quantum error correction](https://www.arthurpesah.me): if we say that the excitations were created by some unwanted "errors" in the form of Pauli strings then these errors might be annihilated by applying more Pauli strings and completing the loops.
+
+**Fact 2:** Excitations in the toric code might be created in pairs by applying Pauli strings. Applying Pauli strings such that they form closed loops is equivalent to applying no string operators at all.
+{:.note}
 
 <!-- What changes if we introduce open boundary conditions? -->
 
@@ -75,26 +79,25 @@ In the previous section I stressed few times that the excitation loops considere
 
 Let us take a ground state of the toric code, say the one consisting of topologically trivial loops. What happens if we now apply to it a topologically non-trivial Pauli string loop, say $$C_2$$? Linearity allows us to apply the topologically non-trivial string to each of the components in the closed-loop superposition: therefore now all of the terms within the superposition belong to the $$C_2$$ equivalence class and the resulting state is thus another ground state $\vert \psi_2 \rangle (as shown in Fig. !!!). Applying the same argument to the other ground states we immediately notice the following
 
-**Fact 3:** Ground states are **locally indistinguishable** i.e. may be mapped onto each other only using non-local operators.
+**Fact 3:** Ground states are **locally indistinguishable** i.e. may be mapped onto each other only by using non-local operators.
 {:.note}
 
-In other words if operator $M$ is local (i.e. does not involve operators going through the whole system) then we have $$\langle \psi_i \vert M \vert \psi_j \rangle = C_M \delta_{ij}$$.
+We might restate in the following way: if operator $M$ is local (i.e. does not involve operators going through the whole system) then we have $$\langle \psi_i \vert M \vert \psi_j \rangle = C_M \delta_{ij}$$ where $$C_M$$ is a constant only dependent on $$M$$.
 
-Interestingly, local indistinguishability is one of the key components for system to exhibit *topological order* i.e. loosely speaking to exhibit topology-dependent ground state degeneracy without breaking any underlying symmetry[^5] which cannot be removed by any local, sufficiently weak perturbation to the Hamiltonian <a href="#references">[Zeng et al. (2015) p. 166]</a>.
+Interestingly, local indistinguishability is one of the key components for system to possess *topological order* i.e. loosely speaking to exhibit topology-dependent ground state degeneracy without breaking any underlying symmetry[^5] which cannot be removed by any local, sufficiently weak perturbation of the Hamiltonian <a href="#references">[Zeng et al. (2015) p. 166]</a>. In the case of the toric code we indeed see the 4-fold ground state degeneracy which purely depends on the topology of the space and using local indistinguishability it might be shown that its ground state degeneracy cannot be lifted by any local, sufficiently weak perturbations.
 
-Does the toric code exhibit topological order? First, Hamiltonian has no underlying symmetries and yet ground state has a 4-fold degeneracy which purely depends on the topology of the space (we will discuss why geometry does not matter in the next section). Second, it might be shown that ground state degeneracy is stable to local, sufficiently weak perturbations of the Hamiltonian. TPQO...
+<!-- Typically discussed in the thermodynamic limit? -->
 
-## Generalizations of the toric code
-*any lattice
-*higher dimensional toric cdoe
-*Z_N toric
-*Kitaev double
+<!-- Where to discuss anyons? -->
 
+## FAQ
+1. Can toric code be defined only on a square lattice? Yes,
+2. Can toric code be defined in the systems beyond 2D? Yes,
+3. Can toric code be defined for system other than qubits? Z_N toric; Kitaev double: possess non-Abelian anyons!
+
+<!--
 ### Header 3
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
 
 ```js
 // Javascript code with syntax highlighting.
@@ -195,7 +198,7 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 
 ```
 The final element.
-```
+``` -->
 ## References
 <a id="wenchenbook">*[Zeng et al. (2015)]*</a> Zeng, B., Chen, X., Zhou, D.L. and Wen, X.G., 2015. Quantum Information Meets Quantum Matter--From Quantum Entanglement to Topological Phase in Many-Body Systems. [*arXiv preprint arXiv:1508.02595*](https://arxiv.org/abs/1508.02595).
 
