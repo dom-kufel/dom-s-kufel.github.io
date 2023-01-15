@@ -52,7 +52,7 @@ Nice! Summarizing the first key result:
 
 
 
-![Full-width image](/assets/img/blog/example-content-iii.jpg){:.lead width="800" height="100"}
+![Full-width image](/assets/img/blog/torus.eps){:.lead width="800" height="100"}
 A caption to an image.
 {:.figure}
 
