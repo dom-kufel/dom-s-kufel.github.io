@@ -22,6 +22,7 @@ sitemap: false
 [^7]: We will discuss what happens if we consider topologically inequivalent loops in the next <a href="#long-range-entanglement">section</a>.  
 [^8]: There is a quite deep reason behind this, which we will explore more in the other blogpost. !!!
 [^9]: This observation allows us to prove the 4-fold ground state degeneracy in an alternative way to the one described in the <a href="#hamiltonian-and-ground-states">first section</a>. The main idea is as follows: eigenvalues of each of the vertex/plaquette operators can be $+1$ or $-1$ (they are formed of Pauli operators which are both unitary and Hermitian); this means that there are $$2^N$ possible states. The conditions $$\prod_{\textrm{all} \ \ v} A_v = \mathbb{1} \ \ \ \prod_{\textrm{all} \ \ p} B_p = \mathbb{1}$$ however imply that two of these operators will not be independent: effectively we have $$2^{N-2}$$ independent quantum numbers. This means that the ground state degeneracy will be $$2^N/2^{N-2}=4$$.  
+[^10]: Main idea is as follows: loosely speaking, for quantum error correction, the longer the error string the larger chance that it corresponds to uncorrectable error. As described <a href="#quasiparticle-excitations">before</a>, energy cost paid for the pair of excitations of any length is the same; for self-correcting memory (for storing quantum information) we want to retain non-locality of information encoding but yet penalize for longer excitation strings. It turns out that due to their dimensionality, 3D and 4D toric code energetically penalize long excitations one and two types of Pauli errors respectively. 
 
 ## Hamiltonian and ground states
 
@@ -82,7 +83,7 @@ Let us take a ground state of the toric code, say the one consisting of topologi
 **Fact 3:** Ground states are **locally indistinguishable** i.e. may be mapped onto each other only by using non-local operators.
 {:.note}
 
-We might restate in the following way: if operator $M$ is local (i.e. does not involve operators going through the whole system) then we have $$\langle \psi_i \vert M \vert \psi_j \rangle = C_M \delta_{ij}$$ where $$C_M$$ is a constant only dependent on $$M$$.
+We might restate in the following way: if operator $$M$$ is local (i.e. does not involve operators going through the whole system) then we have $$\langle \psi_i \vert M \vert \psi_j \rangle = C_M \delta_{ij}$$ where $$C_M$$ is a constant only dependent on $$M$$.
 
 Interestingly, local indistinguishability is one of the key components for system to possess *topological order* i.e. loosely speaking to exhibit topology-dependent ground state degeneracy without breaking any underlying symmetry[^5] which cannot be removed by any local, sufficiently weak perturbation of the Hamiltonian <a href="#references">[Zeng et al. (2015) p. 166]</a>. In the case of the toric code we indeed see the 4-fold ground state degeneracy which purely depends on the topology of the space and using local indistinguishability it might be shown that its ground state degeneracy cannot be lifted by any local, sufficiently weak perturbations.
 
@@ -92,7 +93,7 @@ Interestingly, local indistinguishability is one of the key components for syste
 
 ## FAQ
 1. Can toric code be defined only on a square lattice? Yes,
-2. Can toric code be defined in the systems beyond 2D? Yes,
+2. Can toric code be defined in the systems beyond 2D? Yes, in particular a 4D toric code is model particularly interesting from the perspective of error correction since it might act as a self-correcting quantum memory[^10].
 3. Can toric code be defined for system other than qubits? Z_N toric; Kitaev double: possess non-Abelian anyons!
 
 <!--
