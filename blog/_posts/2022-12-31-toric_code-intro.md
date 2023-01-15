@@ -50,6 +50,12 @@ Nice! Summarizing the first key result:
 **Fact 1:** Ground states formed from the equal superpositions of topologically equivalent loops on torus.
 {:.note}
 
+
+
+![Full-width image](/assets/img/blog/example-content-iii.jpg){:.lead width="800" height="100"}
+A caption to an image.
+{:.figure}
+
 ## Excitations
 
 Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which might be thought to live on the vertices of the primal or dual lattice (see Fig !!!). These excitations (often called **anyons**) are "particle-like" (thus often called quasiparticles) i.e. they correspond to the localized energy excitation on a toric code ground state with a uniform energy density profile[^6] <a href="#references">[Zeng et al. (2015) p. 180]</a>.
@@ -219,6 +225,7 @@ The final element.
 ``` -->
 ## References
 <a id="wenchenbook">*[Zeng et al. (2015)]*</a> Zeng, B., Chen, X., Zhou, D.L. and Wen, X.G., 2015. Quantum Information Meets Quantum Matter--From Quantum Entanglement to Topological Phase in Many-Body Systems. [*arXiv preprint arXiv:1508.02595*](https://arxiv.org/abs/1508.02595).
+
 <a id="simonook">*[Simon (2020)]*</a> Simon, S.H., 2020. Topological Quantum: Lecture Notes and Proto-Book. Unpublished prototype. [Online](http://www-thphys.physics.ox.ac.uk/people/SteveSimon).
 
 ## Hints to exercises
