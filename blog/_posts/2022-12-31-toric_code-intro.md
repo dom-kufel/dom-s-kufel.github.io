@@ -17,7 +17,7 @@ sitemap: false
 [^2]: Terminology comment: Hamiltonian containing of Pauli strings which are mutually commuting (as above) is often called stabilizer Hamiltonian - language coming from error correction - more on this later
 [^3]: I.e. the eigenbasis of the Pauli $$Z$$ operator.
 [^4]: Just to recap: ground state at this stage just being a generic linear combination of closed loop configurations as described before.
-[^5]: If this is not surprising I would encourage you to study symmetry-breaking paradigm due to Landau. Topological order allows us to 'disavow Landau' as [John Preskill says](http://theory.caltech.edu/~preskill/colloquium/Balents.htm).
+[^5]: If this is not surprising I would encourage you to study symmetry-breaking paradigm due to Landau. The point of the topological order is precisely to 'disavow Landau' as [John Preskill would say](http://theory.caltech.edu/~preskill/colloquium/Balents.htm).
 [^6]: If it is not immediately clear think about associating to each point in the primal and dual lattice the eigenvalue of the corresponding vertex/plaquette operator. The ground state would simply correspond to all $$+1$$ eigenvalues. Consequently regardless where we create excitations to it - they will correspond to $$-1$$ eigenvalue particle-like "peaks" in otherwise uniform energy density background.    
 [^7]: We will discuss what happens if we consider topologically inequivalent loops in the next <a href="#long-range-entanglement">section</a>.  
 [^8]: There is a quite deep reason behind this, which we will explore more in the other blogpost. !!!
