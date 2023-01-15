@@ -83,6 +83,9 @@ Okay, so summarizing what we have arrived at so far: we cannot create single exc
 
 If excitations are indeed "particle-like" and they are indistinguishable, can we classify them in a similar fashion to elementary particles (being either bosons or fermions)? Yes, we say that there are three types of anyons in the toric code: $$e$$ anyon (single vertex excitation), $$m$$ anyon (single plaquette excitation) and $$\epsilon$$ anyon (or a dyon) consisting of vertex and plaquette excitations bound together. $$e$$ and $$m$$ anyons in the toric code have abelian bosonic statistics i.e. the many-body state is invariant under exchanging two identical $$e$$ and $$m$$ anyons. It turns out that $$\epsilon$$ anyons are fermions.
 
+**Fact 4:** Three types of (anyonic) excitations correspond to vertex, plaquette and "dyonic" violations and these have bosonic, bosonic and fermionic exchange statistics respectively.  
+{:.note}
+
 
 <!-- What changes if we introduce open boundary conditions? -->
 
@@ -92,12 +95,14 @@ In the previous section I stressed few times that the excitation loops considere
 
 Let us take a ground state of the toric code, say the one consisting of topologically trivial loops. What happens if we now apply to it a topologically non-trivial Pauli string loop, say $$C_2$$? Linearity allows us to apply the topologically non-trivial string to each of the components in the closed-loop superposition: therefore now all of the terms within the superposition belong to the $$C_2$$ equivalence class and the resulting state is thus another ground state $\vert \psi_2 \rangle (as shown in Fig. !!!). Applying the same argument to the other ground states we immediately notice the following
 
-**Fact 3:** Ground states are **locally indistinguishable** i.e. may be mapped onto each other only by using non-local operators.
+**Fact 5:** Ground states are **locally indistinguishable** i.e. may be mapped onto each other only by using non-local operators.
 {:.note}
 
 We might restate the above result in the following way: if operator $$M$$ is local (i.e. does not involve operators going through the whole system) then we have $$\langle \psi_i \vert M \vert \psi_j \rangle = C_M \delta_{ij}$$ where $$C_M$$ is a constant only dependent on $$M$$.
 
 Interestingly, local indistinguishability is one of the key components for system to possess *topological order* i.e. loosely speaking to exhibit topology-dependent ground state degeneracy without breaking any underlying symmetry[^5] which cannot be removed by any local, sufficiently weak perturbation of the Hamiltonian <a href="#references">[Zeng et al. (2015) p. 166]</a>. In the case of the toric code we indeed see the 4-fold ground state degeneracy which purely depends on the topology of the space and using local indistinguishability it might be shown that its ground state degeneracy cannot be lifted by any local, sufficiently weak perturbations.
+
+## Conclusions
 
 <!-- Typically discussed in the thermodynamic limit? -->
 
