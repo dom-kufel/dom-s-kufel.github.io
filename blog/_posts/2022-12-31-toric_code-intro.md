@@ -61,11 +61,11 @@ Nice! Summarizing the first key result:
 
 <!-- {:.lead width="100" height="100"} -->
 ![Full-width image](/assets/img/blog/torus.png){: width="400" height="350"}
-Fig. 2: Four topologically inequivalent loops on torus. $$C_4$$ corresponds to the trivial loop.
+Fig. 2: Four topologically inequivalent loops on torus. Lorem Ipsum dolert adshashdashhdas hdashdash hdaskj a adskhbdas $$C_4$$ corresponds to the trivial loop.
 {:.figure}
 
 ![placeholder](/assets/img/blog/toric_code_loop_example.png){: width="400" height="150"}
-Fig. 3: Example
+Fig. 3: Example lnaskjdbksa adskbkdasjb kjadsbkdasb kjbadskbsad kjbdaskjbasd ljnasdkjbads kjbakjbsadkjm
 {:.figure}
 
 ![Full-width image](/assets/img/blog/toric_code_loopy_gs.png)
