@@ -56,7 +56,7 @@ Nice! Summarizing the first key result:
 {:.note}
 
 <!-- {:.lead width="100" height="100"} -->
-![Full-width image](/assets/img/blog/torus.png)
+![Full-width image](/assets/img/blog/torus.png) 
 Fig. 2: Four topologically inequivalent loops on torus. $$C_4$$ corresponds to the trivial loop.
 {:.figure}
 
