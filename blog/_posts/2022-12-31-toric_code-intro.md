@@ -13,27 +13,28 @@ sitemap: false
 
 
 *[plaquettes]: Fancy term for each of the little squares in the lattice.
-[^1]: Note that some people (see e.g., <a href="#references">*[Zeng et al. (2015)]*</a> define $$A_v$$ operators as products of Pauli $$Z$$ operators; and $$B_p$$ operators as products of Pauli $$X$$ - this is just the matter of convention and does not change the physics in any essential way (since it corresponds to simply swapping $$X$$'s with $$Z$$'s i.e. a change of basis by conjugating all qubits with the Hadamard gate).
-[^2]: Terminology comment: Hamiltonian containing of Pauli strings which are mutually commuting (as above) is often called stabilizer Hamiltonian - language coming from error correction - more on this later
-[^3]: I.e. the eigenbasis of the Pauli $$Z$$ operator.
-[^4]: Just to recap: ground state at this stage just being a generic linear combination of closed loop configurations as described before.
-[^5]: If this is not surprising I would encourage you to study symmetry-breaking paradigm due to Landau. The point of the topological order is precisely to 'disavow Landau' as [John Preskill would say](http://theory.caltech.edu/~preskill/colloquium/Balents.htm).
-[^6]: If it is not immediately clear think about associating to each point in the primal and dual lattice the eigenvalue of the corresponding vertex/plaquette operator. The ground state would simply correspond to all $$+1$$ eigenvalues. Consequently regardless where we create excitations to it - they will correspond to $$-1$$ eigenvalue particle-like "peaks" in otherwise uniform energy density background.    
-[^7]: We will discuss what happens if we consider topologically inequivalent loops in the next <a href="#long-range-entanglement">section</a>.  
-[^8]: There is a quite deep reason behind this, which we will explore more in the other blogpost. !!!
-[^9]: This observation allows us to prove the 4-fold ground state degeneracy in an alternative way to the one described in the <a href="#hamiltonian-and-ground-states">first section</a>. The main idea is as follows: eigenvalues of each of the vertex/plaquette operators can be $+1$ or $-1$ (they are formed of Pauli operators which are both unitary and Hermitian); this means that there are $$2^N$$ possible states. The conditions $$\prod_{\textrm{all} \ \ v} A_v = \mathbb{1} \ \ \ \prod_{\textrm{all} \ \ p} B_p = \mathbb{1}$$ however imply that two of these operators will not be independent: effectively we have $$2^{N-2}$$ independent quantum numbers. This means that the ground state degeneracy will be $$2^N/2^{N-2}=4$$.  
-[^10]: Main idea is as follows: loosely speaking, for quantum error correction, the longer the error string the larger chance that it corresponds to uncorrectable error. As described <a href="#quasiparticle-excitations">before</a>, energy cost paid for the pair of excitations of any length is the same; for self-correcting memory (for storing quantum information) we want to retain non-locality of information encoding but yet penalize for longer excitation strings. It turns out that due to their dimensionality, 3D and 4D toric code energetically penalize long excitations one and two types of Pauli errors respectively.
+[^1]: If it does not immediately become clear why see [this](https://commons.wikimedia.org/wiki/File:Torus_from_rectangle.gif) animation.
+[^2]: Note that some people (see e.g., <a href="#references">*[Zeng et al. (2015)]*</a> define $$A_v$$ operators as products of Pauli $$Z$$ operators; and $$B_p$$ operators as products of Pauli $$X$$ - this is just the matter of convention and does not change the physics in any essential way (since it corresponds to simply swapping $$X$$'s with $$Z$$'s i.e. a change of basis by conjugating all qubits with the Hadamard gate).
+[^3]: Terminology comment: Hamiltonian containing of Pauli strings which are mutually commuting (as above) is often called stabilizer Hamiltonian - language coming from error correction - more on this later
+[^4]: I.e. the eigenbasis of the Pauli $$Z$$ operator.
+[^5]: Just to recap: ground state at this stage just being a generic linear combination of closed loop configurations as described before.
+[^6]: If this is not surprising I would encourage you to study symmetry-breaking paradigm due to Landau. The point of the topological order is precisely to 'disavow Landau' as [John Preskill would say](http://theory.caltech.edu/~preskill/colloquium/Balents.htm).
+[^7]: If it is not immediately clear think about associating to each point in the primal and dual lattice the eigenvalue of the corresponding vertex/plaquette operator. The ground state would simply correspond to all $$+1$$ eigenvalues. Consequently regardless where we create excitations to it - they will correspond to $$-1$$ eigenvalue particle-like "peaks" in otherwise uniform energy density background.    
+[^8]: We will discuss what happens if we consider topologically inequivalent loops in the next <a href="#long-range-entanglement">section</a>.  
+[^9]: There is a quite deep reason behind this, which we will explore more in the other blogpost. !!!
+[^10]: This observation allows us to prove the 4-fold ground state degeneracy in an alternative way to the one described in the <a href="#hamiltonian-and-ground-states">first section</a>. The main idea is as follows: eigenvalues of each of the vertex/plaquette operators can be $+1$ or $-1$ (they are formed of Pauli operators which are both unitary and Hermitian); this means that there are $$2^N$$ possible states. The conditions $$\prod_{\textrm{all} \ \ v} A_v = \mathbb{1} \ \ \ \prod_{\textrm{all} \ \ p} B_p = \mathbb{1}$$ however imply that two of these operators will not be independent: effectively we have $$2^{N-2}$$ independent quantum numbers. This means that the ground state degeneracy will be $$2^N/2^{N-2}=4$$.  
+[^11]: Main idea is as follows: loosely speaking, for quantum error correction, the longer the error string the larger chance that it corresponds to uncorrectable error. As described <a href="#quasiparticle-excitations">before</a>, energy cost paid for the pair of excitations of any length is the same; for self-correcting memory (for storing quantum information) we want to retain non-locality of information encoding but yet penalize for longer excitation strings. It turns out that due to their dimensionality, 3D and 4D toric code energetically penalize long excitations one and two types of Pauli errors respectively.
 
 ## Hamiltonian and Ground States
 
-In the simplest realization, toric code is a model of qubits (two-level systems) placed on the links of the 2D square lattice with periodic boundary conditions (thus making a torus). We define the <a id="eq:H_TC">Hamiltonian</a> for the system to be
+In the simplest realization, toric code is a model of qubits (two-level systems) placed on the links of the 2D square lattice with periodic boundary conditions (thus making a torus[^1]). We define the <a id="eq:H_TC">Hamiltonian</a> for the system to be
 \begin{equation}
 H = -\sum_v A_v - \sum_p B_p
 \end{equation}
-where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices[^1]. For later we will also define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. 1b.  
+where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices[^1]. For later we will also define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. 1.  
 
 ![Full-width image](/assets/img/blog/toric_code_primal_dual.png){:.lead width="600" height="100"}
-"Primal" and dual lattices of the toric code.
+Fig. 1: "Primal" and dual lattices of the toric code.
 {:.figure}
 
 Our goal for now is to **find ground state(s)** of the above model. I claim that each of the four ground states found consists of the **equal amplitude superposition of the closed loop configurations**, and that the ground states differ by which out of four topologically inequivalent loops on torus they contain. We will argue for this claim real quick. First, note that all the terms within the Hamiltonian mutually commute with one another i.e. $$[A_v, B_p]=0 \ \ \forall v,p$$ - you will prove it in the exercise below[^2]. This remarkably simplifies the problem by allowing to consider the two sums separately, and our strategy becomes: first (i) minimize the energy of one of the sums in <a href="#eq:H_TC">Eq. 1</a> and then (ii) impose the other sum as the constraint on the choice of the ground state.
@@ -55,7 +56,7 @@ Nice! Summarizing the first key result:
 {:.note}
 
 ![Full-width image](/assets/img/blog/torus.png){:.lead width="100" height="100"}
-Four topologically inequivalent loops on torus. $$C_4$$ corresponds to the trivial loop.
+Fig. 2: Four topologically inequivalent loops on torus. $$C_4$$ corresponds to the trivial loop.
 {:.figure}
 
 ## Excitations
