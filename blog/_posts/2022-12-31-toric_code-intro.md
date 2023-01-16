@@ -62,7 +62,7 @@ Nice! Summarizing the first key result:
 Fig. 2: Four topologically inequivalent loops on torus. $$C_4$$ corresponds to the trivial loop.
 {:.figure}
 
-![placeholder](/assets/img/blog/toric_code_loop_example.png)
+![placeholder](/assets/img/blog/toric_code_loop_example.png){: width="400" height="50"}
 Fig. 3: Example
 {:.figure}
 
@@ -110,7 +110,10 @@ If excitations are indeed "particle-like" and they are indistinguishable, can we
 
 It turns out that $$\epsilon$$ anyons are fermions. To see this we need to first show that braiding the $$e$$ particle around $$m$$ particle (and vice-versa) accumulates $$-1$$ phase. This is clear from the following
 
-The proof of fermionic statistics of $$\epsilon$$ particle follows from the image below
+Now I claim that the proof of fermionic statistics of $$\epsilon$$ particle follows from the figure below:
+
+
+WoW, initially it might seem that there is a lot to unpack here, but in fact everything is plain and simple. Lines in Fig. !!! correspond to the $$(2+1)-D$$ worldlines of the anyons. Wordlines are nothing else than space-time graph of the particle motion with time going up on the image and particles moving around each other in space (horizontal direction).
 
 **Fact 4:** Three types of (anyonic) excitations correspond to vertex, plaquette and "dyonic" violations and these have bosonic, bosonic and fermionic exchange statistics respectively.  
 {:.note}
