@@ -59,6 +59,14 @@ Nice! Summarizing the first key result:
 Fig. 2: Four topologically inequivalent loops on torus. $$C_4$$ corresponds to the trivial loop.
 {:.figure}
 
+![Full-width image](/assets/img/blog/toric_code_loop_example.png){:.lead width="100" height="100"}
+Fig. 3: Four topologically inequivalent loops on torus. $$C_4$$ corresponds to the trivial loop.
+{:.figure}
+
+![Full-width image](/assets/img/blog/toric_code_loopy_gs.png)
+Fig. 4: Four topologically inequivalent loops on torus. $$C_4$$ corresponds to the trivial loop.
+{:.figure}
+
 ## Excitations
 
 Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which might be thought to live on the vertices of the primal or dual lattice (see Fig !!!). These excitations (often called **anyons**) are "particle-like" (thus often called quasiparticles) i.e. they correspond to the localized energy excitation on a toric code ground state with a uniform energy density profile[^6] <a href="#references">[Zeng et al. (2015) p. 180]</a>.
