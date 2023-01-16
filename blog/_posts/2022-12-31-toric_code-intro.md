@@ -17,7 +17,7 @@ sitemap: false
 [^2]: Note that some people (see e.g., <a href="#references">*[Zeng et al. (2015)]*</a> define $$A_v$$ operators as products of Pauli $$Z$$ operators; and $$B_p$$ operators as products of Pauli $$X$$ - this is just the matter of convention and does not change the physics in any essential way (since it corresponds to simply swapping $$X$$'s with $$Z$$'s i.e. a change of basis by conjugating all qubits with the Hadamard gate).
 [^3]: Terminology comment: Hamiltonian containing of Pauli strings which are mutually commuting (as above) is often called stabilizer Hamiltonian - language coming from error correction - more on this later
 [^4]: I.e. the eigenbasis of the Pauli $$Z$$ operator.
-[^5]: One way of showing
+[^5]: One way of showing this is to show that the "twist factor" in a topological quantum theory <a href="#references">[Simon (2020) Chp. 26.2]</a> is +1 (moving $$e$$ (or $$m$$) particle involves only applying $$X$$ (or $$Z$$) operators which all commute with each other).
 [^6]: Just to recap: ground state at this stage just being a generic linear combination of closed loop configurations as described before.
 [^7]: If this is not surprising I would encourage you to study symmetry-breaking paradigm due to Landau. The point of the topological order is precisely to 'disavow Landau' as [John Preskill would say](http://theory.caltech.edu/~preskill/colloquium/Balents.htm).
 [^8]: If it is not immediately clear think about associating to each point in the primal and dual lattice the eigenvalue of the corresponding vertex/plaquette operator. The ground state would simply correspond to all $$+1$$ eigenvalues. Consequently regardless where we create excitations to it - they will correspond to $$-1$$ eigenvalue particle-like "peaks" in otherwise uniform energy density background.    
@@ -68,6 +68,11 @@ Fig. 3: Example
 ![Full-width image](/assets/img/blog/toric_code_loopy_gs.png)
 Fig. 4:
 {:.figure}
+
+{:.text-align-center}
+![placeholder](https://via.placeholder.com/100x150)
+![placeholder](https://via.placeholder.com/100x150)
+
 
 ## Excitations
 
