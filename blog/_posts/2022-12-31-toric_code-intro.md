@@ -61,7 +61,7 @@ Nice! Summarizing the first key result:
 Fig. 2: Four topologically inequivalent loops on torus. $$C_4$$ corresponds to the trivial loop.
 {:.figure}
 
-![Full-width image](/assets/img/blog/toric_code_loop_example.png)
+![Half-width image](/assets/img/blog/toric_code_loop_example.png)
 Fig. 3: Example
 {:.figure}
 
