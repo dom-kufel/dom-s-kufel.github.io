@@ -55,16 +55,17 @@ Nice! Summarizing the first key result:
 **Fact 1:** Ground states formed from the equal superpositions of topologically equivalent loops on torus.
 {:.note}
 
-![Full-width image](/assets/img/blog/torus.png){:.lead width="100" height="100"}
+<!-- {:.lead width="100" height="100"} -->
+![Full-width image](/assets/img/blog/torus.png)
 Fig. 2: Four topologically inequivalent loops on torus. $$C_4$$ corresponds to the trivial loop.
 {:.figure}
 
 ![Full-width image](/assets/img/blog/toric_code_loop_example.png)
-Fig. 3: Four topologically inequivalent loops on torus. $$C_4$$ corresponds to the trivial loop.
+Fig. 3: Example
 {:.figure}
 
 ![Full-width image](/assets/img/blog/toric_code_loopy_gs.png)
-Fig. 4: Four topologically inequivalent loops on torus. $$C_4$$ corresponds to the trivial loop.
+Fig. 4:
 {:.figure}
 
 ## Excitations
