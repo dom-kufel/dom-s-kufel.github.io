@@ -71,7 +71,7 @@ Fig. 2: Four topologically inequivalent loops on torus. Lorem Ipsum dolert adsha
 Fig. 3: Example lnaskjdbksa adskbkdasjb kjadsbkdasb kjbadskbsad kjbdaskjbasd ljnasdkjbads kjbakjbsadkjm
 {:.figure}
 
-![Full-width image](/assets/img/blog/toric_code_loopy_gs.png)
+![Full-width image](/assets/img/blog/toric_code_loopy_gs.png){:.centered}
 Fig. 4:
 {:.figure}
 
