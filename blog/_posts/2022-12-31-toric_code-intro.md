@@ -60,8 +60,8 @@ Nice! Summarizing the first key result:
 {:.note}
 
 <!-- {:.lead width="100" height="100"} -->
-{:.text-align-center}
-![placeholder](/assets/img/blog/torus.png){: width="400"; height="350"; style="display:block; margin-left:auto; margin-right:auto"}
+![placeholder](/assets/img/blog/torus.png){: width="600"; height="350"; style="display:block; margin-left:auto; margin-right:auto"}
+
 Fig. 2: Four topologically inequivalent loops on torus. Lorem Ipsum dolert adshashdashhdas hdashdash hdaskj a adskhbdas $$C_4$$ corresponds to the trivial loop.
 {:.figcaption}
 
