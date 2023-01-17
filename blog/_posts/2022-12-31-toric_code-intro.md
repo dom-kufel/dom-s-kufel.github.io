@@ -29,6 +29,10 @@ sitemap: false
 [^13]: This observation allows us to prove the 4-fold ground state degeneracy in an alternative way to the one described in the <a href="#hamiltonian-and-ground-states">first section</a>. The main idea is as follows: eigenvalues of each of the vertex/plaquette operators can be $+1$ or $-1$ (they are formed of Pauli operators which are both unitary and Hermitian); this means that there are $$2^N$$ possible states. The conditions $$\prod_{\textrm{all} \ \ v} A_v = \mathbb{1} \ \ \ \prod_{\textrm{all} \ \ p} B_p = \mathbb{1}$$ however imply that two of these operators will not be independent: effectively we have $$2^{N-2}$$ independent quantum numbers. This means that the ground state degeneracy will be $$2^N/2^{N-2}=4$$.  
 [^14]: Main idea is as follows: loosely speaking, for quantum error correction, the longer the error string the larger chance that it corresponds to uncorrectable error. As described <a href="#quasiparticle-excitations">before</a>, energy cost paid for the pair of excitations of any length is the same; for self-correcting memory (for storing quantum information) we want to retain non-locality of information encoding but yet penalize for longer excitation strings. It turns out that due to their dimensionality, 3D and 4D toric code energetically penalize long excitations one and two types of Pauli errors respectively.
 
+Working in the field of quantum technologies I often chat to people from a variety of quantum-focused fields.  A weird thing happens if people from traditionally different communities talk about the same stuff. This is how I have first heard about the toric code: both condensed matter and quantum error correction people spoke about it a lot. Soon afterwards I discovered why: toric code is a paradigmatic example for both topological quantum error correction and topological order in condensed matter.
+
+In this blogpost I would like to further highlight these matter-information connections by approaching toric code from more of a condensed matter angle and discuss its (somewhat confusing) properties such as long-range entanglement (yet $$0$$ correlation length!) and links to a wider class of so-called quantum spin liquids - models which recently came within reach of the experiments. I assume basic familiarity with the 2D toric code model (see e.g., my other blogpost giving a very short intro to it). In section <a href="long-range-entanglement">2</a> we will discuss what we mean by saying that toric code has "long-range entanglement" and provide a simple proof that this is indeed the case. In section <a href="long-range-entanglement-and-observables-correlations">3</a> how to reconcile long-range entangled property with the statement about its $$0$$ correlation length; in section <a href="quantum-spin-liquids">4</a> we will show how toric code fits within a wider class of models and how they might be experimentally realized. Stay tuned: I promise there are few cute ideas along the way!
+
 ## Hamiltonian and Ground States
 
 In the simplest realization, toric code is a model of qubits (two-level systems) placed on the links of the 2D square lattice with periodic boundary conditions (thus making a torus[^1]). We define the <a id="eq:H_TC">Hamiltonian</a> for the system to be
@@ -59,22 +63,21 @@ Nice! Summarizing the first key result:
 **Fact 1:** Ground states formed from the equal superpositions of topologically equivalent loops on torus.
 {:.note}
 
-<!-- {:.lead width="100" height="100"} -->
 {:style="text-align:center";}
 ![placeholder](/assets/img/blog/torus.png){: width="300"; height="650"}
-![placeholder](/assets/img/blog/torus.png){: width="300"; height="650"}
+Fig. 2: Four topologically inequivalent loops on torus. Lorem Ipsum dolert adshashdashhdas hdashdash hdaskj a adskhbdas $$C_4$$ corresponds to the trivial loop.
+{:.figure}
+<!-- ![placeholder](/assets/img/blog/torus.png){: width="300"; height="650"} -->
 
-<!-- Fig. 2: Four topologically inequivalent loops on torus. Lorem Ipsum dolert adshashdashhdas hdashdash hdaskj a adskhbdas $$C_4$$ corresponds to the trivial loop.
-{:.figcaption} -->
 
 <!-- Fig. 2: Four topologically inequivalent loops on torus. Lorem Ipsum dolert adshashdashhdas hdashdash hdaskj a adskhbdas $$C_4$$ corresponds to the trivial loop.
 {:.figure} -->
 
-![placeholder](/assets/img/blog/toric_code_loop_example.png){style="display:block; margin-left:auto; margin-right:auto"; width="400"; height="350"}
+![placeholder](/assets/img/blog/toric_code_loop_example.png){: width="400"; height="350"}
 Fig. 3: Example lnaskjdbksa adskbkdasjb kjadsbkdasb kjbadskbsad kjbdaskjbasd ljnasdkjbads kjbakjbsadkjm
 {:.figure}
 
-![Full-width image](/assets/img/blog/toric_code_loopy_gs.png){:.centered}
+![Full-width image](/assets/img/blog/toric_code_loopy_gs.png)
 Fig. 4:
 {:.figure}
 
@@ -83,7 +86,7 @@ Fig. 4:
 
 Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which might be thought to live on the vertices of the primal or dual lattice (see Fig !!!). These excitations (often called **anyons**) are "particle-like" (thus often called quasiparticles) i.e. they correspond to the localized energy excitation on a toric code ground state with a uniform energy density profile[^6] <a href="#references">[Zeng et al. (2015) p. 180]</a>.
 
-![Full-width image](/assets/img/blog/excitations.png){:.centered}
+![placeholder](/assets/img/blog/excitations.png){: width="400"; height="350"}
 Fig. 4:
 {:.figure}
 
@@ -118,19 +121,15 @@ If excitations are indeed "particle-like" and they are indistinguishable, can we
 
 It turns out that $$\epsilon$$ anyons are fermions. To see this we need to first show that braiding the $$e$$ particle around $$m$$ particle (and vice-versa) accumulates $$-1$$ phase. This is clear from the following
 
-![Full-width image](/assets/img/blog/statistics.png){:.centered}
+![placeholder](/assets/img/blog/statistics.png){: width="400"; height="350"}
 Fig. 4:
 {:.figure}
 
 Now I claim that the proof of fermionic statistics of $$\epsilon$$ particle follows from the figure below <a href="#references">[Kitaev&Laumann (2010) p. 15]</a>:
 
-![Full-width image](/assets/img/blog/braiding.png){:.centered}
+![placeholder](/assets/img/blog/braiding.png){: width="400"; height="350"}
 Fig. 4:
 {:.figure}
-
-{:.text-align-center}
-![placeholder](https://via.placeholder.com/100x150)
-![placeholder](https://via.placeholder.com/100x150)
 
 {:style="text-align:center;"}
 ![placeholder](https://via.placeholder.com/100x150)
