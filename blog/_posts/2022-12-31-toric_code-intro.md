@@ -60,10 +60,8 @@ Nice! Summarizing the first key result:
 {:.note}
 
 <!-- {:.lead width="100" height="100"} -->
-{:style="text-align:center"; width="400"; height="650"}
-![placeholder](/assets/img/blog/torus.png)
-
-<!-- {: width="400"; height="650"} -->
+{:style="text-align:center";}
+![placeholder](/assets/img/blog/torus.png){: width="400"; height="650"}
 
 <!-- Fig. 2: Four topologically inequivalent loops on torus. Lorem Ipsum dolert adshashdashhdas hdashdash hdaskj a adskhbdas $$C_4$$ corresponds to the trivial loop.
 {:.figcaption} -->
@@ -160,6 +158,8 @@ We might restate the above result in the following way: if operator $$M$$ is loc
 Interestingly, local indistinguishability is one of the key components for system to possess *topological order* i.e. loosely speaking to exhibit topology-dependent ground state degeneracy without breaking any underlying symmetry[^5] which cannot be removed by any local, sufficiently weak perturbation of the Hamiltonian <a href="#references">[Zeng et al. (2015) p. 166]</a>. In the case of the toric code we indeed see the 4-fold ground state degeneracy which purely depends on the topology of the space and using local indistinguishability it might be shown that its ground state degeneracy cannot be lifted by any local, sufficiently weak perturbations <a href="#references">[Bravyi et al. (2010)]</a>.
 
 ## Conclusions
+
+
 
 <!-- Typically discussed in the thermodynamic limit? -->
 
