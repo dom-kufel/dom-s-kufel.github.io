@@ -76,10 +76,6 @@ Fig. 3: Example lnaskjdbksa adskbkdasjb kjadsbkdasb kjbadskbsad kjbdaskjbasd ljn
 Fig. 4:
 {:.figure}
 
-{:.text-align-center}
-![placeholder](https://via.placeholder.com/100x150)
-![placeholder](https://via.placeholder.com/100x150)
-
 
 ## Excitations
 
