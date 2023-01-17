@@ -33,7 +33,7 @@ sitemap: false
 
 Working in the field of quantum technologies I often chat to people from a variety of quantum-focused fields. A weird thing happens if people from traditionally different communities talk about the same stuff. This is how I have first heard about the toric code: both condensed matter and quantum error correction people spoke about it a lot. Soon afterwards I discovered why: toric code is a paradigmatic example for both topological quantum error correction and topological order in condensed matter.
 
-In this blogpost, I would like to discuss what the toric code is and why is it so interesting viewing it from more of a condensed matter angle. For a complimentary viewpoint on the toric code from the quantum error correction perspective see excellent post by Arthur Pesah. In section  <a href="hamiltonian-and-ground-states">1</a> we will discuss the toric code Hamiltonian and find its ground states, then in section <a href="excitations">2</a> we will describe excited states and how they might be treated as 2D-confined particles (often known as anyons). Finally in section <a href="local-indistinguishability">3</a> we will come back to ground states and consider how they can be mapped onto each other, discovering non-local information encoding. With this agenda, let's roll!
+In this blogpost, I would like to discuss what the toric code is and why is it so interesting viewing it from more of a condensed matter angle. For a complimentary viewpoint on the toric code from the quantum error correction perspective see excellent [post](https://www.arthurpesah.me) by Arthur Pesah. In section  <a href="hamiltonian-and-ground-states">1</a> we will discuss the toric code Hamiltonian and find its ground states, then in section <a href="excitations">2</a> we will describe excited states and how they might be treated as 2D-confined particles (often known as anyons). Finally in section <a href="local-indistinguishability">3</a> we will come back to ground states and consider how they can be mapped onto each other, discovering non-local information encoding. With this agenda, let's roll!
 <!-- Without a further ado -->
 ## Hamiltonian and Ground States
 
@@ -161,7 +161,9 @@ Interestingly, local indistinguishability is one of the key components for syste
 
 ## Conclusions
 
-I hope I convinced you that the toric code is a fascinating model.
+I hope I convinced you that the toric code is a fascinating model. We have learnt
+
+If this post still lives you hungry of more stuff on toric code (and more) see the FAQ section below, and stay tuned for more blogposts on a similar topic!
 
 <!-- Typically discussed in the thermodynamic limit? -->
 
