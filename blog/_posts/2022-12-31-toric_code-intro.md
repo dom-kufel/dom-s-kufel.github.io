@@ -60,11 +60,13 @@ Nice! Summarizing the first key result:
 {:.note}
 
 <!-- {:.lead width="100" height="100"} -->
-{:style="text-align:center;"}
-![placeholder](/assets/img/blog/torus.png){: width="400"; height="650"}
+{:style="text-align:center; width="400"; height="650""}
+![placeholder](/assets/img/blog/torus.png)
 
-Fig. 2: Four topologically inequivalent loops on torus. Lorem Ipsum dolert adshashdashhdas hdashdash hdaskj a adskhbdas $$C_4$$ corresponds to the trivial loop.
-{:.figcaption}
+<!-- {: width="400"; height="650"} -->
+
+<!-- Fig. 2: Four topologically inequivalent loops on torus. Lorem Ipsum dolert adshashdashhdas hdashdash hdaskj a adskhbdas $$C_4$$ corresponds to the trivial loop.
+{:.figcaption} -->
 
 <!-- Fig. 2: Four topologically inequivalent loops on torus. Lorem Ipsum dolert adshashdashhdas hdashdash hdaskj a adskhbdas $$C_4$$ corresponds to the trivial loop.
 {:.figure} -->
@@ -278,6 +280,8 @@ The final element.
 <a id="simonbook">*[Simon (2020)]*</a> Simon, S.H., 2020. Topological Quantum: Lecture Notes and Proto-Book. Unpublished prototype. [*Online*](http://www-thphys.physics.ox.ac.uk/people/SteveSimon).
 
 <a id="leshouchestopo">*[Kitaev&Laumann (2010)]*</a> Kitaev, A. and Laumann, C., 2010. Topological phases and quantum computation. Exact methods in low-dimensional statistical physics and quantum computing, Lecture Notes of the Les Houches Summer School, (89), pp.101-125. [*arXiv preprint arXiv:0904.2771*](https://arxiv.org/abs/0904.2771).
+
+<a id="leshouchestopo">*[Bravyi et al. (2010)]*</a>  Bravyi, S., Hastings, M.B. and Michalakis, S., 2010. Topological quantum order: stability under local perturbations. *Journal of mathematical physics, 51(9), p.093512* [*arXiv preprint version*](https://arxiv.org/abs/1001.0344).
 
 ## Hints to exercises
 <a id="hint1">**Hint:**</a> Whenever Pauli X and Z meet on the same site they anti-commute, otherwise (e.g., $$[X \otimes \mathbb{1},\mathbb{1} \otimes Z]$$ they commute.
