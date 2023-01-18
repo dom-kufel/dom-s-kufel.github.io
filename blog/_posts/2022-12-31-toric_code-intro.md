@@ -156,7 +156,7 @@ Okay, I understand that initially it might seem that there is a lot to unpack he
 
 In the previous section I stressed few times that the excitation loops considered are the ones which are *topologically trivial*. What if we considered e.g., Pauli $$X$$ strings which were making topologically *non-trivial* loops (e.g., ones corresponding to $$C_1, C_2 \textrm{or} C_3$$ in Fig. !!!)? Note that such *non-trivial* loops are automatically *non-local* since they need to transverse through the whole system.
 
-Let us take a ground state of the toric code, say the one consisting of topologically trivial loops. What happens if we now apply to it a topologically non-trivial Pauli string loop, say $$C_2$$? Linearity allows us to apply the topologically non-trivial string to each of the components in the closed-loop superposition: therefore now all of the terms within the superposition belong to the $$C_2$$ equivalence class and the resulting state is thus another ground state $\vert \psi_2 \rangle (as shown in Fig. 4). Applying the same argument to the other ground states we immediately notice the following
+Let us take a ground state of the toric code, say the one consisting of topologically trivial loops. What happens if we now apply to it a topologically non-trivial Pauli string loop, say $$C_2$$? Linearity allows us to apply the topologically non-trivial string to each of the components in the closed-loop superposition: therefore now all of the terms within the superposition belong to the $$C_2$$ equivalence class and the resulting state is thus another ground state $$\vert \psi_2 \rangle$$ (as shown in Fig. 4). Applying the same argument to the other ground states we immediately notice the following
 
 **Fact 5:** Ground states are **locally indistinguishable** i.e. may be mapped onto each other only by using non-local operators.
 {:.note}
@@ -171,7 +171,7 @@ Interestingly, local indistinguishability is one of the key components for syste
 
 ## Conclusions
 
-I hope I convinced you that the toric code is a model with fascinating properties. We have learnt about the Hamiltonian describing toric code, found its ground states (forming topologically equivalent closed loop configurations), shown how to create particle-like excitations (using Pauli strings), described their exchange statistics (which turned out to be bosonic for $$e$$ and $$m$$ and fermionic for $$\epsilon$$ anyons), and discussed how toric code ground states are locally indistinguishable (paving way to the concept of topological order). Huuh, that is a lot - well done going through all this stuff!    
+I hope I convinced you that the toric code is a model with some really cool properties. We have learnt what is the Hamiltonian describing toric code, found its ground states (forming topologically equivalent closed loop configurations), shown how to create particle-like excitations (using Pauli strings), described their exchange statistics (which turned out to be bosonic for $$e$$ and $$m$$ and fermionic for $$\epsilon$$ anyons), and discussed how toric code ground states are locally indistinguishable (paving way to the concept of topological order). Huuh, that is a lot - well done going through all this stuff!    
 
 Obviously, there is still so much to say about the toric code! If this post still lives you hungry of more stuff on toric code (and beyond) see the FAQ section below with further reading suggestions, have a read of the [complimentary post](https://www.arthurpesah.me), and stay tuned for future blogposts on related topics!
 
@@ -181,6 +181,9 @@ Obviously, there is still so much to say about the toric code! If this post stil
 2. Can toric code be defined in the systems beyond 2D? Yes, in particular a 4D toric code is model particularly interesting from the perspective of error correction since it might act as a self-correcting quantum memory[^10]. For a gentle intro from condensed matter-ish view on toric codes beyond 2D see e.g., <a href="#references">[Savary&Balents (2016) p. 7]</a>.
 3. Can toric code be defined for system other than qubits? Yes, for $N$ level system we have $$Z_N$$ toric code generalization; which we can further extend to more general groups in so-called a Kitaev double model (possibly possessing non-Abelian anyons)!
 4. Given the 4-body interaction term in the toric code Hamiltonian, can it be feasibly implemented in the lab? Yes, there are experimental demonstrations of a toric code in the lab (we will briefly discuss them in another blogpost!). (If you particularly worry about the 4-body term specifically you might think of a toric code as a lowest order in perturbation theory description of the Kitaev Honeycomb model in the $$J_z \gg J_x,J_y$$ regime: see e.g., <a href="#references">[Kitaev (2006)]</a>.)
+
+**Acknowledgements**: I thank Arthur Pesah and Leo Lo for many interesting discussions.
+{:.message}
 
 <!--
 ### Header 3
