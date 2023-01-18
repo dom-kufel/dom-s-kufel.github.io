@@ -30,6 +30,7 @@ sitemap: false
 [^12]: There is a quite deep reason behind this, which we will explore more in the other blogpost. !!!
 [^13]: This observation allows us to prove the 4-fold ground state degeneracy in an alternative way to the one described in the <a href="#hamiltonian-and-ground-states">first section</a>. The main idea is as follows: eigenvalues of each of the vertex/plaquette operators can be $+1$ or $-1$ (they are formed of Pauli operators which are both unitary and Hermitian); this means that there are $$2^N$$ possible states. The conditions $$\prod_{\textrm{all} \ \ v} A_v = \mathbb{1} \ \ \ \prod_{\textrm{all} \ \ p} B_p = \mathbb{1}$$ however imply that two of these operators will not be independent: effectively we have $$2^{N-2}$$ independent quantum numbers. This means that the ground state degeneracy will be $$2^N/2^{N-2}=4$$.  
 [^14]: Main idea is as follows: loosely speaking, for quantum error correction, the longer the error string the larger chance that it corresponds to uncorrectable error. As described <a href="#quasiparticle-excitations">before</a>, energy cost paid for the pair of excitations of any length is the same; for self-correcting memory (for storing quantum information) we want to retain non-locality of information encoding but yet penalize for longer excitation strings. It turns out that due to their dimensionality, 3D and 4D toric code energetically penalize long excitations one and two types of Pauli errors respectively.
+[^15]: This in principle should be considered in the thermodynamic limit (infinite number of qubits), see <a href="#references">[Bravyi et al. (2010)] p. 8</a>.
 
 Working in the field of quantum technologies I often chat to people from a variety of quantum-focused fields. A weird thing happens if people from traditionally different communities talk about the same stuff. This is how I have first heard about the toric code: both condensed matter and quantum error correction people spoke about it a lot. Soon afterwards I discovered why: toric code is a paradigmatic example for both topological quantum error correction and topological order in condensed matter.
 
@@ -44,7 +45,7 @@ H = -\sum_v A_v - \sum_p B_p
 where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices[^1]. For later we will also define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. 1.  
 
 {:style="text-align:center";}
-![Full-width image](/assets/img/blog/toric_code_primal_dual.png){: width="600" height="100"}
+![Full-width image](/assets/img/blog/toric_code_primal_dual.png){: width="700" height="100"}
 Fig. 1: "Primal" and dual lattices of the toric code.
 {:.figure}
 
@@ -156,23 +157,24 @@ Let us take a ground state of the toric code, say the one consisting of topologi
 **Fact 5:** Ground states are **locally indistinguishable** i.e. may be mapped onto each other only by using non-local operators.
 {:.note}
 
+<!-- Macroscopic distance or simply distance -->
+
 We might restate the above result in the following way: if operator $$M$$ is local (i.e. does not involve operators going through the whole system) then we have $$\langle \psi_i \vert M \vert \psi_j \rangle = C_M \delta_{ij}$$ where $$C_M$$ is a constant only dependent on $$M$$.
 
-Interestingly, local indistinguishability is one of the key components for system to possess **topological order** i.e. loosely speaking to exhibit topology-dependent ground state degeneracy without breaking any underlying symmetry[^5] which cannot be removed by any local, sufficiently weak perturbation of the Hamiltonian <a href="#references">[Zeng et al. (2015) p. 166]</a>. In the case of the toric code we indeed see the 4-fold ground state degeneracy which purely depends on the topology of the space and using local indistinguishability it might be shown that its ground state degeneracy cannot be lifted by any local, sufficiently weak perturbations <a href="#references">[Bravyi et al. (2010)]</a>.
+Interestingly, local indistinguishability is one of the key components for system to possess **topological order** i.e. loosely speaking to exhibit topology-dependent ground state degeneracy without breaking any underlying symmetry[^5] which cannot be removed[^12] by any local, sufficiently weak perturbation of the Hamiltonian <a href="#references">[Zeng et al. (2015) p. 166]</a>. In the case of the toric code we indeed see the 4-fold ground state degeneracy which purely depends on the topology of the space and using local indistinguishability it might be shown that its ground state degeneracy cannot be lifted by any local, sufficiently weak perturbations <a href="#references">[Bravyi et al. (2010)]</a>.
+
+<!-- Analyze TPQO conditions -->
 
 ## Conclusions
 
-I hope I convinced you that the toric code is a fascinating model. We have learnt
+I hope I convinced you that the toric code is a model with fascinating properties. We have learnt about the Hamiltonian describing toric code, found its ground states (forming topologically equivalent closed loop configurations), shown how to create particle-like excitations (using Pauli strings), described their exchange statistics, and discussed crucial concept of local indistinguishability paving way to toric code possessing topological order. Huuh, that is a lot - well done going through all this stuff!    
 
-If this post still lives you hungry of more stuff on toric code (and more) see the FAQ section below, and stay tuned for more blogposts on a similar topic!
+If this post still lives you hungry of more stuff on toric code (and more) see the FAQ section below with further reading suggestions, and stay tuned for future blogposts on related topics!
 
-<!-- Typically discussed in the thermodynamic limit? -->
-
-<!-- Where to discuss anyons? -->
 
 ## FAQ
 1. Can toric code be defined only on a square lattice? No, in principle we can define toric code on any lattice. See e.g., <a href="#references">[Simon (2020) Chp. 25.5]</a>.
-2. Can toric code be defined in the systems beyond 2D? Yes, in particular a 4D toric code is model particularly interesting from the perspective of error correction since it might act as a self-correcting quantum memory[^10].
+2. Can toric code be defined in the systems beyond 2D? Yes, in particular a 4D toric code is model particularly interesting from the perspective of error correction since it might act as a self-correcting quantum memory[^10]. REFERENCE
 3. Can toric code be defined for system other than qubits? Yes, for $N$ level system we have $$Z_N$$ toric code generalization; which we can further extend to more general groups in so-called a Kitaev double model (possibly possessing non-Abelian anyons)!
 
 <!--
