@@ -101,10 +101,13 @@ Fig. 4:
 
 Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which might be thought to live on the vertices of the primal or dual lattice (see Fig !!!). These excitations (often called **anyons**) are "particle-like" (thus often called quasiparticles) i.e. they correspond to the localized energy excitation on a toric code ground state with a uniform energy density profile[^6] <a href="#references">[Zeng et al. (2015) p. 180]</a>.
 
-{:style="text-align:center;"}
+<!-- {:style="text-align:center;"}
 ![placeholder](/assets/img/blog/excitations.png)
 Fig. 4:
-{:.figure}
+{:.figure} -->
+
+<img src="/assets/img/blog/excitations.png" alt="drawing" width="200" style="text-align:center;"/>
+
 
 We can create a *pair* of quasiparticles excitations by applying string operators. String operators consist of product of Pauli $$X$$ or $$Z$$ Pauli Z operators applied to the qubits (see Fig. !!!). A curious fact[^8] is that the total energy cost for the excitations created is dependent only on the number of excitations and not on a particular type of a string operator used e.g., both applying a single Pauli $$X$$ operator costs the same amount of energy as applying a *topologically trivial*[^7] string of Pauli $$X$$ operators.  
 
@@ -142,9 +145,9 @@ It turns out that $$\epsilon$$ anyons are fermions. To see this we need to first
 Fig. 4:
 {:.figure}
 
-Noting that $$\prod_{p \textrm{enclosed}} B_p \vert \psi_{init} \rangle$ = -1 \vert \psi_{init} \rangle$$ and the result of the exercise below we show what is intended.
+Noting that $$\prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle = - \vert \psi_{init} \rangle$$ and the result of the exercise below we show what is intended.
 
-**Exercise:** Show that $$\prod_j Z_j \vert \psi_{init} \rangle = \prod_{p \textrm{enclosed}} B_p \vert \psi_{init} \rangle$$
+**Exercise:** Show that $$\prod_j Z_j \vert \psi_{init} \rangle = \prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle$$
 {:.message}
 
 Okay, so braiding $$e$$ around $$m$$ accumulates $$-1$$ phase for the state. Now, I claim that the proof of fermionic statistics of $$\epsilon$$ particle follows from the figure below <a href="#references">[Kitaev&Laumann (2010) p. 15]</a>:
