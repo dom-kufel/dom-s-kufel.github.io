@@ -51,11 +51,11 @@ H = -\sum_v A_v - \sum_p B_p
 \end{equation}
 where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices[^2]. For later we will (i) define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. 1; and (ii) note that on torus we can draw four *topologically inequivalent*[^3] loops - see Fig. 2.   
 
-<p style="text-align:center;"><img src="/assets/img/blog/toric_code_primal_dual.png" width="400"/></p>
+<p style="text-align:center;"><img src="/assets/img/blog/toric_code_primal_dual.png" width="500"/></p>
 Fig. 1: "Primal" and dual lattices of the toric code.
 {:.figure}
 
-<p style="text-align:center;"><img src="/assets/img/blog/torus.png" width="400"/></p>
+<p style="text-align:center;"><img src="/assets/img/blog/torus.png" width="500"/></p>
 Fig. 2: Four topologically inequivalent loops on torus. $$C_1$$ and $$C_2$$ enclose different holes, $$C_3$$ encloses both holes at the same time, and $$C_4$$ corresponds to the trivial loop (which might be smoothly deformed to a point).
 {:.figure}
 
@@ -70,7 +70,7 @@ Undoubtedly all $$ \vert 0 \rangle$$ is one of the states which will be both an 
 **Exercise:** Convince yourself (in drawing) that this is true.
 {:.message}
 
-<p style="text-align:center;"><img src="/assets/img/blog/toric_code_loop_example.png" width="400"/></p>
+<p style="text-align:center;"><img src="/assets/img/blog/toric_code_loop_example.png" width="500"/></p>
 Fig. 3: Example of the individual qubits states configuration which minimizes $$- \sum_p B_p$$ term of the Hamiltonian. Diamonds indicate qubits in state $$ \vert 1 \rangle $$.
 {:.figure}
 
@@ -92,7 +92,7 @@ Nice! Summarizing the first key result:
 
 Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which might be thought to live on the vertices of the primal or dual lattice (see Fig 5). These excitations (often called **anyons**) are "particle-like" (thus often called quasiparticles) i.e. they correspond to the localized energy excitation on a toric code ground state with a uniform energy density profile[^7] <a href="#references">[Zeng et al. (2015) p. 180]</a>.
 
-<p style="text-align:center;"><img src="/assets/img/blog/excitations.png" width="400"/></p>
+<p style="text-align:center;"><img src="/assets/img/blog/excitations.png" width="500"/></p>
 Fig. 5: Three types of quasiparticle excitations (anyons) in the toric code.
 {:.figcaption}
 
@@ -127,7 +127,7 @@ If excitations are indeed "particle-like" and they are indistinguishable, can we
 
 It turns out that $$\epsilon$$ anyons are fermions. To see this we need to first show that braiding the $$e$$ particle around $$m$$ particle (and vice-versa) accumulates $$-1$$ phase. In other words we want to prove that $$\vert \psi_{final} \rangle = - \vert \psi_{init} \rangle$$. The action of moving $$e$$ around $$m$$ might be written as $$\vert \psi_{final} \rangle = \prod_j Z_j \vert \psi_{init} \rangle$$ and pictorially corresponds to
 
-<p style="text-align:center;"><img src="/assets/img/blog/statistics.png" width="400"/></p>
+<p style="text-align:center;"><img src="/assets/img/blog/statistics.png" width="500"/></p>
 Fig. 6: Braiding $$e$$ particle around $$m$$ particle.
 {:.figure}
 
@@ -138,7 +138,7 @@ Noting that $$\prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle = - \v
 
 Okay, so braiding $$e$$ around $$m$$ accumulates $$-1$$ phase for the state. Now, I claim that the proof of fermionic statistics of $$\epsilon$$ particle follows from the figure below <a href="#references">[Kitaev&Laumann (2010) p. 15]</a>:
 
-<p style="text-align:center;"><img src="/assets/img/blog/braiding.png" width="800"/></p>
+<p style="text-align:center;"><img src="/assets/img/blog/braiding.png" width="700"/></p>
 Fig. 7: Wordline braiding diagrams for the $$\epsilon$$ particle consisting of an $$e$$ and $$m$$ bound together.
 {:.figure}
 
