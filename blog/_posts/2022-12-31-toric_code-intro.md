@@ -99,8 +99,8 @@ Having found the ground state, natural question is the following: what are the e
 
 {:style="text-align:center;"}
 ![placeholder](/assets/img/blog/excitations.png)
-<!-- Fig. 4:
-{:.figure} -->
+Fig. 4:
+{:.figure}
 
 We can create a *pair* of quasiparticles excitations by applying string operators. String operators consist of product of Pauli $$X$$ or $$Z$$ Pauli Z operators applied to the qubits (see Fig. !!!). A curious fact[^8] is that the total energy cost for the excitations created is dependent only on the number of excitations and not on a particular type of a string operator used e.g., both applying a single Pauli $$X$$ operator costs the same amount of energy as applying a *topologically trivial*[^7] string of Pauli $$X$$ operators.  
 
