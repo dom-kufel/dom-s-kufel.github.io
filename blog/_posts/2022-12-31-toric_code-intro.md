@@ -16,7 +16,7 @@ sitemap: false
 * Hamiltonian and Ground states
 * Excitations
 * Local indistinguishability
-{:toc .large-only}
+{:toc }
 
 
 *[plaquettes]: Fancy term for each of the little squares in the lattice.
