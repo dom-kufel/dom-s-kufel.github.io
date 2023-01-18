@@ -54,7 +54,7 @@ H = -\sum_v A_v - \sum_p B_p
 where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices[^1]. For later we will also define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. 1.  
 
 {:style="text-align:center";}
-![Full-width image](/assets/img/blog/toric_code_primal_dual.png){: width="700" height="100"}
+![Full-width image](/assets/img/blog/toric_code_primal_dual.png)
 Fig. 1: "Primal" and dual lattices of the toric code.
 {:.figure}
 
@@ -77,7 +77,7 @@ Nice! Summarizing the first key result:
 {:.note}
 
 {:style="text-align:center";}
-![placeholder](/assets/img/blog/torus.png){: width="300"; height="650"}
+![placeholder](/assets/img/blog/torus.png)
 Fig. 2: Four topologically inequivalent loops on torus. Lorem Ipsum dolert adshashdashhdas hdashdash hdaskj a adskhbdas $$C_4$$ corresponds to the trivial loop.
 {:.figure}
 <!-- ![placeholder](/assets/img/blog/torus.png){: width="300"; height="650"} -->
@@ -91,6 +91,7 @@ Fig. 2: Four topologically inequivalent loops on torus. Lorem Ipsum dolert adsha
 Fig. 3: Example lnaskjdbksa adskbkdasjb kjadsbkdasb kjbadskbsad kjbdaskjbasd ljnasdkjbads kjbakjbsadkjm
 {:.figure}
 
+{:style="text-align:center";}
 ![Full-width image](/assets/img/blog/toric_code_loopy_gs.png)
 Fig. 4:
 {:.figure}
