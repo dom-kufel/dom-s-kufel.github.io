@@ -183,7 +183,7 @@ Interestingly, local indistinguishability is one of the key components for syste
 
 I hope I convinced you that the toric code is a model with fascinating properties. We have learnt about the Hamiltonian describing toric code, found its ground states (forming topologically equivalent closed loop configurations), shown how to create particle-like excitations (using Pauli strings), described their exchange statistics (which turned out to be bosonic for $$e$$ and $$m$$ and fermionic for $$\epsilon$$ anyons), and discussed how toric code ground states are locally indistinguishable (paving way to the concept of topological order). Huuh, that is a lot - well done going through all this stuff!    
 
-If this post still lives you hungry of more stuff on toric code (and more) see the FAQ section below with further reading suggestions, and stay tuned for future blogposts on related topics!
+Obviously, there is still so much to say about the toric code! If this post still lives you hungry of more stuff on toric code (and beyond) see the FAQ section below with further reading suggestions, have a read of the [complimentary post](https://www.arthurpesah.me), and stay tuned for future blogposts on related topics!
 
 
 ## FAQ
