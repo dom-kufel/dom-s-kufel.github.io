@@ -10,10 +10,8 @@ sitemap: false
 
 <!-- Things left to be done:
 1. clearing up stuff and streamlining
-2. intro merger
-3. images clear up
-4. exercise
-4. filling in the understanding of some bits -->
+2. image references clean
+3. filling in the understanding of some bits -->
 
 * Hamiltonian and Ground states
 * Excitations
@@ -26,20 +24,21 @@ sitemap: false
 *[weird]: Read: interesting
 
 [^1]: If it does not immediately become clear why see [this](https://commons.wikimedia.org/wiki/File:Torus_from_rectangle.gif) animation.
-[^2]: Note that some people (see e.g., <a href="#references">*[Zeng et al. (2015)]*</a> define $$A_v$$ operators as products of Pauli $$Z$$ operators; and $$B_p$$ operators as products of Pauli $$X$$ - this is just the matter of convention and does not change the physics in any essential way (since it corresponds to simply swapping $$X$$'s with $$Z$$'s i.e. a change of basis by conjugating all qubits with the Hadamard gate).
-[^3]: Terminology comment: Hamiltonian containing of Pauli strings which are mutually commuting (as above) is often called stabilizer Hamiltonian - language coming from error correction - more on this later
-[^4]: I.e. the eigenbasis of the Pauli $$Z$$ operator.
-[^5]: One way of showing this is to show that the "twist factor" in a topological quantum theory <a href="#references">[Simon (2020) Chp. 26.2]</a> is +1 (moving $$e$$ (or $$m$$) particle involves only applying $$X$$ (or $$Z$$) operators which all commute with each other).
-[^6]: Or in our case more of a 1D spatial projection of the 2D trajectory of the particle defined on a 2D toric code!
-[^7]: In case this explanation was unclear or too quick: see e.g., <a href="#references">[Simon (2020) Chp. 2 and Chp. 26.2]</a>.
-[^8]: Just to recap: ground state at this stage just being a generic linear combination of closed loop configurations as described before.
-[^9]: If this is not surprising I would encourage you to study symmetry-breaking paradigm due to Landau. The point of the topological order is precisely to 'disavow Landau' as [John Preskill would say](http://theory.caltech.edu/~preskill/colloquium/Balents.htm).
-[^10]: If it is not immediately clear think about associating to each point in the primal and dual lattice the eigenvalue of the corresponding vertex/plaquette operator. The ground state would simply correspond to all $$+1$$ eigenvalues. Consequently regardless where we create excitations to it - they will correspond to $$-1$$ eigenvalue particle-like "peaks" in otherwise uniform energy density background.    
-[^11]: We will discuss what happens if we consider topologically inequivalent loops in the next <a href="#long-range-entanglement">section</a>.  
-[^12]: There is a quite deep reason behind this, which we will explore more in the other blogpost. !!!
-[^13]: This observation allows us to prove the 4-fold ground state degeneracy in an alternative way to the one described in the <a href="#hamiltonian-and-ground-states">first section</a>. The main idea is as follows: eigenvalues of each of the vertex/plaquette operators can be $+1$ or $-1$ (they are formed of Pauli operators which are both unitary and Hermitian); this means that there are $$2^N$$ possible states. The conditions $$\prod_{\textrm{all} \ \ v} A_v = \mathbb{1} \ \ \ \prod_{\textrm{all} \ \ p} B_p = \mathbb{1}$$ however imply that two of these operators will not be independent: effectively we have $$2^{N-2}$$ independent quantum numbers. This means that the ground state degeneracy will be $$2^N/2^{N-2}=4$$.  
-[^14]: Main idea is as follows: loosely speaking, for quantum error correction, the longer the error string the larger chance that it corresponds to uncorrectable error. As described <a href="#quasiparticle-excitations">before</a>, energy cost paid for the pair of excitations of any length is the same; for self-correcting memory (for storing quantum information) we want to retain non-locality of information encoding but yet penalize for longer excitation strings. It turns out that due to their dimensionality, 3D and 4D toric code energetically penalize long excitations one and two types of Pauli errors respectively.
-[^15]: This in principle should be considered in the thermodynamic limit (infinite number of qubits), see <a href="#references">[Bravyi et al. (2010)] p. 8</a>.
+[^2]: If "topological inequivalence" does not ring a bell: loosely speaking we might say that two loops are "topologically inequivalent" if they cannot be smoothly deformed into one another (cutting/gluing and removing holes not allowed).
+[^3]: Note that some people (see e.g., <a href="#references">*[Zeng et al. (2015)]*</a> define $$A_v$$ operators as products of Pauli $$Z$$ operators; and $$B_p$$ operators as products of Pauli $$X$$ - this is just the matter of convention and does not change the physics in any essential way (since it corresponds to simply swapping $$X$$'s with $$Z$$'s i.e. a change of basis by conjugating all qubits with the Hadamard gate).
+[^4]: Terminology comment: Hamiltonian containing of Pauli strings which are mutually commuting (as above) is often called stabilizer Hamiltonian - language coming from error correction - more on this later
+[^5]: I.e. the eigenbasis of the Pauli $$Z$$ operator.
+[^6]: One way of showing this is to show that the "twist factor" in a topological quantum theory <a href="#references">[Simon (2020) Chp. 26.2]</a> is +1 (moving $$e$$ (or $$m$$) particle involves only applying $$X$$ (or $$Z$$) operators which all commute with each other).
+[^7]: Or in our case more of a 1D spatial projection of the 2D trajectory of the particle defined on a 2D toric code!
+[^8]: In case this explanation was unclear or too quick: see e.g., <a href="#references">[Simon (2020) Chp. 2 and Chp. 26.2]</a>.
+[^9]: Just to recap: ground state at this stage just being a generic linear combination of closed loop configurations as described before.
+[^10]: If this is not surprising I would encourage you to study symmetry-breaking paradigm due to Landau. The point of the topological order is precisely to 'disavow Landau' as [John Preskill would say](http://theory.caltech.edu/~preskill/colloquium/Balents.htm).
+[^11]: If it is not immediately clear think about associating to each point in the primal and dual lattice the eigenvalue of the corresponding vertex/plaquette operator. The ground state would simply correspond to all $$+1$$ eigenvalues. Consequently regardless where we create excitations to it - they will correspond to $$-1$$ eigenvalue particle-like "peaks" in otherwise uniform energy density background.    
+[^12]: We will discuss what happens if we consider topologically inequivalent loops in the next <a href="#long-range-entanglement">section</a>.  
+[^13]: There is a quite deep reason behind this, which we will explore more in the other blogpost. !!!
+[^14]: This observation allows us to prove the 4-fold ground state degeneracy in an alternative way to the one described in the <a href="#hamiltonian-and-ground-states">first section</a>. The main idea is as follows: eigenvalues of each of the vertex/plaquette operators can be $+1$ or $-1$ (they are formed of Pauli operators which are both unitary and Hermitian); this means that there are $$2^N$$ possible states. The conditions $$\prod_{\textrm{all} \ \ v} A_v = \mathbb{1} \ \ \ \prod_{\textrm{all} \ \ p} B_p = \mathbb{1}$$ however imply that two of these operators will not be independent: effectively we have $$2^{N-2}$$ independent quantum numbers. This means that the ground state degeneracy will be $$2^N/2^{N-2}=4$$.  
+[^15]: Main idea is as follows: loosely speaking, for quantum error correction, the longer the error string the larger chance that it corresponds to uncorrectable error. As described <a href="#quasiparticle-excitations">before</a>, energy cost paid for the pair of excitations of any length is the same; for self-correcting memory (for storing quantum information) we want to retain non-locality of information encoding but yet penalize for longer excitation strings. It turns out that due to their dimensionality, 3D and 4D toric code energetically penalize long excitations one and two types of Pauli errors respectively.
+[^16]: This in principle should be considered in the thermodynamic limit (infinite number of qubits), see <a href="#references">[Bravyi et al. (2010)] p. 8</a>.
 
 Working in the field of quantum technologies I often chat to people from a variety of quantum-focused fields. A weird thing happens if people from traditionally different communities talk about the same stuff. This is how I have first heard about the toric code: both condensed matter and quantum error correction people spoke about it a lot. Soon afterwards I discovered why: toric code is a paradigmatic example for both topological quantum error correction and topological order in condensed matter. What makes this model to be famous and which of its properties make it so fun to work with?
 
@@ -51,10 +50,14 @@ In the simplest realization, toric code is a model of qubits (two-level systems)
 \begin{equation}
 H = -\sum_v A_v - \sum_p B_p
 \end{equation}
-where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices[^1]. For later we will also define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. 1.  
+where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices[^1]. For later we will (i) define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. 1; and (ii) note that on torus we can draw four *topologically inequivalent*[^2] loops - see Fig. 2.   
 
 <p style="text-align:center;"><img src="/assets/img/blog/toric_code_primal_dual.png" width="400"/></p>
 Fig. 1: "Primal" and dual lattices of the toric code.
+{:.figure}
+
+<p style="text-align:center;"><img src="/assets/img/blog/torus.png" width="400"/></p>
+Fig. 2: Four topologically inequivalent loops on torus. $$C_1$$ and $$C_2$$ enclose different holes, $$C_3$$ encloses both holes at the same time, and $$C_4$$ corresponds to the trivial loop (which might be smoothly deformed to a point).
 {:.figure}
 
 Our goal for now is to **find ground state(s)** of the above model. I claim that each of the four ground states found consists of the **equal amplitude superposition of the closed loop configurations**, and that the ground states differ by which out of four topologically inequivalent loops on torus they contain. We will argue for this claim real quick. First, note that all the terms within the Hamiltonian mutually commute with one another i.e. $$[A_v, B_p]=0 \ \ \forall v,p$$ - you will prove it in the exercise below[^2]. This remarkably simplifies the problem by allowing to consider the two sums separately, and our strategy becomes: first (i) minimize the energy of one of the sums in <a href="#eq:H_TC">Eq. 1</a> and then (ii) impose the other sum as the constraint on the choice of the ground state.
@@ -68,20 +71,11 @@ Undoubtedly all $$ \vert 0 \rangle$$ is one of the states which will be both an 
 **Exercise:** Convince yourself (in drawing) that this is true.
 {:.message}
 
-But don’t forget: we still need to resolve (ii) i.e. impose the constraint of the $$-\sum_v A_v$$ term. Consider the action of $$A_v$$ operator on a vertex: it will simply flip the states of the qubits adjacent to that vertex. If we start from a particular closed loop configuration, the action of $$A_v$$ will change it to some other *topologically equivalent* closed loop configuration. We can thus think of the process of applying $$A_v$$’s as simply that of “reconnecting” the closed loops within the same topological equivalence class. Now we demand from a ground state[^4] $$ \vert \psi \rangle$$ to fulfill $$A_s \vert \psi \rangle  = +1 \vert \psi \rangle \forall s$$ i.e. loosely speaking after any reconnection of the closed loop configurations, state should remain invariant. This is only possible if we restrict an arbitrary superposition state $$ \vert \psi \rangle$$ found before, to the one of the four ground states consisting of an equal amplitude superposition of all topologically equivalent closed loop configurations (See Fig. 4)
-
-Nice! Summarizing the first key result:
-
-**Fact 1:** Ground states formed from the equal superpositions of topologically equivalent loops on torus.
-{:.note}
-
-<p style="text-align:center;"><img src="/assets/img/blog/torus.png" width="400"/></p>
-Fig. 2: Four topologically inequivalent loops on torus. $$C_4$$ corresponds to the trivial loop.
-{:.figure}
-
 <p style="text-align:center;"><img src="/assets/img/blog/toric_code_loop_example.png" width="400"/></p>
 Fig. 3: Example of the individual qubits states configuration which minimizes $$- \sum_p B_p$$ term of the Hamiltonian. Diamonds indicate qubits in state $$ \vert 1 \rangle $$.
 {:.figure}
+
+But don’t forget: we still need to resolve (ii) i.e. impose the constraint of the $$-\sum_v A_v$$ term. Consider the action of $$A_v$$ operator on a vertex: it will simply flip the states of the qubits adjacent to that vertex. If we start from a particular closed loop configuration, the action of $$A_v$$ will change it to some other *topologically equivalent* closed loop configuration. We can thus think of the process of applying $$A_v$$’s as simply that of “reconnecting” the closed loops within the same topological equivalence class. Now we demand from a ground state[^4] $$ \vert \psi \rangle$$ to fulfill $$A_s \vert \psi \rangle  = +1 \vert \psi \rangle \forall s$$ i.e. loosely speaking after any reconnection of the closed loop configurations, state should remain invariant. This is only possible if we restrict an arbitrary superposition state $$ \vert \psi \rangle$$ found before, to the one of the four ground states consisting of an equal amplitude superposition of all topologically equivalent closed loop configurations (See Fig. 4).
 
 <p style="text-align:center;"><img src="/assets/img/blog/toric_code_loopy_gs_1.png" width="1000"/></p>
 <p style="text-align:center;"><img src="/assets/img/blog/toric_code_loopy_gs_2.png" width="1000"/></p>
@@ -90,15 +84,20 @@ Fig. 3: Example of the individual qubits states configuration which minimizes $$
 Fig. 4: Four ground states of the toric code. Each of the ground states corresponds to a loop from one of the equivalence classes in Fig. 2.
 {:.figure}
 
+Nice! Summarizing the first key result:
+
+**Fact 1:** Ground states formed from the equal superpositions of topologically equivalent loops on torus.
+{:.note}
+
 ## Excitations
 
-Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which might be thought to live on the vertices of the primal or dual lattice (see Fig !!!). These excitations (often called **anyons**) are "particle-like" (thus often called quasiparticles) i.e. they correspond to the localized energy excitation on a toric code ground state with a uniform energy density profile[^6] <a href="#references">[Zeng et al. (2015) p. 180]</a>.
+Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which might be thought to live on the vertices of the primal or dual lattice (see Fig 5). These excitations (often called **anyons**) are "particle-like" (thus often called quasiparticles) i.e. they correspond to the localized energy excitation on a toric code ground state with a uniform energy density profile[^6] <a href="#references">[Zeng et al. (2015) p. 180]</a>.
 
 <p style="text-align:center;"><img src="/assets/img/blog/excitations.png" width="400"/></p>
 Fig. 5: Three types of quasiparticle excitations (anyons) in the toric code.
 {:.figcaption}
 
-We can create a *pair* of quasiparticles excitations by applying string operators. String operators consist of product of Pauli $$X$$ or $$Z$$ Pauli Z operators applied to the qubits (see Fig. !!!). A curious fact[^8] is that the total energy cost for the excitations created is dependent only on the number of excitations and not on a particular type of a string operator used e.g., both applying a single Pauli $$X$$ operator costs the same amount of energy as applying a *topologically trivial*[^7] string of Pauli $$X$$ operators.  
+We can create a *pair* of quasiparticles excitations by applying string operators. String operators consist of product of Pauli $$X$$ or $$Z$$ Pauli Z operators applied to the qubits (see Fig. 5). A curious fact[^8] is that the total energy cost for the excitations created is dependent only on the number of excitations and not on a particular type of a string operator used e.g., both applying a single Pauli $$X$$ operator costs the same amount of energy as applying a *topologically trivial*[^7] string of Pauli $$X$$ operators.  
 
 **Fact 2:** Excitations in the toric code (anyons) might be created in pairs by applying Pauli strings.
 {:.note}
@@ -135,7 +134,7 @@ Fig. 6: Braiding $$e$$ particle around $$m$$ particle.
 
 Noting that $$\prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle = - \vert \psi_{init} \rangle$$ (plaquette excitation present) and using the result of the exercise below we show what is intended.
 
-**Exercise:** Show that $$\prod_j Z_j \vert \psi_{init} \rangle = \prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle$$
+**Exercise:** Show that $$\prod_j Z_j \vert \psi_{init} \rangle = \prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle$$ <a href="#hint2">Hint</a>
 {:.message}
 
 Okay, so braiding $$e$$ around $$m$$ accumulates $$-1$$ phase for the state. Now, I claim that the proof of fermionic statistics of $$\epsilon$$ particle follows from the figure below <a href="#references">[Kitaev&Laumann (2010) p. 15]</a>:
@@ -146,7 +145,7 @@ Fig. 7: Wordline braiding diagrams for the $$\epsilon$$ particle consisting of a
 
 <!-- Can they change distance -->
 
-Okay, I understand that initially it might seem that there is a lot to unpack here, but in fact everything is plain and simple. Lines in Fig. !!! correspond to the $$(2+1)-D$$ worldlines of the anyons. Wordlines are nothing else than space-time graph[^6] of the particle motion with time going up on the image and particles moving around each other in space (horizontal direction). We first draw the diagram corresponding to taking the $$e$$ particle around $$m$$ particle (considered above). Next, we utilize identities found before (bottom row) to simplify each of the crossings in the top row: picking up a $$-1$$ factor for braiding $$e$$ around $$m$$ translates into the fermionic statistics of $$\epsilon$$ particle![^7]  
+Okay, I understand that initially it might seem that there is a lot to unpack here, but in fact everything is plain and simple. Lines in Fig. 7 correspond to the $$(2+1)-D$$ worldlines of the anyons. Wordlines are nothing else than space-time graph[^6] of the particle motion with time going up on the image and particles moving around each other in space (horizontal direction). We first draw the diagram corresponding to taking the $$e$$ particle around $$m$$ particle (considered above). Next, we utilize identities found before (bottom row) to simplify each of the crossings in the top row: picking up a $$-1$$ factor for braiding $$e$$ around $$m$$ translates into the fermionic statistics of $$\epsilon$$ particle![^7]  
 
 **Fact 4:** Three types of (anyonic) excitations correspond to vertex, plaquette and "dyonic" violations and these have bosonic, bosonic and fermionic exchange statistics respectively.  
 {:.note}
@@ -158,7 +157,7 @@ Okay, I understand that initially it might seem that there is a lot to unpack he
 
 In the previous section I stressed few times that the excitation loops considered are the ones which are *topologically trivial*. What if we considered e.g., Pauli $$X$$ strings which were making topologically *non-trivial* loops (e.g., ones corresponding to $$C_1, C_2 \textrm{or} C_3$$ in Fig. !!!)? Note that such *non-trivial* loops are automatically *non-local* since they need to transverse through the whole system.
 
-Let us take a ground state of the toric code, say the one consisting of topologically trivial loops. What happens if we now apply to it a topologically non-trivial Pauli string loop, say $$C_2$$? Linearity allows us to apply the topologically non-trivial string to each of the components in the closed-loop superposition: therefore now all of the terms within the superposition belong to the $$C_2$$ equivalence class and the resulting state is thus another ground state $\vert \psi_2 \rangle (as shown in Fig. !!!). Applying the same argument to the other ground states we immediately notice the following
+Let us take a ground state of the toric code, say the one consisting of topologically trivial loops. What happens if we now apply to it a topologically non-trivial Pauli string loop, say $$C_2$$? Linearity allows us to apply the topologically non-trivial string to each of the components in the closed-loop superposition: therefore now all of the terms within the superposition belong to the $$C_2$$ equivalence class and the resulting state is thus another ground state $\vert \psi_2 \rangle (as shown in Fig. 4). Applying the same argument to the other ground states we immediately notice the following
 
 **Fact 5:** Ground states are **locally indistinguishable** i.e. may be mapped onto each other only by using non-local operators.
 {:.note}
@@ -289,11 +288,11 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 The final element.
 ``` -->
 ## References
-<a id="wenchenbook">*[Zeng et al. (2015)]*</a> Zeng, B., Chen, X., Zhou, D.L. and Wen, X.G., 2015. Quantum Information Meets Quantum Matter--From Quantum Entanglement to Topological Phase in Many-Body Systems. [*arXiv preprint arXiv:1508.02595*](https://arxiv.org/abs/1508.02595).
+<a id="wenchenbook">*[Zeng et al. (2015)]*</a> Zeng, B., Chen, X., Zhou, D.L. and Wen, X.G., 2015. Quantum Information Meets Quantum Matter--From Quantum Entanglement to Topological Phase in Many-Body Systems. [*arXiv version*](https://arxiv.org/abs/1508.02595).
 
 <a id="simonbook">*[Simon (2020)]*</a> Simon, S.H., 2020. Topological Quantum: Lecture Notes and Proto-Book. Unpublished prototype. [*Online*](http://www-thphys.physics.ox.ac.uk/people/SteveSimon).
 
-<a id="leshouchestopo">*[Kitaev&Laumann (2010)]*</a> Kitaev, A. and Laumann, C., 2010. Topological phases and quantum computation. Exact methods in low-dimensional statistical physics and quantum computing, Lecture Notes of the Les Houches Summer School, (89), pp.101-125. [*arXiv preprint arXiv:0904.2771*](https://arxiv.org/abs/0904.2771).
+<a id="leshouchestopo">*[Kitaev&Laumann (2010)]*</a> Kitaev, A. and Laumann, C., 2010. Topological phases and quantum computation. Exact methods in low-dimensional statistical physics and quantum computing, Lecture Notes of the Les Houches Summer School, (89), pp.101-125. [*arXiv version*](https://arxiv.org/abs/0904.2771).
 
 <a id="stabilitytopo">*[Bravyi et al. (2010)]*</a>  Bravyi, S., Hastings, M.B. and Michalakis, S., 2010. Topological quantum order: stability under local perturbations. *Journal of mathematical physics, 51(9), p.093512* [*arXiv version*](https://arxiv.org/abs/1001.0344).
 
@@ -303,3 +302,4 @@ The final element.
 
 ## Hints to exercises
 <a id="hint1">**Hint:**</a> Whenever Pauli X and Z meet on the same site they anti-commute, otherwise (e.g., $$[X \otimes \mathbb{1},\mathbb{1} \otimes Z]$$ they commute.
+<a id="hint2">**Hint:**</a> Think about the discrete version of Stokes' theorem. Why should it apply here?
