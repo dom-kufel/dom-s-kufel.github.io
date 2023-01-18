@@ -133,7 +133,8 @@ If excitations are indeed "particle-like" and they are indistinguishable, can we
 
 It turns out that $$\epsilon$$ anyons are fermions. To see this we need to first show that braiding the $$e$$ particle around $$m$$ particle (and vice-versa) accumulates $$-1$$ phase. This is clear from the following
 
-![placeholder](/assets/img/blog/statistics.png){: width="400"; height="350"}
+{:style="text-align:center;"}
+![placeholder](/assets/img/blog/statistics.png)
 Fig. 4:
 {:.figure}
 
