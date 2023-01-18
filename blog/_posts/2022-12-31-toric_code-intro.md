@@ -15,7 +15,9 @@ sitemap: false
 4. exercise
 4. filling in the understanding of some bits -->
 
-*
+* Hamiltonian and Ground states
+* Excitations
+* Local indistinguishability
 {:toc .large-only}
 
 
@@ -84,7 +86,8 @@ Fig. 2: Four topologically inequivalent loops on torus. Lorem Ipsum dolert adsha
 <!-- Fig. 2: Four topologically inequivalent loops on torus. Lorem Ipsum dolert adshashdashhdas hdashdash hdaskj a adskhbdas $$C_4$$ corresponds to the trivial loop.
 {:.figure} -->
 
-![placeholder](/assets/img/blog/toric_code_loop_example.png){: width="400"; height="350"}
+{:style="text-align:center";}
+![placeholder](/assets/img/blog/toric_code_loop_example.png)
 Fig. 3: Example lnaskjdbksa adskbkdasjb kjadsbkdasb kjbadskbsad kjbdaskjbasd ljnasdkjbads kjbakjbsadkjm
 {:.figure}
 
@@ -131,25 +134,26 @@ Okay, so summarizing what we have arrived at so far: we cannot create single exc
 
 If excitations are indeed "particle-like" and they are indistinguishable, can we classify them in a similar fashion to elementary particles (being either bosons or fermions)? Yes, we say that there are three types of anyons in the toric code: $$e$$ anyon (single vertex excitation), $$m$$ anyon (single plaquette excitation) and $$\epsilon$$ anyon (or a dyon) consisting of vertex and plaquette excitations bound together. $$e$$ and $$m$$ anyons in the toric code have abelian bosonic statistics i.e. the many-body state is invariant under exchanging two identical $$e$$ and $$m$$ anyons[^5].
 
-It turns out that $$\epsilon$$ anyons are fermions. To see this we need to first show that braiding the $$e$$ particle around $$m$$ particle (and vice-versa) accumulates $$-1$$ phase. This is clear from the following
+It turns out that $$\epsilon$$ anyons are fermions. To see this we need to first show that braiding the $$e$$ particle around $$m$$ particle (and vice-versa) accumulates $$-1$$ phase. In other words we want to prove that $$\vert \psi_{final} \rangle = - \vert \psi_{init} \rangle$$. The action of moving $$e$$ around $$m$$ might be written as $$\vert \psi_{final} \rangle = \prod_j Z_j \vert \psi_{init} \rangle$$ and pictorially corresponds to
 
 {:style="text-align:center;"}
 ![placeholder](/assets/img/blog/statistics.png)
 Fig. 4:
 {:.figure}
 
-Now I claim that the proof of fermionic statistics of $$\epsilon$$ particle follows from the figure below <a href="#references">[Kitaev&Laumann (2010) p. 15]</a>:
+Noting that $$\prod_{p \textrm{enclosed}} B_p \vert \psi_{init} \rangle$ = -1 \vert \psi_{init} \rangle$$ and the result of the exercise below we show what is intended.
 
-![placeholder](/assets/img/blog/braiding.png){: width="400"; height="350"}
+**Exercise:** Show that $$\prod_j Z_j \vert \psi_{init} \rangle = \prod_{p \textrm{enclosed}} B_p \vert \psi_{init} \rangle$$
+{:.message}
+
+Okay, so braiding $$e$$ around $$m$$ accumulates $$-1$$ phase for the state. Now, I claim that the proof of fermionic statistics of $$\epsilon$$ particle follows from the figure below <a href="#references">[Kitaev&Laumann (2010) p. 15]</a>:
+
+{:style="text-align:center";}
+![Full-width image](/assets/img/blog/braiding.png)
 Fig. 4:
 {:.figure}
 
-{:style="text-align:center;"}
-![placeholder](https://via.placeholder.com/100x150)
-![placeholder](https://via.placeholder.com/100x150)
-
-
-WoW, initially it might seem that there is a lot to unpack here, but in fact everything is plain and simple. Lines in Fig. !!! correspond to the $$(2+1)-D$$ worldlines of the anyons. Wordlines are nothing else than space-time graph[^6] of the particle motion with time going up on the image and particles moving around each other in space (horizontal direction). We first draw the diagram corresponding to taking the $$e$$ particle around $$m$$ particle (considered above). Next, we utilize identities found before (bottom row) to simplify each of the crossings in the top row: picking up a $$-1$$ factor for braiding $$e$$ around $$m$$ translates into the fermionic statistics of $$\epsilon$$ particle![^7]  
+Okay, I understand that initially it might seem that there is a lot to unpack here, but in fact everything is plain and simple. Lines in Fig. !!! correspond to the $$(2+1)-D$$ worldlines of the anyons. Wordlines are nothing else than space-time graph[^6] of the particle motion with time going up on the image and particles moving around each other in space (horizontal direction). We first draw the diagram corresponding to taking the $$e$$ particle around $$m$$ particle (considered above). Next, we utilize identities found before (bottom row) to simplify each of the crossings in the top row: picking up a $$-1$$ factor for braiding $$e$$ around $$m$$ translates into the fermionic statistics of $$\epsilon$$ particle![^7]  
 
 **Fact 4:** Three types of (anyonic) excitations correspond to vertex, plaquette and "dyonic" violations and these have bosonic, bosonic and fermionic exchange statistics respectively.  
 {:.note}
