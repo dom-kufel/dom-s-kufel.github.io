@@ -33,7 +33,7 @@ sitemap: false
 
 Working in the field of quantum technologies I often chat to people from a variety of quantum-focused fields. A weird thing happens if people from traditionally different communities talk about the same stuff. This is how I have first heard about the toric code: both condensed matter and quantum error correction people spoke about it a lot. Soon afterwards I discovered why: toric code is a paradigmatic example for both topological quantum error correction and topological order in condensed matter.
 
-In this blogpost, I would like to discuss what the toric code is and why is it so interesting viewing it from more of a condensed matter angle. For a complimentary viewpoint on the toric code from the quantum error correction perspective see excellent [post](https://www.arthurpesah.me) by Arthur Pesah. In section  <a href="hamiltonian-and-ground-states">1</a> we will discuss the toric code Hamiltonian and find its ground states, then in section <a href="excitations">2</a> we will describe excited states and how they might be treated as 2D-confined particles (often known as anyons). Finally in section <a href="local-indistinguishability">3</a> we will come back to ground states and consider how they can be mapped onto each other, discovering non-local information encoding. With this agenda, let's roll!
+In this blogpost, I would like to discuss what the toric code is and why is it so interesting viewing it from more of a condensed matter angle: for a complimentary viewpoint from the quantum error correction perspective see excellent [post](https://www.arthurpesah.me) by Arthur Pesah. In section <a href="hamiltonian-and-ground-states">1</a> we will discuss the toric code Hamiltonian and find its ground states, then in section <a href="excitations">2</a> we will describe excited states and how they might be treated as 2D-confined particles (often known as anyons). Finally in section <a href="local-indistinguishability">3</a> we will come back to ground states and consider how they can be mapped onto each other, discovering non-local information encoding. With this agenda, let's roll!
 <!-- Without a further ado -->
 ## Hamiltonian and Ground States
 
@@ -43,7 +43,8 @@ H = -\sum_v A_v - \sum_p B_p
 \end{equation}
 where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices[^1]. For later we will also define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. 1.  
 
-![Full-width image](/assets/img/blog/toric_code_primal_dual.png){:.lead width="600" height="100"}
+{:style="text-align:center";}
+![Full-width image](/assets/img/blog/toric_code_primal_dual.png){: width="600" height="100"}
 Fig. 1: "Primal" and dual lattices of the toric code.
 {:.figure}
 
