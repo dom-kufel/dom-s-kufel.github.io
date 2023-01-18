@@ -24,14 +24,13 @@ sitemap: false
 *[weird]: Read: interesting
 
 [^1]: If it does not immediately become clear why see [this](https://commons.wikimedia.org/wiki/File:Torus_from_rectangle.gif) animation.
-[^2]: If "topological inequivalence" does not ring a bell: loosely speaking we might say that two loops are "topologically inequivalent" if they cannot be smoothly deformed into one another (cutting/gluing and removing holes not allowed).
-[^3]: Note that some people (see e.g., <a href="#references">*[Zeng et al. (2015)]*</a> define $$A_v$$ operators as products of Pauli $$Z$$ operators; and $$B_p$$ operators as products of Pauli $$X$$ - this is just the matter of convention and does not change the physics in any essential way (since it corresponds to simply swapping $$X$$'s with $$Z$$'s i.e. a change of basis by conjugating all qubits with the Hadamard gate).
-[^4]: Terminology comment: Hamiltonian containing of Pauli strings which are mutually commuting (as above) is often called stabilizer Hamiltonian - language coming from error correction - more on this later
-[^5]: I.e. the eigenbasis of the Pauli $$Z$$ operator.
+[^2]: Note that some people (see e.g., <a href="#references">*[Zeng et al. (2015)]*</a> define $$A_v$$ operators as products of Pauli $$Z$$ operators; and $$B_p$$ operators as products of Pauli $$X$$ - this is just the matter of convention and does not change the physics in any essential way (since it corresponds to simply swapping $$X$$'s with $$Z$$'s i.e. a change of basis by conjugating all qubits with the Hadamard gate).
+[^3]: If "topological inequivalence" does not ring a bell: loosely speaking we might say that two loops are "topologically inequivalent" if they cannot be smoothly deformed into one another (cutting/gluing and removing holes not allowed).
+[^4]: This language comes from quantum error correction. To get a better feeling of stabilizer Hamiltonians in the error correction formalism check out e.g., [this](https://www.arthurpesah.me) blogpost.
+[^5]: Just to recap: ground state at this stage just being a generic linear combination of closed loop configurations as described before.
 [^6]: One way of showing this is to show that the "twist factor" in a topological quantum theory <a href="#references">[Simon (2020) Chp. 26.2]</a> is +1 (moving $$e$$ (or $$m$$) particle involves only applying $$X$$ (or $$Z$$) operators which all commute with each other).
 [^7]: Or in our case more of a 1D spatial projection of the 2D trajectory of the particle defined on a 2D toric code!
 [^8]: In case this explanation was unclear or too quick: see e.g., <a href="#references">[Simon (2020) Chp. 2 and Chp. 26.2]</a>.
-[^9]: Just to recap: ground state at this stage just being a generic linear combination of closed loop configurations as described before.
 [^10]: If this is not surprising I would encourage you to study symmetry-breaking paradigm due to Landau. The point of the topological order is precisely to 'disavow Landau' as [John Preskill would say](http://theory.caltech.edu/~preskill/colloquium/Balents.htm).
 [^11]: If it is not immediately clear think about associating to each point in the primal and dual lattice the eigenvalue of the corresponding vertex/plaquette operator. The ground state would simply correspond to all $$+1$$ eigenvalues. Consequently regardless where we create excitations to it - they will correspond to $$-1$$ eigenvalue particle-like "peaks" in otherwise uniform energy density background.    
 [^12]: We will discuss what happens if we consider topologically inequivalent loops in the next <a href="#long-range-entanglement">section</a>.  
@@ -50,7 +49,7 @@ In the simplest realization, toric code is a model of qubits (two-level systems)
 \begin{equation}
 H = -\sum_v A_v - \sum_p B_p
 \end{equation}
-where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices[^1]. For later we will (i) define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. 1; and (ii) note that on torus we can draw four *topologically inequivalent*[^2] loops - see Fig. 2.   
+where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices[^2]. For later we will (i) define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. 1; and (ii) note that on torus we can draw four *topologically inequivalent*[^3] loops - see Fig. 2.   
 
 <p style="text-align:center;"><img src="/assets/img/blog/toric_code_primal_dual.png" width="400"/></p>
 Fig. 1: "Primal" and dual lattices of the toric code.
@@ -60,12 +59,12 @@ Fig. 1: "Primal" and dual lattices of the toric code.
 Fig. 2: Four topologically inequivalent loops on torus. $$C_1$$ and $$C_2$$ enclose different holes, $$C_3$$ encloses both holes at the same time, and $$C_4$$ corresponds to the trivial loop (which might be smoothly deformed to a point).
 {:.figure}
 
-Our goal for now is to **find ground state(s)** of the above model. I claim that each of the four ground states found consists of the **equal amplitude superposition of the closed loop configurations**, and that the ground states differ by which out of four topologically inequivalent loops on torus they contain. We will argue for this claim real quick. First, note that all the terms within the Hamiltonian mutually commute with one another i.e. $$[A_v, B_p]=0 \ \ \forall v,p$$ - you will prove it in the exercise below[^2]. This remarkably simplifies the problem by allowing to consider the two sums separately, and our strategy becomes: first (i) minimize the energy of one of the sums in <a href="#eq:H_TC">Eq. 1</a> and then (ii) impose the other sum as the constraint on the choice of the ground state.
+Our goal for now is to **find ground state(s)** of the above model. I claim that each of the four ground states found consists of the **equal amplitude superposition of the closed loop configurations**, and that the ground states differ by which out of four topologically inequivalent loops on torus they contain. We will argue for this claim real quick. First, note that we deal with the **stabilizer Hamiltonian**[^4]: one with all the terms mutually commuting with one another i.e. $$[A_v, B_p]=0 \ \ \forall v,p$$ - you will prove it in the exercise below. This remarkably simplifies the problem by allowing to consider the two sums separately, and our strategy becomes: first (i) minimize the energy of one of the sums in <a href="#eq:H_TC">Eq. 1</a> and then (ii) impose the other sum as the constraint on the choice of the ground state.
 
 **Exercise:** Show that for the operators defined above $$[A_v, B_p]=0 \ \ \forall v,p$$. <a href="#hint1">Hint</a>
 {:.message}
 
-To realize (i), for convenience, let’s work in the computational[^3] basis and pick the sum over $$B_p$$ operators.
+To realize (i), for convenience, let’s work in the computational basis (Pauli Z eigenbasis) and pick the sum over $$B_p$$ operators.
 Undoubtedly all $$ \vert 0 \rangle$$ is one of the states which will be both an eigenstate (we are in Pauli Z basis) and minimize the $$- \sum_p B_p$$ term. But by far it is not the unique state: any state where qubits in $$\vert 1 \rangle$$ state make closed loops on a dual lattice (see Fig. 3) would work equally well. Eigenstate minimizing the energy of the $$- \sum_p B_p$$ term is simply a linear combination (with arbitrary coefficients) of configurations where qubits in $$\vert 1 \rangle$$ form closed loops on a dual lattice.
 
 **Exercise:** Convince yourself (in drawing) that this is true.
@@ -75,7 +74,7 @@ Undoubtedly all $$ \vert 0 \rangle$$ is one of the states which will be both an 
 Fig. 3: Example of the individual qubits states configuration which minimizes $$- \sum_p B_p$$ term of the Hamiltonian. Diamonds indicate qubits in state $$ \vert 1 \rangle $$.
 {:.figure}
 
-But don’t forget: we still need to resolve (ii) i.e. impose the constraint of the $$-\sum_v A_v$$ term. Consider the action of $$A_v$$ operator on a vertex: it will simply flip the states of the qubits adjacent to that vertex. If we start from a particular closed loop configuration, the action of $$A_v$$ will change it to some other *topologically equivalent* closed loop configuration. We can thus think of the process of applying $$A_v$$’s as simply that of “reconnecting” the closed loops within the same topological equivalence class. Now we demand from a ground state[^4] $$ \vert \psi \rangle$$ to fulfill $$A_s \vert \psi \rangle  = +1 \vert \psi \rangle \forall s$$ i.e. loosely speaking after any reconnection of the closed loop configurations, state should remain invariant. This is only possible if we restrict an arbitrary superposition state $$ \vert \psi \rangle$$ found before, to the one of the four ground states consisting of an equal amplitude superposition of all topologically equivalent closed loop configurations (See Fig. 4).
+But don’t forget: we still need to resolve (ii) i.e. impose the constraint of the $$-\sum_v A_v$$ term. Consider the action of $$A_v$$ operator on a vertex: it will simply flip the states of the qubits adjacent to that vertex. If we start from a particular closed loop configuration, the action of $$A_v$$ will change it to some other *topologically equivalent* closed loop configuration. We can thus think of the process of applying $$A_v$$’s as simply that of “reconnecting” the closed loops within the same topological equivalence class. Now we demand from a ground state[^5] $$ \vert \psi \rangle$$ to fulfill $$A_s \vert \psi \rangle  = +1 \vert \psi \rangle \forall s$$ i.e. loosely speaking after any reconnection of the closed loop configurations, state should remain invariant. This is only possible if we restrict an arbitrary superposition state $$ \vert \psi \rangle$$ found before, to the one of the four ground states consisting of an equal amplitude superposition of all topologically equivalent closed loop configurations (See Fig. 4).
 
 <p style="text-align:center;"><img src="/assets/img/blog/toric_code_loopy_gs_1.png" width="1000"/></p>
 <p style="text-align:center;"><img src="/assets/img/blog/toric_code_loopy_gs_2.png" width="1000"/></p>
@@ -91,7 +90,7 @@ Nice! Summarizing the first key result:
 
 ## Excitations
 
-Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which might be thought to live on the vertices of the primal or dual lattice (see Fig 5). These excitations (often called **anyons**) are "particle-like" (thus often called quasiparticles) i.e. they correspond to the localized energy excitation on a toric code ground state with a uniform energy density profile[^6] <a href="#references">[Zeng et al. (2015) p. 180]</a>.
+Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which might be thought to live on the vertices of the primal or dual lattice (see Fig 5). These excitations (often called **anyons**) are "particle-like" (thus often called quasiparticles) i.e. they correspond to the localized energy excitation on a toric code ground state with a uniform energy density profile[^7] <a href="#references">[Zeng et al. (2015) p. 180]</a>.
 
 <p style="text-align:center;"><img src="/assets/img/blog/excitations.png" width="400"/></p>
 Fig. 5: Three types of quasiparticle excitations (anyons) in the toric code.
@@ -302,4 +301,5 @@ The final element.
 
 ## Hints to exercises
 <a id="hint1">**Hint:**</a> Whenever Pauli X and Z meet on the same site they anti-commute, otherwise (e.g., $$[X \otimes \mathbb{1},\mathbb{1} \otimes Z]$$ they commute.
+
 <a id="hint2">**Hint:**</a> Think about the discrete version of Stokes' theorem. Why should it apply here?
