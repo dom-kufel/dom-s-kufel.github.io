@@ -83,10 +83,10 @@ Fig. 2: Four topologically inequivalent loops on torus. $$C_4$$ corresponds to t
 Fig. 3: Example of the individual qubits states configuration which minimizes $$- \sum_p B_p$$ term of the Hamiltonian. Diamonds indicate qubits in state $$ \vert 1 \rangle $$.
 {:.figure}
 
-<p style="text-align:center;"><img src="/assets/img/blog/toric_code_loopy_gs_1.png" width="400"/></p>
-<p style="text-align:center;"><img src="/assets/img/blog/toric_code_loopy_gs_2.png" width="400"/></p>
-<p style="text-align:center;"><img src="/assets/img/blog/toric_code_loopy_gs_3.png" width="400"/></p>
-<p style="text-align:center;"><img src="/assets/img/blog/toric_code_loopy_gs_4.png" width="400"/></p>
+<p style="text-align:center;"><img src="/assets/img/blog/toric_code_loopy_gs_1.png" width="1000"/></p>
+<p style="text-align:center;"><img src="/assets/img/blog/toric_code_loopy_gs_2.png" width="1000"/></p>
+<p style="text-align:center;"><img src="/assets/img/blog/toric_code_loopy_gs_3.png" width="1000"/></p>
+<p style="text-align:center;"><img src="/assets/img/blog/toric_code_loopy_gs_4.png" width="1000"/></p>
 Fig. 4: Four ground states of the toric code. Each of the ground states corresponds to a loop from one of the equivalence classes in Fig. 2.
 {:.figure}
 
@@ -95,7 +95,7 @@ Fig. 4: Four ground states of the toric code. Each of the ground states correspo
 Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which might be thought to live on the vertices of the primal or dual lattice (see Fig !!!). These excitations (often called **anyons**) are "particle-like" (thus often called quasiparticles) i.e. they correspond to the localized energy excitation on a toric code ground state with a uniform energy density profile[^6] <a href="#references">[Zeng et al. (2015) p. 180]</a>.
 
 <p style="text-align:center;"><img src="/assets/img/blog/excitations.png" width="400"/></p>
-Fig. 5: Excitations in the toric code.
+Fig. 5: Three types of quasiparticle excitations (anyons) in the toric code.
 {:.figcaption}
 
 We can create a *pair* of quasiparticles excitations by applying string operators. String operators consist of product of Pauli $$X$$ or $$Z$$ Pauli Z operators applied to the qubits (see Fig. !!!). A curious fact[^8] is that the total energy cost for the excitations created is dependent only on the number of excitations and not on a particular type of a string operator used e.g., both applying a single Pauli $$X$$ operator costs the same amount of energy as applying a *topologically trivial*[^7] string of Pauli $$X$$ operators.  
@@ -129,22 +129,22 @@ If excitations are indeed "particle-like" and they are indistinguishable, can we
 
 It turns out that $$\epsilon$$ anyons are fermions. To see this we need to first show that braiding the $$e$$ particle around $$m$$ particle (and vice-versa) accumulates $$-1$$ phase. In other words we want to prove that $$\vert \psi_{final} \rangle = - \vert \psi_{init} \rangle$$. The action of moving $$e$$ around $$m$$ might be written as $$\vert \psi_{final} \rangle = \prod_j Z_j \vert \psi_{init} \rangle$$ and pictorially corresponds to
 
-{:style="text-align:center;"}
-![placeholder](/assets/img/blog/statistics.png)
-Fig. 4:
+<p style="text-align:center;"><img src="/assets/img/blog/statistics.png" width="400"/></p>
+Fig. 6: Braiding $$e$$ particle around $$m$$ particle.
 {:.figure}
 
-Noting that $$\prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle = - \vert \psi_{init} \rangle$$ and the result of the exercise below we show what is intended.
+Noting that $$\prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle = - \vert \psi_{init} \rangle$$ (plaquette excitation present) and using the result of the exercise below we show what is intended.
 
 **Exercise:** Show that $$\prod_j Z_j \vert \psi_{init} \rangle = \prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle$$
 {:.message}
 
 Okay, so braiding $$e$$ around $$m$$ accumulates $$-1$$ phase for the state. Now, I claim that the proof of fermionic statistics of $$\epsilon$$ particle follows from the figure below <a href="#references">[Kitaev&Laumann (2010) p. 15]</a>:
 
-{:style="text-align:center";}
-![Full-width image](/assets/img/blog/braiding.png)
-Fig. 4:
+<p style="text-align:center;"><img src="/assets/img/blog/braiding.png" width="800"/></p>
+Fig. 7: Wordline braiding diagrams for the $$\epsilon$$ particle consisting of an $$e$$ and $$m$$ bound together.
 {:.figure}
+
+<!-- Can they change distance -->
 
 Okay, I understand that initially it might seem that there is a lot to unpack here, but in fact everything is plain and simple. Lines in Fig. !!! correspond to the $$(2+1)-D$$ worldlines of the anyons. Wordlines are nothing else than space-time graph[^6] of the particle motion with time going up on the image and particles moving around each other in space (horizontal direction). We first draw the diagram corresponding to taking the $$e$$ particle around $$m$$ particle (considered above). Next, we utilize identities found before (bottom row) to simplify each of the crossings in the top row: picking up a $$-1$$ factor for braiding $$e$$ around $$m$$ translates into the fermionic statistics of $$\epsilon$$ particle![^7]  
 
@@ -180,7 +180,7 @@ Obviously, there is still so much to say about the toric code! If this post stil
 
 ## FAQ
 1. Can toric code be defined only on a square lattice? No, in principle we can define toric code on any lattice. See e.g., <a href="#references">[Simon (2020) Chp. 25.5]</a>.
-2. Can toric code be defined in the systems beyond 2D? Yes, in particular a 4D toric code is model particularly interesting from the perspective of error correction since it might act as a self-correcting quantum memory[^10]. REFERENCE
+2. Can toric code be defined in the systems beyond 2D? Yes, in particular a 4D toric code is model particularly interesting from the perspective of error correction since it might act as a self-correcting quantum memory[^10]. For a gentle intro from condensed matter-ish view on toric codes beyond 2D see e.g., <a href="#references">[Savary&Balents (2016) p. 7]</a>.
 3. Can toric code be defined for system other than qubits? Yes, for $N$ level system we have $$Z_N$$ toric code generalization; which we can further extend to more general groups in so-called a Kitaev double model (possibly possessing non-Abelian anyons)!
 4. Given the 4-body interaction term in the toric code Hamiltonian, can it be feasibly implemented in the lab? Yes, there are experimental demonstrations of a toric code in the lab (we will briefly discuss them in another blogpost!). (If you particularly worry about the 4-body term specifically you might think of a toric code as a lowest order in perturbation theory description of the Kitaev Honeycomb model in the $$J_z \gg J_x,J_y$$ regime: see e.g., <a href="#references">[Kitaev (2006)]</a>.)
 
@@ -298,6 +298,8 @@ The final element.
 <a id="stabilitytopo">*[Bravyi et al. (2010)]*</a>  Bravyi, S., Hastings, M.B. and Michalakis, S., 2010. Topological quantum order: stability under local perturbations. *Journal of mathematical physics, 51(9), p.093512* [*arXiv version*](https://arxiv.org/abs/1001.0344).
 
 <a id="kitaevmasterpiece">*[Kitaev (2006)]*</a>  Kitaev, A., 2006. Anyons in an exactly solved model and beyond. *Annals of Physics, 321(1), pp.2-111.* [*arXiv version*](https://arxiv.org/abs/cond-mat/0506438)
+
+<a id="spinliquids">*[Savary&Balents (2016)]*</a> Savary, L. and Balents, L., 2016. Quantum spin liquids: a review. *Reports on Progress in Physics, 80(1), p.016502*. [*arXiv version*](https://arxiv.org/abs/1601.03742)
 
 ## Hints to exercises
 <a id="hint1">**Hint:**</a> Whenever Pauli X and Z meet on the same site they anti-commute, otherwise (e.g., $$[X \otimes \mathbb{1},\mathbb{1} \otimes Z]$$ they commute.
