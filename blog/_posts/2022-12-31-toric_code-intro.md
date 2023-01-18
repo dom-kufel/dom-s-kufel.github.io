@@ -86,8 +86,7 @@ Fig. 2: Four topologically inequivalent loops on torus. Lorem Ipsum dolert adsha
 <!-- Fig. 2: Four topologically inequivalent loops on torus. Lorem Ipsum dolert adshashdashhdas hdashdash hdaskj a adskhbdas $$C_4$$ corresponds to the trivial loop.
 {:.figure} -->
 
-{:style="text-align:center";}
-![placeholder](/assets/img/blog/toric_code_loop_example.png)
+<p style="text-align:center;"><img src="/assets/img/blog/toric_code_loop_example.png" alt="drawing" width="400"/></p>
 Fig. 3: Example lnaskjdbksa adskbkdasjb kjadsbkdasb kjbadskbsad kjbdaskjbasd ljnasdkjbads kjbakjbsadkjm
 {:.figure}
 
@@ -106,8 +105,9 @@ Having found the ground state, natural question is the following: what are the e
 Fig. 4:
 {:.figure} -->
 
-<p style="text-align:center;"><img src="/assets/img/blog/excitations.png" alt="drawing" width="200"/></p>
-
+<p style="text-align:center;"><img src="/assets/img/blog/excitations.png" alt="drawing" width="400"/></p>
+Fig. 4: dogdog
+{:.figcaption}
 
 We can create a *pair* of quasiparticles excitations by applying string operators. String operators consist of product of Pauli $$X$$ or $$Z$$ Pauli Z operators applied to the qubits (see Fig. !!!). A curious fact[^8] is that the total energy cost for the excitations created is dependent only on the number of excitations and not on a particular type of a string operator used e.g., both applying a single Pauli $$X$$ operator costs the same amount of energy as applying a *topologically trivial*[^7] string of Pauli $$X$$ operators.  
 
