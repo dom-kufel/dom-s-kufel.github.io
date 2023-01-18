@@ -86,7 +86,7 @@ Fig. 2: Four topologically inequivalent loops on torus. Lorem Ipsum dolert adsha
 <!-- Fig. 2: Four topologically inequivalent loops on torus. Lorem Ipsum dolert adshashdashhdas hdashdash hdaskj a adskhbdas $$C_4$$ corresponds to the trivial loop.
 {:.figure} -->
 
-<p style="text-align:center;"><img src="/assets/img/blog/toric_code_loop_example.png" alt="drawing" width="400"/></p>
+<p style="text-align:center;"><img src="/assets/img/blog/toric_code_loop_example.png" width="400"/></p>
 Fig. 3: Example lnaskjdbksa adskbkdasjb kjadsbkdasb kjbadskbsad kjbdaskjbasd ljnasdkjbads kjbakjbsadkjm
 {:.figure}
 
