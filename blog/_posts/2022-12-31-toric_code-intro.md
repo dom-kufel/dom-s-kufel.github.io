@@ -149,7 +149,7 @@ Fig. 4:
 ![placeholder](https://via.placeholder.com/100x150)
 
 
-WoW, initially it might seem that there is a lot to unpack here, but in fact everything is plain and simple. Lines in Fig. !!! correspond to the $$(2+1)-D$$ worldlines of the anyons. Wordlines are nothing else than space-time graph[^6] of the particle motion with time going up on the image and particles moving around each other in space (horizontal direction). We utilize identities found before (bottom row) to simplify each of the crossings in the top row: picking up a $$-1$$ factor for braiding $$e$$ around $$m$$ translates into the fermionic statistics of $$\epsilon$$ particle![^7]  
+WoW, initially it might seem that there is a lot to unpack here, but in fact everything is plain and simple. Lines in Fig. !!! correspond to the $$(2+1)-D$$ worldlines of the anyons. Wordlines are nothing else than space-time graph[^6] of the particle motion with time going up on the image and particles moving around each other in space (horizontal direction). We first draw the diagram corresponding to taking the $$e$$ particle around $$m$$ particle (considered above). Next, we utilize identities found before (bottom row) to simplify each of the crossings in the top row: picking up a $$-1$$ factor for braiding $$e$$ around $$m$$ translates into the fermionic statistics of $$\epsilon$$ particle![^7]  
 
 **Fact 4:** Three types of (anyonic) excitations correspond to vertex, plaquette and "dyonic" violations and these have bosonic, bosonic and fermionic exchange statistics respectively.  
 {:.note}
