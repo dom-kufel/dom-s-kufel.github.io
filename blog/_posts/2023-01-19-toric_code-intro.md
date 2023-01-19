@@ -44,7 +44,7 @@ In this blogpost, I would like to answer these questions by discusing the toric 
 * Hamiltonian and Ground states
 * Excitations
 * Local indistinguishability
-{:toc }
+{:toc .large-only}
 
 
 ## Hamiltonian and Ground States
