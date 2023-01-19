@@ -41,9 +41,7 @@ Working in the field of quantum technologies I often chat to people from a varie
 
 In this blogpost, I would like to answer these questions by discusing the toric code basics as viewed from the perspective of condensed matter physics: for a complimentary viewpoint from the quantum error correction perspective see excellent [post](https://www.arthurpesah.me) by Arthur Pesah. In section <a href="hamiltonian-and-ground-states">1</a> we will discuss the toric code Hamiltonian and find its ground states, then in section <a href="excitations">2</a> we will describe excited states and how they might be treated as 2D-confined particles (often known as anyons). Finally in section <a href="local-indistinguishability">3</a> we will come back to ground states and consider how they can be mapped onto each other, discovering non-local information encoding. Without a further ado, let's roll!
 
-* Hamiltonian and Ground states
-* Excitations
-* Local indistinguishability
+* this unordered seed list will be replaced by the toc
 {:toc .large-only}
 
 
