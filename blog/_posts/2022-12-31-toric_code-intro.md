@@ -11,7 +11,6 @@ sitemap: false
 <!-- Things left to be done:
 1. clearing up stuff and streamlining
 2. image references clean
-3 add kets image?
 3. filling in the understanding of some bits -->
 
 *[plaquettes]: Fancy term for each of the little squares in the lattice.
