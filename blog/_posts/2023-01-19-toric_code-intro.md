@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quick intro to the 2D toric code
+title: 2D toric code - intro to the loopy subject without going in circles
 description: >
   A real quick introduction to the 2D toric code viewed from the condensed matter angle.
 sitemap: false
