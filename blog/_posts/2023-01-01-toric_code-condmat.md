@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Toric code from condensed matter perspective.
+title: Informationy matter: long-range entanglement and correlations in the toric code.
 description: >
   I discuss toric code and its connections to topological order, long-range entanglement and quantum spin liquids.
 sitemap: false
@@ -15,8 +15,6 @@ In this blogpost I would like to follow the "it from qubit" spirit and discuss a
 * Entanglement and correlations
 * Quantum Spin Liquids
 {:toc}
-
-*[weird]: Read: interesting
 
 ## Long-range entanglement
 What do we mean by long-range entanglement? We say that state is long-range entangled if it cannot be prepared by a quantum circuit with constant-depth i.e. depth required does not scale with the system size. What are some familiar states which are long-range entangled?
