@@ -11,9 +11,11 @@ hide_last_modified: true
 
 In this blogpost I would like to further highlight these matter-information connections by discuss (somewhat confusing) properties of the toric code such as presence of the long-range entanglement (yet $$0$$ correlation length!), how it links to a wider class of so-called quantum spin liquids - models which recently came within reach of the experiments. I assume basic familiarity with the 2D toric code model (see e.g., my other blogpost giving a very short intro to it). In section <a href="long-range-entanglement">2</a> we will discuss what we mean by saying that toric code has "long-range entanglement" and provide a simple proof that this is indeed the case. In section <a href="long-range-entanglement-and-observables-correlations">3</a> how to reconcile long-range entangled property with the statement about its $$0$$ correlation length; in section <a href="quantum-spin-liquids">4</a> we will show how toric code fits within a wider class of models and how they might be experimentally realized. Stay tuned: I promise there are few cute ideas along the way!
 
-* Long-range Entanglement
+<!-- * Long-range Entanglement
 * Entanglement and correlations
-* Quantum Spin Liquids
+* Quantum Spin Liquids -->
+
+- Table of Contents
 {:toc .large-only}
 
 *[weird]: Read: interesting
