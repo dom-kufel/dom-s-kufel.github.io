@@ -14,12 +14,6 @@ sitemap: false
 3 add kets image?
 3. filling in the understanding of some bits -->
 
-* Hamiltonian and Ground states
-* Excitations
-* Local indistinguishability
-{:toc }
-
-
 *[plaquettes]: Fancy term for each of the little squares in the lattice.
 *[braiding]: Loosely speaking "moving particles around each other"
 *[weird]: Read: interesting
@@ -44,8 +38,14 @@ sitemap: false
 
 Working in the field of quantum technologies I often chat to people from a variety of quantum-focused fields. A weird thing happens if people from traditionally different communities talk about the same stuff. This is how I have first heard about the toric code: both condensed matter and quantum error correction people spoke about it a lot. Soon afterwards I discovered why: toric code is a paradigmatic example for both topological quantum error correction and topological order in condensed matter. What makes this model to be famous and which of its properties make it so fun to work with?
 
-In this blogpost, I would like to answer these questions by discusing the toric code basics as viewed from the perspective of condensed matter physics: for a complimentary viewpoint from the quantum error correction perspective see excellent [post](https://www.arthurpesah.me) by Arthur Pesah. In section <a href="hamiltonian-and-ground-states">1</a> we will discuss the toric code Hamiltonian and find its ground states, then in section <a href="excitations">2</a> we will describe excited states and how they might be treated as 2D-confined particles (often known as anyons). Finally in section <a href="local-indistinguishability">3</a> we will come back to ground states and consider how they can be mapped onto each other, discovering non-local information encoding. With this agenda, let's roll!
-<!-- Without a further ado -->
+In this blogpost, I would like to answer these questions by discusing the toric code basics as viewed from the perspective of condensed matter physics: for a complimentary viewpoint from the quantum error correction perspective see excellent [post](https://www.arthurpesah.me) by Arthur Pesah. In section <a href="hamiltonian-and-ground-states">1</a> we will discuss the toric code Hamiltonian and find its ground states, then in section <a href="excitations">2</a> we will describe excited states and how they might be treated as 2D-confined particles (often known as anyons). Finally in section <a href="local-indistinguishability">3</a> we will come back to ground states and consider how they can be mapped onto each other, discovering non-local information encoding. Without a further ado, let's roll!
+
+* Hamiltonian and Ground states
+* Excitations
+* Local indistinguishability
+{:toc }
+
+
 ## Hamiltonian and Ground States
 
 In the simplest realization, toric code is a model of qubits (two-level systems) placed on the links of the 2D square lattice with periodic boundary conditions (thus making a torus[^1]). We define the <a id="eq:H_TC">Hamiltonian</a> for the system to be
