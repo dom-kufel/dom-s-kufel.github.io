@@ -23,7 +23,7 @@ Perhaps the simplest example is preparation of the $$\vert \textrm{GHZ} \rangle 
 
 <p style="text-align:center;"><img src="/assets/img/blog/GHZpreparation.png" width="500"/></p>
 
-That example is all good, but what we intend to show is different: namely that there exists no way of preparing the $$\vert GHZ \rangle$$ other than the circuit depth scaling with the system size. Perhaps the simplest way of showing this formally is to use the following lemma due to  <a href="#references">[Piroli et al. (2021)]</a>
+That example is all good, but what we intend to show is different: namely that there exists no way of preparing the $$\vert GHZ \rangle$$ other than the circuit depth scaling with the system size. Perhaps the simplest way of showing this formally is to use the following lemma due to <a href="#references">[Piroli et al. (2021)]</a>
 
 We define the 2D toric code as a set of qubits placed on the links of the 2D square lattice with periodic boundary conditions with the following <a id="eq:H_TC">Hamiltonian</a>
 \begin{equation}
