@@ -51,18 +51,18 @@ In the simplest realization, toric code is a model of qubits (two-level systems)
 \begin{equation}
 H = -\sum_v A_v - \sum_p B_p
 \end{equation}
-where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices[^2] - see Fig. 1. For later we will (i) define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. 1s; and (ii) note that on torus we can draw four *topologically inequivalent*[^3] loops - see Fig. 2.   
+where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices[^2] - see Fig. 1. For later we will (i) define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. 2; and (ii) note that on torus we can draw four *topologically inequivalent*[^3] loops - see Fig. 3.   
 
 <p style="text-align:center;"><img src="/assets/img/blog/toric_code_hamiltonian.png" width="500"/></p>
 Fig. 1: 4-body operators present in the toric code Hamiltonian.
 {:.figure}
 
 <p style="text-align:center;"><img src="/assets/img/blog/toric_code_primal_dual.png" width="500"/></p>
-Fig. 1: "Primal" and dual lattices of the toric code.
+Fig. 2: "Primal" and dual lattices of the toric code.
 {:.figure}
 
 <p style="text-align:center;"><img src="/assets/img/blog/torus.png" width="500"/></p>
-Fig. 2: Four topologically inequivalent loops on torus. $$C_1$$ and $$C_2$$ enclose different holes, $$C_3$$ encloses both holes at the same time, and $$C_4$$ corresponds to the trivial loop (which might be smoothly deformed to a point).
+Fig. 3: Four topologically inequivalent loops on torus. $$C_1$$ and $$C_2$$ enclose different holes, $$C_3$$ encloses both holes at the same time, and $$C_4$$ corresponds to the trivial loop (which might be smoothly deformed to a point).
 {:.figure}
 
 Our goal for now is to **find ground state(s)** of the above model. I claim that each of the four ground states found consists of the **equal amplitude superposition of the closed loop configurations**, and that the ground states differ by which out of four topologically inequivalent loops on torus they contain. We will argue for this claim real quick. First, note that we deal with the **stabilizer Hamiltonian**[^4]: one with all the terms mutually commuting with one another i.e. $$[A_v, B_p]=0 \ \ \forall v,p$$ - you will prove it in the exercise below. This remarkably simplifies the problem by allowing to consider the two sums separately, and our strategy becomes: first (i) minimize the energy of one of the sums in <a href="#eq:H_TC">Eq. 1</a> and then (ii) impose the other sum as the constraint on the choice of the ground state.
@@ -71,22 +71,22 @@ Our goal for now is to **find ground state(s)** of the above model. I claim that
 {:.message}
 
 To realize (i), for convenience, let’s work in the computational basis (Pauli Z eigenbasis) and pick the sum over $$B_p$$ operators.
-Undoubtedly all $$ \vert 0 \rangle$$ is one of the states which will be both an eigenstate (we are in Pauli Z basis) and minimize the $$- \sum_p B_p$$ term. But by far it is not the unique state: any state where qubits in $$\vert 1 \rangle$$ state make closed loops on a dual lattice (see Fig. 3) would work equally well. Eigenstate minimizing the energy of the $$- \sum_p B_p$$ term is simply a linear combination (with arbitrary coefficients) of configurations where qubits in $$\vert 1 \rangle$$ form closed loops on a dual lattice.
+Undoubtedly all $$ \vert 0 \rangle$$ is one of the states which will be both an eigenstate (we are in Pauli Z basis) and minimize the $$- \sum_p B_p$$ term. But by far it is not the unique state: any state where qubits in $$\vert 1 \rangle$$ state make closed loops on a dual lattice (see Fig. 4) would work equally well. Eigenstate minimizing the energy of the $$- \sum_p B_p$$ term is simply a linear combination (with arbitrary coefficients) of configurations where qubits in $$\vert 1 \rangle$$ form closed loops on a dual lattice.
 
 **Exercise:** Convince yourself (in drawing) that this is true.
 {:.message}
 
 <p style="text-align:center;"><img src="/assets/img/blog/toric_code_loop_example.png" width="500"/></p>
-Fig. 3: Example of the individual qubits states configuration which minimizes $$- \sum_p B_p$$ term of the Hamiltonian. Diamonds indicate qubits in state $$ \vert 1 \rangle $$.
+Fig. 4: Example of the individual qubits states configuration which minimizes $$- \sum_p B_p$$ term of the Hamiltonian. Diamonds indicate qubits in state $$ \vert 1 \rangle $$.
 {:.figure}
 
-But don’t forget: we still need to resolve (ii) i.e. impose the constraint of the $$-\sum_v A_v$$ term. Consider the action of $$A_v$$ operator on a vertex: it will simply flip the states of the qubits adjacent to that vertex. If we start from a particular closed loop configuration, the action of $$A_v$$ will change it to some other *topologically equivalent* closed loop configuration. We can thus think of the process of applying $$A_v$$’s as simply that of “reconnecting” the closed loops within the same topological equivalence class. Now we demand from a ground state[^5] $$ \vert \psi \rangle$$ to fulfill $$A_s \vert \psi \rangle  = +1 \vert \psi \rangle \forall s$$ i.e. loosely speaking after any reconnection of the closed loop configurations, state should remain invariant. This is only possible if we restrict an arbitrary superposition state $$ \vert \psi \rangle$$ found before, to the one of the four ground states consisting of an equal amplitude superposition of all topologically equivalent closed loop configurations (See Fig. 4).
+But don’t forget: we still need to resolve (ii) i.e. impose the constraint of the $$-\sum_v A_v$$ term. Consider the action of $$A_v$$ operator on a vertex: it will simply flip the states of the qubits adjacent to that vertex. If we start from a particular closed loop configuration, the action of $$A_v$$ will change it to some other *topologically equivalent* closed loop configuration. We can thus think of the process of applying $$A_v$$’s as simply that of “reconnecting” the closed loops within the same topological equivalence class. Now we demand from a ground state[^5] $$ \vert \psi \rangle$$ to fulfill $$A_s \vert \psi \rangle  = +1 \vert \psi \rangle \forall s$$ i.e. loosely speaking after any reconnection of the closed loop configurations, state should remain invariant. This is only possible if we restrict an arbitrary superposition state $$ \vert \psi \rangle$$ found before, to the one of the four ground states consisting of an equal amplitude superposition of all topologically equivalent closed loop configurations (See Fig. 5).
 
 <p style="text-align:center;"><img src="/assets/img/blog/toric_code_loopy_gs_1.png" width="1000"/></p>
 <p style="text-align:center;"><img src="/assets/img/blog/toric_code_loopy_gs_2.png" width="1000"/></p>
 <p style="text-align:center;"><img src="/assets/img/blog/toric_code_loopy_gs_3.png" width="1000"/></p>
 <p style="text-align:center;"><img src="/assets/img/blog/toric_code_loopy_gs_4.png" width="1000"/></p>
-Fig. 4: Four ground states of the toric code. Each of the ground states corresponds to a loop from one of the equivalence classes in Fig. 2.
+Fig. 5: Four ground states of the toric code. Each of the ground states corresponds to a loop from one of the equivalence classes in Fig. 3.
 {:.figure}
 
 Nice! Summarizing the first key result:
@@ -96,13 +96,13 @@ Nice! Summarizing the first key result:
 
 ## Excitations
 
-Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which might be thought to live on the vertices of the primal or dual lattice (see Fig. 5). These excitations (often called **anyons**) are "particle-like" (thus often called quasiparticles) i.e. they correspond to the localized energy excitation on a toric code ground state with a uniform energy density profile[^6] <a href="#references">[Zeng et al. (2015) p. 180]</a>.
+Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which might be thought to live on the vertices of the primal or dual lattice (see Fig. 6). These excitations (often called **anyons**) are "particle-like" (thus often called quasiparticles) i.e. they correspond to the localized energy excitation on a toric code ground state with a uniform energy density profile[^6] <a href="#references">[Zeng et al. (2015) p. 180]</a>.
 
 <p style="text-align:center;"><img src="/assets/img/blog/excitations.png" width="500" loading="lazy"/></p>
-Fig. 5: Three types of quasiparticle excitations (anyons) in the toric code.
+Fig. 6: Three types of quasiparticle excitations (anyons) in the toric code.
 {:.figcaption}
 
-We can create a *pair* of quasiparticles excitations by applying string operators. String operators consist of product of Pauli $$X$$ or $$Z$$ Pauli Z operators applied to the qubits (see Fig. 5). A curious fact[^7] is that the total energy cost for the excitations created is dependent only on the number of excitations and not on a particular type of a string operator used e.g., both applying a single Pauli $$X$$ operator costs the same amount of energy as applying a *topologically trivial*[^8] string of Pauli $$X$$ operators.  
+We can create a *pair* of quasiparticles excitations by applying string operators. String operators consist of product of Pauli $$X$$ or $$Z$$ Pauli Z operators applied to the qubits (see Fig. 6). A curious fact[^7] is that the total energy cost for the excitations created is dependent only on the number of excitations and not on a particular type of a string operator used e.g., both applying a single Pauli $$X$$ operator costs the same amount of energy as applying a *topologically trivial*[^8] string of Pauli $$X$$ operators.  
 
 **Fact 2:** Excitations in the toric code (anyons) might be created in pairs by applying Pauli strings.
 {:.note}
@@ -131,10 +131,10 @@ Okay, so summarizing what we have arrived at so far: we cannot create single exc
 
 If excitations are indeed "particle-like" and they are indistinguishable, can we classify them in a similar fashion to elementary particles (being either bosons or fermions)? Yes, we say that there are three types of anyons in the toric code: $$e$$ anyon (single vertex excitation), $$m$$ anyon (single plaquette excitation) and $$\epsilon$$ anyon (or a dyon) consisting of vertex and plaquette excitations bound together. $$e$$ and $$m$$ anyons in the toric code have abelian bosonic statistics i.e. the many-body state is invariant under exchanging two identical $$e$$ and $$m$$ anyons[^10].
 
-It turns out that $$\epsilon$$ anyons are fermions. To see this we need to first show that braiding the $$e$$ particle around $$m$$ particle (and vice-versa) accumulates $$-1$$ phase. In other words we want to prove that $$\vert \psi_{final} \rangle = - \vert \psi_{init} \rangle$$. The action of moving $$e$$ around $$m$$ might be written as $$\vert \psi_{final} \rangle = \prod_j Z_j \vert \psi_{init} \rangle$$ and corresponds pictorially to the Fig. 6 below.
+It turns out that $$\epsilon$$ anyons are fermions. To see this we need to first show that braiding the $$e$$ particle around $$m$$ particle (and vice-versa) accumulates $$-1$$ phase. In other words we want to prove that $$\vert \psi_{final} \rangle = - \vert \psi_{init} \rangle$$. The action of moving $$e$$ around $$m$$ might be written as $$\vert \psi_{final} \rangle = \prod_j Z_j \vert \psi_{init} \rangle$$ and corresponds pictorially to the Fig. 7 below.
 
 <p style="text-align:center;"><img src="/assets/img/blog/statistics.png" width="500" loading="lazy"/></p>
-Fig. 6: Braiding $$e$$ particle around $$m$$ particle.
+Fig. 7: Braiding $$e$$ particle around $$m$$ particle.
 {:.figure}
 
 Noting that $$\prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle = - \vert \psi_{init} \rangle$$ (plaquette excitation present) and using the result of the exercise below we show what is intended.
@@ -142,15 +142,15 @@ Noting that $$\prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle = - \v
 **Exercise:** Show that $$\prod_j Z_j \vert \psi_{init} \rangle = \prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle$$ <a href="#hint2">Hint</a>
 {:.message}
 
-Okay, so braiding $$e$$ around $$m$$ accumulates $$-1$$ phase for the state. Now, I claim that the proof of fermionic statistics of $$\epsilon$$ particle follows from the Fig. 7 below <a href="#references">[Kitaev&Laumann (2010) p. 15]</a>:
+Okay, so braiding $$e$$ around $$m$$ accumulates $$-1$$ phase for the state. Now, I claim that the proof of fermionic statistics of $$\epsilon$$ particle follows from the Fig. 8 below <a href="#references">[Kitaev&Laumann (2010) p. 15]</a>:
 
 <p style="text-align:center;"><img src="/assets/img/blog/braiding.png" width="700" loading="lazy"/></p>
-Fig. 7: Wordline braiding diagrams for the $$\epsilon$$ particle consisting of an $$e$$ and $$m$$ bound together.
+Fig. 8: Wordline braiding diagrams for the $$\epsilon$$ particle consisting of an $$e$$ and $$m$$ bound together.
 {:.figure}
 
 <!-- Can they change distance -->
 
-Okay, I understand that initially it might seem that there is a lot to unpack here, but in fact everything is plain and simple. Lines in Fig. 7 correspond to the $$(2+1)-D$$ worldlines of the anyons. Wordlines are nothing else than space-time graph[^11] of the particle motion with time going up on the image and particles moving around each other in space (horizontal direction). We first draw the diagram corresponding to taking the $$e$$ particle around $$m$$ particle (considered above). Next, we utilize identities found before (bottom row) to simplify each of the crossings in the top row: picking up a $$-1$$ factor for braiding $$e$$ around $$m$$ translates into the fermionic statistics of $$\epsilon$$ particle![^12]  
+Okay, I understand that initially it might seem that there is a lot to unpack here, but in fact everything is plain and simple. Lines in Fig. 8 correspond to the $$(2+1)-D$$ worldlines of the anyons. Wordlines are nothing else than space-time graph[^11] of the particle motion with time going up on the image and particles moving around each other in space (horizontal direction). We first draw the diagram corresponding to taking the $$e$$ particle around $$m$$ particle (considered above). Next, we utilize identities found before (bottom row) to simplify each of the crossings in the top row: picking up a $$-1$$ factor for braiding $$e$$ around $$m$$ translates into the fermionic statistics of $$\epsilon$$ particle![^12]  
 
 **Fact 4:** Three types of (anyonic) excitations correspond to vertex, plaquette and "dyonic" violations and these have bosonic, bosonic and fermionic exchange statistics respectively.  
 {:.note}
@@ -160,9 +160,9 @@ Okay, I understand that initially it might seem that there is a lot to unpack he
 
 ## Local indistinguishability
 
-In the previous section I stressed few times that the excitation loops considered are the ones which are *topologically trivial*. What if we considered e.g., Pauli $$X$$ strings which were making topologically *non-trivial* loops (e.g., ones corresponding to $$C_1, C_2 \ \textrm{or} \ C_3$$ in Fig. 2)? Note that such *non-trivial* loops are automatically *non-local* since they need to transverse through the whole system.
+In the previous section I stressed few times that the excitation loops considered are the ones which are *topologically trivial*. What if we considered e.g., Pauli $$X$$ strings which were making topologically *non-trivial* loops (e.g., ones corresponding to $$C_1, C_2 \ \textrm{or} \ C_3$$ in Fig. 3)? Note that such *non-trivial* loops are automatically *non-local* since they need to transverse through the whole system.
 
-Let us take a ground state of the toric code, say the one consisting of topologically trivial loops. What happens if we now apply to it a topologically non-trivial Pauli string loop, say $$C_2$$? Linearity allows us to apply the topologically non-trivial string to each of the components in the closed-loop superposition: therefore now all of the terms within the superposition belong to the $$C_2$$ equivalence class and the resulting state is thus another ground state $$\vert \psi_2 \rangle$$ (as shown in Fig. 4). Applying the same argument to the other ground states we immediately notice the following
+Let us take a ground state of the toric code, say the one consisting of topologically trivial loops. What happens if we now apply to it a topologically non-trivial Pauli string loop, say $$C_2$$? Linearity allows us to apply the topologically non-trivial string to each of the components in the closed-loop superposition: therefore now all of the terms within the superposition belong to the $$C_2$$ equivalence class and the resulting state is thus another ground state $$\vert \psi_2 \rangle$$ (as shown in Fig. 5). Applying the same argument to the other ground states we immediately notice the following
 
 **Fact 5:** Ground states are **locally indistinguishable** i.e. may be mapped onto each other only by using non-local operators.
 {:.note}
