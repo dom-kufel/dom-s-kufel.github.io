@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "It from Qubit" - long-range entanglement and correlations in the toric code.
+title: It from Qubit - long-range entanglement and correlations in the toric code.
 description: >
   I discuss toric code and its connections to topological order, long-range entanglement and quantum spin liquids.
 sitemap: false
