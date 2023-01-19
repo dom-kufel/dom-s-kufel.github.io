@@ -94,7 +94,7 @@ Nice! Summarizing the first key result:
 
 Having found the ground state, natural question is the following: what are the excited states of the model? A brief look at <a href="#eq:H_TC">Eq. 1</a> suggests that the excitations should simply correspond to $$-1$$ eigenvalues of $$A_v$$ or $$B_p$$ operators which might be thought to live on the vertices of the primal or dual lattice (see Fig. 5). These excitations (often called **anyons**) are "particle-like" (thus often called quasiparticles) i.e. they correspond to the localized energy excitation on a toric code ground state with a uniform energy density profile[^6] <a href="#references">[Zeng et al. (2015) p. 180]</a>.
 
-<p style="text-align:center;"><img src="/assets/img/blog/excitations.png" width="500"/></p>
+<p style="text-align:center;"><img src="/assets/img/blog/excitations.png" width="500" loading="lazy"/></p>
 Fig. 5: Three types of quasiparticle excitations (anyons) in the toric code.
 {:.figcaption}
 
@@ -129,7 +129,7 @@ If excitations are indeed "particle-like" and they are indistinguishable, can we
 
 It turns out that $$\epsilon$$ anyons are fermions. To see this we need to first show that braiding the $$e$$ particle around $$m$$ particle (and vice-versa) accumulates $$-1$$ phase. In other words we want to prove that $$\vert \psi_{final} \rangle = - \vert \psi_{init} \rangle$$. The action of moving $$e$$ around $$m$$ might be written as $$\vert \psi_{final} \rangle = \prod_j Z_j \vert \psi_{init} \rangle$$ and corresponds pictorially to the Fig. 6 below.
 
-<p style="text-align:center;"><img src="/assets/img/blog/statistics.png" width="500"/></p>
+<p style="text-align:center;"><img src="/assets/img/blog/statistics.png" width="500" loading="lazy"/></p>
 Fig. 6: Braiding $$e$$ particle around $$m$$ particle.
 {:.figure}
 
@@ -140,7 +140,7 @@ Noting that $$\prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle = - \v
 
 Okay, so braiding $$e$$ around $$m$$ accumulates $$-1$$ phase for the state. Now, I claim that the proof of fermionic statistics of $$\epsilon$$ particle follows from the Fig. 7 below <a href="#references">[Kitaev&Laumann (2010) p. 15]</a>:
 
-<p style="text-align:center;"><img src="/assets/img/blog/braiding.png" width="700"/></p>
+<p style="text-align:center;"><img src="/assets/img/blog/braiding.png" width="700" loading="lazy"/></p>
 Fig. 7: Wordline braiding diagrams for the $$\epsilon$$ particle consisting of an $$e$$ and $$m$$ bound together.
 {:.figure}
 
