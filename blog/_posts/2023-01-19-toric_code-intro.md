@@ -2,7 +2,7 @@
 layout: post
 title: Quick intro to the 2D toric code
 description: >
-  A real quick introduction to the 2D toric code.
+  A real quick introduction to the 2D toric code viewed from the condensed matter angle.
 sitemap: false
 ---
 
@@ -238,12 +238,6 @@ end
 *   Item baz
 *   Item zip
 
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
 
 ### And a nested list:
 
@@ -260,14 +254,6 @@ end
   - level 2 item
   - level 2 item
 - level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
 
 
 ### Definition lists
@@ -287,10 +273,7 @@ Color
 ```
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this. Or is it?
 ```
-
-```
-The final element.
-``` -->
+ -->
 ## References
 <a id="wenchenbook">*[Zeng et al. (2015)]*</a> Zeng, B., Chen, X., Zhou, D.L. and Wen, X.G., 2015. Quantum Information Meets Quantum Matter--From Quantum Entanglement to Topological Phase in Many-Body Systems. [*arXiv version*](https://arxiv.org/abs/1508.02595).
 
