@@ -25,8 +25,8 @@ Perhaps the simplest example is preparation of the $$\vert \textrm{GHZ} \rangle 
 
 That example is all good, but what we intend to show is different: namely that there exists no way of preparing the $$\vert GHZ \rangle$$ other than the circuit depth scaling with the system size. Perhaps the simplest way of showing this formally is to use the following lemma due to <a href="#references">[Piroli et al. (2021) Prop. 1]</a>
 
-Let $$A,B$$ be regions (collection of points) on the regular lattice in $$D$$ dimensions, defined such that $$d(A,B)>2 l$$ (where $$d(A,B)$$ is the minimum graph distance between $$A$$ and $$B$$) and operators $$Q_A$$ and $$Q_B$$ to be supported on $$A$$ and $$B$$ respectively. If state $$\vert \phi \rangle$$ may be prepared by a quantum circuit of depth (at most) $$l$$ from a product state $$\vert 0 \rangle$$ then the following is true $$\forall \ Q_A, Q_B$$: $$\langle \phi \vert Q_A Q_B \vert \phi \rangle = \langle \phi \vert Q_A \vert \phi \rangle \langle \phi \vert Q_B \vert \phi \rangle$$
-{:.message}
+<!-- Let $$A,B$$ be regions (collection of points) on the regular lattice in $$D$$ dimensions, defined such that $$d(A,B)>2 l$$ (where $$d(A,B)$$ is the minimum graph distance between $$A$$ and $$B$$) and operators $$Q_A$$ and $$Q_B$$ to be supported on $$A$$ and $$B$$ respectively. If state $$\vert \phi \rangle$$ may be prepared by a quantum circuit of depth (at most) $$l$$ from a product state $$\vert 0 \rangle$$ then the following is true $$\forall \ Q_A, Q_B$$: $$\langle \phi \vert Q_A Q_B \vert \phi \rangle = \langle \phi \vert Q_A \vert \phi \rangle \langle \phi \vert Q_B \vert \phi \rangle$$
+{:.message} -->
 
 We define the 2D toric code as a set of qubits placed on the links of the 2D square lattice with periodic boundary conditions with the following <a id="eq:H_TC">Hamiltonian</a>
 \begin{equation}
