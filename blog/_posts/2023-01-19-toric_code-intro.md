@@ -12,8 +12,7 @@ related_posts:
 
 <!-- Things left to be done:
 1. clearing up stuff and streamlining
-2. image references clean
-3. filling in the understanding of some bits -->
+2. filling in the understanding of some bits -->
 
 *[plaquettes]: Fancy term for each of the little squares in the lattice.
 *[braiding]: Loosely speaking "moving particles around each other"
@@ -171,6 +170,8 @@ Let us take a ground state of the toric code, say the one consisting of topologi
 
 We might restate the above result in the following way: if operator $$M$$ is local (i.e. does not involve operators going through the whole system) then we have $$\langle \psi_i \vert M \vert \psi_j \rangle = C_M \delta_{ij}$$ where $$C_M$$ is a constant only dependent on $$M$$.
 
+<!-- Mention the distance etc. -->
+
 Interestingly, local indistinguishability is one of the key components for system to possess **topological order** i.e. loosely speaking to exhibit topology-dependent ground state degeneracy without breaking any underlying symmetry[^13] which cannot be removed[^14] by any local, sufficiently weak perturbation of the Hamiltonian <a href="#references">[Zeng et al. (2015) p. 166]</a>. In the case of the toric code we indeed see the 4-fold ground state degeneracy which purely depends on the topology of the space and using local indistinguishability it might be shown that its ground state degeneracy cannot be lifted by any local, sufficiently weak perturbations <a href="#references">[Bravyi et al. (2010)]</a>.
 
 <!-- Analyze TPQO conditions -->
@@ -185,7 +186,7 @@ Obviously, there is still so much to say about the toric code! If this post stil
 ## FAQ
 1. Can toric code be defined only on a square lattice? No, in principle we can define toric code on any lattice. See e.g., <a href="#references">[Simon (2020) Chp. 25.5]</a>.
 2. Can toric code be defined in the systems beyond 2D? Yes, in particular a 4D toric code is model particularly interesting from the perspective of error correction since it might act as a self-correcting quantum memory[^15]. For a gentle intro from condensed matter-ish view on toric codes beyond 2D see e.g., <a href="#references">[Savary&Balents (2016) p. 7]</a>.
-3. Can toric code be defined for system other than qubits? Yes, for $N$ level system we have $$Z_N$$ toric code generalization; which we can further extend to more general groups in so-called a Kitaev double model (possibly possessing non-Abelian anyons)! See e.g., <a href="#references">[Simon (2020) Chp. 25.6 and Chp. 29]</a>
+3. Can toric code be defined for system other than qubits? Yes, for $$N$$ level system we have $$Z_N$$ toric code generalization; which we can further extend to more general groups in so-called a Kitaev double model (possibly possessing non-Abelian anyons)! See e.g., <a href="#references">[Simon (2020) Chp. 25.6 and Chp. 29]</a>
 4. Given the 4-body interaction term in the toric code Hamiltonian, can it be feasibly implemented in the lab? Yes, there are experimental demonstrations of a toric code in the lab (we will briefly discuss them in another blogpost!). If you particularly worry about the 4-body term specifically you might think of a toric code as a lowest order in perturbation theory description of the Kitaev Honeycomb model in the $$J_z \gg J_x,J_y$$ regime: see e.g., <a href="#references">[Kitaev (2006)]</a>.
 
 **Acknowledgements**: I thank Arthur Pesah and Leo Lo for many interesting discussions.
