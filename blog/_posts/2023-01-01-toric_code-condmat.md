@@ -14,7 +14,7 @@ In this blogpost I would like to further highlight these matter-information conn
 * Long-range Entanglement
 * Entanglement and correlations
 * Quantum Spin Liquids
-{:toc}
+{:toc .large-only}
 
 *[weird]: Read: interesting
 
