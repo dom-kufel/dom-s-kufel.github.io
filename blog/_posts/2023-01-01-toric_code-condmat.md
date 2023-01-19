@@ -17,7 +17,9 @@ In this blogpost I would like to follow the "it from qubit" spirit and discuss a
 {:toc}
 
 ## Long-range entanglement
-What do we mean by long-range entanglement? We say that state is long-range entangled if it cannot be prepared by a quantum circuit with constant-depth i.e. depth required does not scale with the system size. What are some familiar states which are long-range entangled?
+What do we mean by long-range entanglement? We say that state is **long-range entangled** if it cannot be prepared by a quantum circuit with a "constant-depth" i.e. depth required does not scale with the system size. What are some familiar states which are long-range entangled? For instance, $$\vert \textrm{GHZ} \rangle$$ state on $$n$$ qubits and any of the toric code ground states $$\vert \textrm{TC}_j \rangle$$ ($$j=0,1,2,3$$) are long-range entangled. Let's think about why.   
+
+  <!-- = \frac{1}{\sqrt{2}} \left( \vert 00 \rangle + \vert 11 \rangle \right)$$  -->
 
 
 We define the 2D toric code as a set of qubits placed on the links of the 2D square lattice with periodic boundary conditions with the following <a id="eq:H_TC">Hamiltonian</a>
