@@ -51,7 +51,11 @@ In the simplest realization, toric code is a model of qubits (two-level systems)
 \begin{equation}
 H = -\sum_v A_v - \sum_p B_p
 \end{equation}
-where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices[^2]. For later we will (i) define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. 1; and (ii) note that on torus we can draw four *topologically inequivalent*[^3] loops - see Fig. 2.   
+where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices[^2] - see Fig. 1. For later we will (i) define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. 1s; and (ii) note that on torus we can draw four *topologically inequivalent*[^3] loops - see Fig. 2.   
+
+<p style="text-align:center;"><img src="/assets/img/blog/toric_code_hamiltonian.png" width="500"/></p>
+Fig. 1: 4-body operators present in the toric code Hamiltonian.
+{:.figure}
 
 <p style="text-align:center;"><img src="/assets/img/blog/toric_code_primal_dual.png" width="500"/></p>
 Fig. 1: "Primal" and dual lattices of the toric code.
