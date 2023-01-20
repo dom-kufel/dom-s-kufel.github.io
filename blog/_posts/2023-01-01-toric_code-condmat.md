@@ -33,8 +33,7 @@ $$\langle \phi \vert Q_A Q_B \vert \phi \rangle = \langle \phi \vert Q_A \vert \
 
 In other words, if we can given an example of $$Q_A, Q_B$$ such that $$\langle \phi \vert Q_A Q_B \vert \phi \rangle \neq \langle \phi \vert Q_A \vert \phi \rangle \langle \phi \vert Q_B \vert \phi \rangle$$ then $$\phi$$ had to be prepared by a quantum circuit of depth greater than $$l$$.
 
-Equipped with this lemma let's formally show that $$\vert GHZ \rangle$$ cannot be prepared with a finite depth circuit. Pick $$Q_A=$$ and $$Q_B=$$. Then
-You will similarly show that $$\vert TC_j \rangle$$ is long-range entangled in the exercise below.
+Equipped with this lemma let's formally show that $$\vert GHZ \rangle$$ cannot be prepared with a finite depth circuit. Pick $$Q_A=Z_1$$ and $$Q_B=Z_N$$ (Pauli operator $$Z$$ acting on the first and last qubit in the chain respectively). Then $$\langle GHZ \vert Q_A \vert GHZ \rangle = 0$$ and $$\langle GHZ \vert Q_B \vert GHZ \rangle = 0$$ yet $$\langle GHZ \vert Q_A Q_B \vert GHZ \rangle = 1$$. This result implies that the state $$ \vert GHZ \rangle $$ cannot be prepared with a circuit of depth $$(N-1)/2$$: and this depth already scales with the system size and is an untight lower bound for actual depth required. Thus GHZ is long-range entangled. You will similarly show that $$\vert TC_j \rangle$$ is long-range entangled in the exercise below.
 
 **Exercise:** Show that given $$\vert \phi \rangle= \vert TC_j \rangle$$ $$\exists Q_A, Q_B$$ such that $$\langle \phi \vert Q_A Q_B \vert \phi \rangle \neq \langle \phi \vert Q_A \vert \phi \rangle \langle \phi \vert Q_B \vert \phi \rangle$$ and therefore $$ \vert TC_j \rangle$$ is long-range entangled. <a href="#hint1">Hint</a>
 {:.message}
