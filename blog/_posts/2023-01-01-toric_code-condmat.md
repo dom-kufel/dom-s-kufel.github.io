@@ -46,11 +46,11 @@ Wonderful! Let us summarize what we have learnt
 
 <!-- Is any state reachable by an arbitrarily deep circuit? -->
 
-We define the 2D toric code as a set of qubits placed on the links of the 2D square lattice with periodic boundary conditions with the following <a id="eq:H_TC">Hamiltonian</a>
+<!-- We define the 2D toric code as a set of qubits placed on the links of the 2D square lattice with periodic boundary conditions with the following <a id="eq:H_TC">Hamiltonian</a>
 \begin{equation}
 H = -\sum_v A_v - \sum_p B_p
 \end{equation}
-where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices.
+where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices. -->
 
 
 ## Long-range entanglement and observables correlations
