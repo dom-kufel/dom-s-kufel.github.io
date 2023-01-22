@@ -159,7 +159,7 @@ Okay, I understand that initially it might seem that there is a lot to unpack he
 
 ## Local indistinguishability
 
-In the previous section I stressed few times that the excitation loops considered are the ones which are *topologically trivial*. What if we considered e.g., Pauli $$X$$ strings which were making topologically *non-trivial* loops (e.g., ones corresponding to $$C_1, C_2 \ \textrm{or} \ C_3$$ in Fig. 3)? Note that such *non-trivial* loops are automatically *non-local* since they need to transverse through the whole system.
+In the previous section I stressed few times that the excitation loops considered are the ones which are *topologically trivial*. What if we considered e.g., Pauli $$X$$ strings which were making topologically *non-trivial* loops (e.g., ones corresponding to $$C_1, C_2 \ \textrm{or} \ C_3$$ in Fig. 3)? Note that such *non-trivial* loops are automatically *non-local* since they need to transverse through the "whole system" (i.e. size of it is at least $$L$$ corresponding to the linear system size).
 
 Let us take a ground state of the toric code, say the one consisting of topologically trivial loops. What happens if we now apply to it a topologically non-trivial Pauli string loop, say $$C_2$$? Linearity allows us to apply the topologically non-trivial string to each of the components in the closed-loop superposition: therefore now all of the terms within the superposition belong to the $$C_2$$ equivalence class and the resulting state is thus another ground state $$\vert \psi_2 \rangle$$ (as shown in Fig. 5). Applying the same argument to the other ground states we immediately notice the following
 
@@ -168,7 +168,7 @@ Let us take a ground state of the toric code, say the one consisting of topologi
 
 <!-- Macroscopic distance or simply distance -->
 
-We might restate the above result in the following way: if operator $$M$$ is local (i.e. does not involve operators going through the whole system) then we have $$\langle \psi_i \vert M \vert \psi_j \rangle = C_M \delta_{ij}$$ where $$C_M$$ is a constant only dependent on $$M$$.
+We might restate the above result in the following way: if operator $$M$$ is *local* (i.e. does not involve operators going through the "whole system") then we have $$\langle \psi_i \vert M \vert \psi_j \rangle = C_M \delta_{ij}$$ where $$C_M$$ is a constant only dependent on $$M$$. The shortest minimal distance of the *non-local* operator support is $$L$$, which in error correction is known as a **code distance** (roughly speaking maximum length of the error string which might still be corrected).
 
 <!-- Mention the distance etc. -->
 
