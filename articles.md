@@ -9,3 +9,6 @@ permalink: /outreach/
 
 [install]: outreach/_posts/2023-01-29-knot_theory_intro.md
 [av]: about.md
+
+install
+av
