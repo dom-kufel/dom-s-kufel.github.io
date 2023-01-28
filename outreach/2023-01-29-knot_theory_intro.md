@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Knotty subject
-description: >
-  This is a brief, rough, sketch of the workshops I conducted for the high-school students in Lublin, Poland, Dec 2022.
-sitemap: false
+description: This is a brief, rough, sketch of the workshops I conducted for the high-school students in Lublin, Poland, Dec 2022.
 ---
 
-[**In construction...**]
+[In construction...]
 
 We all know what a knot is. Even more we all had to untie some annoyingly tangled knot at some point. Is there any way to rigorously tell if one knot is more difficult to be untangled than the other? Or even if two knots are different? 
 
