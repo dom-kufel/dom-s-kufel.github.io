@@ -16,14 +16,14 @@ Fig. 1: Haken and Thistlethwaite unknots. Yes, if you spent long enough untangli
 {:.figure}
 
 
-## Reidemeister moves
+<!-- ## Reidemeister moves
 
 We define the <a id="eq:H_TC">Hamiltonian</a> for the system to be
 \begin{equation}
 H = -\sum_v A_v - \sum_p B_p
 \end{equation}   
 
-## Further reading
+## Further reading -->
 
 
 <!--
