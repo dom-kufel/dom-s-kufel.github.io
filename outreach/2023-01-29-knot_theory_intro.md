@@ -6,41 +6,15 @@ description: >
 sitemap: false
 ---
 
-<!-- image: /assets/img/blog/example-content-ii.jpg -->
-
-<!-- Things left to be done:
-1. clearing up stuff and streamlining
-2. filling in the understanding of some bits -->
-
-*[plaquettes]: Fancy term for each of the little squares in the lattice.
-*[braiding]: Loosely speaking "moving particles around each other"
-*[weird]: Read: interesting
-
-[^1]: If it does not immediately become clear why see [this](https://commons.wikimedia.org/wiki/File:Torus_from_rectangle.gif) animation.
-[^2]: Note that some people (see e.g., <a href="#references">*[Zeng et al. (2015)]*</a> define $$A_v$$ operators as products of Pauli $$Z$$ operators; and $$B_p$$ operators as products of Pauli $$X$$ - this is just the matter of convention and does not change the physics in any essential way (since it corresponds to simply swapping $$X$$'s with $$Z$$'s i.e. a change of basis by conjugating all qubits with the Hadamard gate).
-[^3]: If "topological inequivalence" does not ring a bell: loosely speaking we might say that two loops are "topologically inequivalent" if they cannot be smoothly deformed into one another (cutting/gluing and removing holes not allowed).
-[^4]: This language comes from quantum error correction. To get a better feeling of stabilizer Hamiltonians in the error correction formalism check out e.g., [this](https://www.arthurpesah.me) blogpost.
-[^5]: Just to recap: ground state at this stage just being a generic linear combination of closed loop configurations as described before.
-[^6]: If it is not immediately clear think about associating to each point in the primal and dual lattice the eigenvalue of the corresponding vertex/plaquette operator. The ground state would simply correspond to all $$+1$$ eigenvalues. Consequently regardless where we create excitations to it - they will correspond to $$-1$$ eigenvalue particle-like "peaks" in otherwise uniform energy density background.
-[^7]: There is quite a deep reason behind this, which we will explore more in the future blogpost.
-[^8]: We will discuss what happens if we consider topologically inequivalent loops in the next <a href="#long-range-entanglement">section</a>.  
-[^9]: This observation allows us to prove the 4-fold ground state degeneracy in an alternative way to the one described in the <a href="#hamiltonian-and-ground-states">first section</a>. The main idea is as follows: eigenvalues of each of the vertex/plaquette operators can be $+1$ or $-1$ (they are formed of Pauli operators which are both unitary and Hermitian); this means that there are $$2^N$$ possible states. The conditions $$\prod_{\textrm{all} \ \ v} A_v = \mathbb{1} \ \ \ \prod_{\textrm{all} \ \ p} B_p = \mathbb{1}$$ however imply that two of these operators will not be independent: effectively we have $$2^{N-2}$$ independent quantum numbers. This means that the ground state degeneracy will be $$2^N/2^{N-2}=4$$.
-[^10]: One way of showing this is to show that the "twist factor" in a topological quantum theory <a href="#references">[Simon (2020) Chp. 26.2]</a> is +1 (moving $$e$$ (or $$m$$) particle involves only applying $$X$$ (or $$Z$$) operators which all commute with each other).
-[^11]: Or in our case more of a 1D spatial projection of the 2D trajectory of the particle defined on a 2D toric code!
-[^12]: In case this explanation was unclear or too quick: see e.g., <a href="#references">[Simon (2020) Chp. 2 and Chp. 26.2]</a>.
-[^13]: If this is not surprising I would encourage you to study symmetry-breaking paradigm due to Landau. The point of the topological order is precisely to 'disavow Landau' as [John Preskill would say](http://theory.caltech.edu/~preskill/colloquium/Balents.htm).    
-[^14]: This in principle should be considered in the thermodynamic limit (infinite number of qubits), see <a href="#references">[Bravyi et al. (2010)] p. 8</a>.
-[^15]: Main idea is as follows: loosely speaking, for quantum error correction, the longer the error string the larger chance that it corresponds to uncorrectable error. As described <a href="#quasiparticle-excitations">before</a>, energy cost paid for the pair of excitations of any length is the same; for self-correcting memory (for storing quantum information) we want to retain non-locality of information encoding but yet penalize for longer excitation strings. It turns out that due to their dimensionality, 3D and 4D toric code energetically penalize long excitations one and two types of Pauli errors respectively.
-
-<p style="text-align:center;"><img src="/assets/img/blog/summary.png" width="1000"/></p>
-
 [**In construction...**]
 
 We all know what a knot is. Even more we all had to untie some annoyingly tangled knot at some point. Is there any way to rigorously tell if one knot is more difficult to be untangled than the other? Or even if two knots are different? 
 
+You might initially think that these problems are simple
 
+<p style="text-align:center;"><img src="/assets/img/outreach/haken.png" width="250"/></p>
+<p style="text-align:center;"><img src="/assets/img/outreach/thistlethwaite.png" width="250"/></p>
 
-Working in the field of quantum technologies I often chat to people from a variety of quantum-focused fields. A weird thing happens if people from traditionally different communities talk about the same stuff. This is how I have first heard about the toric code: both condensed matter and quantum error correction people spoke about it a lot. Soon afterwards I discovered why: toric code is a paradigmatic example for both topological quantum error correction and topological order in condensed matter. What makes this model to be famous and which of its properties make it so fun to work with?
 
 In this blogpost, I would like to answer these questions by discusing the toric code basics as viewed from the perspective of condensed matter physics: for a complimentary viewpoint from the quantum error correction perspective see excellent [post](https://www.arthurpesah.me) by Arthur Pesah. In section <a href="hamiltonian-and-ground-states">1</a> we will discuss the toric code Hamiltonian and find its ground states, then in section <a href="excitations">2</a> we will describe excited states and how they might be treated as 2D-confined particles (often known as anyons). Finally in section <a href="local-indistinguishability">3</a> we will come back to ground states and consider how they can be mapped onto each other, discovering non-local information encoding. Without a further ado, let's roll!
 
