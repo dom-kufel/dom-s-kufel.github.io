@@ -5,9 +5,7 @@ description: >
 permalink: /outreach/
 ---
 
+## Outreach
+* [Knots]{:.heading.flip-title} --- Simple introduction to knot theory for high-schoolers.
 
-## Getting started
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
-
-
-[install]: 2023-01-29-knot_theory_intro.md
+[Knots]: 2023-01-29-knot_theory_intro.md
