@@ -8,11 +8,11 @@ description: This is a brief, rough, sketch of the workshops I conducted for the
 
 We all know what a knot is. Even more we all had to untie some annoyingly tangled knot at some point. Is there any way to rigorously tell if one knot is more difficult to be untangled than the other? Or even if two knots are different? 
 
-You might initially think that these problems are simple
+You might initially think that these problems are simple to figure out on a case-by-case basis. 
 
 <p style="text-align:center;"><img src="/assets/img/outreach/haken.png" width="250"/></p>
 <p style="text-align:center;"><img src="/assets/img/outreach/thistlethwaite.png" width="250"/></p>
-Fig. 1: 4-body operators present in the toric code Hamiltonian.
+Fig. 1: Haken and Thistlethwaite unknots. Yes, if you spent long enough untangling them, you would be able to make a simple loop!
 {:.figure}
 
 
