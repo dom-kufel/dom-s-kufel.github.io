@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: blog
 title: Outreach
 description: > 
 grouped: true
