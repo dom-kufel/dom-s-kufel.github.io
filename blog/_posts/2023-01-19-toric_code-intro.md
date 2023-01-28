@@ -168,7 +168,7 @@ Let us take a ground state of the toric code, say the one consisting of topologi
 
 <!-- Macroscopic distance or simply distance -->
 
-We might restate the above result in the following way: if operator $$M$$ is *local* (i.e. does not involve operators going through the "whole system") then we have $$\langle \psi_i \vert M \vert \psi_j \rangle = C_M \delta_{ij}$$ where $$C_M$$ is a constant only dependent on $$M$$. The shortest minimal distance of the *non-local* operator support is $$L$$, which in error correction is known as a **code distance** (roughly speaking maximum length of the error string which might still be corrected).
+We might restate the above result in the following way: if operator $$M$$ is *local* (i.e. does not involve operators going through the "whole system") then we have $$\langle \psi_i \vert M \vert \psi_j \rangle = C_M \delta_{ij}$$ where $$C_M$$ is a constant only dependent on $$M$$. The shortest minimal distance of the *non-local* operator support is $$L$$, which in error correction is known as a **code distance** (roughly speaking: maximum length of the error string which might still be corrected).
 
 <!-- Mention the distance etc. -->
 
