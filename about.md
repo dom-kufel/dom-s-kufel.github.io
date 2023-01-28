@@ -2,8 +2,7 @@
 layout: about
 image: /assets/img/prof_pic.jpg
 description: >
-  A boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+ok
 hide_description: true
 redirect_from:
   - /download/
