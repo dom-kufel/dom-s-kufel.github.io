@@ -10,4 +10,4 @@ permalink: /outreach/
 * [Install]{:.heading.flip-title} --- How to install and run Hydejack.
 
 
-[install]: 2023-01-29-knot_theory_intro.md
+[install]: outreach/2023-01-29-knot_theory_intro.md
