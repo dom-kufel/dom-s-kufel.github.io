@@ -4,7 +4,7 @@ title: When physicists and doctors meet to resolve the roots of the leading caus
 description: This is a very short popular-science article I have written for my undergrad scientific communication class in Nov 2018.
 ---
 
-<b>Experiments involving stretching of the blood cells using laser light sug- gest that blindness in diabetes may be caused by stiffer blood cells.</b> <br>
+<p><b><font size="+2">Experiments involving stretching of the blood cells using laser light sug- gest that blindness in diabetes may be caused by stiffer blood cells.</font></b></p>
 
 When <a href="https://web.archive.org/web/20230129163428/https://www.bbc.com/news/disability-34847776">Leonie Watson</a>.  was diagnosed with Type 1 diabetes she was in her early childhood. Her blood sugar levels skyrocketed as her body stopped to produce insulin. In the middle of her twenties, something terrible happened - Leonie has seen a blood ribbon in her line of sight and her vision has started to worsen. She was totally blind before the age of 26.
 
