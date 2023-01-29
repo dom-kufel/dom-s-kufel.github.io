@@ -21,7 +21,7 @@ You might initially think that these problems are simple to figure out on a case
   </div>
 </div>  -->
 
- <div class="row">
+ <div class="column">
   <figure>
     <p style="text-align:center;"><img src="/assets/img/outreach/haken.png" width="250"></p>
     <p style="text-align:center;"><img src="/assets/img/outreach/thistlethwaite.png" width="250"></p>
