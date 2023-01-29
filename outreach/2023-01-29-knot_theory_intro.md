@@ -10,10 +10,22 @@ We all know what a knot is. Even more we all had to untie some annoyingly tangle
 
 You might initially think that these problems are simple to figure out on a case-by-case basis. 
 
+
+ <div class="row">
+  <div class="column">
+  <figure>
+    <img src="/assets/img/outreach/haken.png" width="250">
+  </div>
+  <div class="column">
+    <img src="/assets/img/outreach/thistlethwaite.png" width="250">
+    <figcaption>Fig. 1: Haken and Thistlethwaite unknots. Yes, if you spent long enough untangling them, you would be able to make a simple loop!</figcaption>
+  </div>
+</div> 
+
+
 <p style="text-align:center;"><img src="/assets/img/outreach/haken.png" width="250"/></p>
 <p style="text-align:center;"><img src="/assets/img/outreach/thistlethwaite.png" width="250"/></p>
-Fig. 1: Haken and Thistlethwaite unknots. Yes, if you spent long enough untangling them, you would be able to make a simple loop!
-{:.figure}
+
 
 
 <!-- ## Reidemeister moves

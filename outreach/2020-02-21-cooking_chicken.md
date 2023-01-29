@@ -8,5 +8,5 @@ description: This is a gif made out of the early-year-undergrad targeted talk sl
 
 (If you would like to replay it in a large window: right click and open image in a new tab.)
 
- <b>Fun fact</b>: These talks in some communities earned me a "chicken guy" nickname. 
+ <b>Fun fact</b>: These talks in some communities earned me a "chicken guy" nickname. <br>
  (I hope I deserve it! At least I really like chicken...)
