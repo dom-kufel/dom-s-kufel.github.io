@@ -6,11 +6,9 @@ description: This is a brief, rough, sketch of the workshops I conducted for the
 
 [In construction...]
 
-We all know what a knot is. Even more we all had to untie some annoyingly tangled knot at some point. Is there any way to rigorously tell if one knot is more difficult to be untangled than the other? Or even if two knots are different? 
+We all know what a knot is. Even more we all had to untie some annoyingly tangled knot at some point. Is there any way to rigorously tell if one knot is more difficult to be untangled than the other? Or even if two unlike looking knots are the smae or actually different? You might be tempted to think that in practice it is easy to tell. Then consider the following
 
-You might initially think that these problems are simple to figure out on a case-by-case basis. 
-
- <!-- <div class="row">
+ <div class="row">
   <div class="column">
   <figure>
     <p style="text-align:center;"><img src="/assets/img/outreach/haken.png" width="250"></p>
@@ -19,14 +17,14 @@ You might initially think that these problems are simple to figure out on a case
     <p style="text-align:center;"><img src="/assets/img/outreach/thistlethwaite.png" width="250"></p>
     <figcaption>Fig. 1: Haken and Thistlethwaite unknots. Yes, if you spent long enough untangling them, you would be able to make a simple loop!</figcaption>
   </div>
-</div>  -->
+</div> 
 
- <div class="row">
+ <!-- <div class="row">
   <figure>
     <p style="text-align:center;"><img src="/assets/img/outreach/haken.png" width="250"></p>
     <p style="text-align:center;"><img src="/assets/img/outreach/thistlethwaite.png" width="250"></p>
     <figcaption>Fig. 1: Haken and Thistlethwaite unknots. Yes, if you spent long enough untangling them, you would be able to make a simple loop!</figcaption></figure>
-</div> 
+</div>  -->
 
 
 
