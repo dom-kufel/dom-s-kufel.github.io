@@ -6,7 +6,7 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 
 [In construction...]
 
-<p>We all know what a knot is. Even more we all had to untie some annoyingly tangled knot at some point. Is there any way to rigorously tell if one knot is more difficult to be untangled than the other? Or even if two unlike looking knots are the same or actually different? You might be tempted to think that in practice it is easy to tell. Then consider the (un)knots in Fig. 1 and Fig. 2:</p>
+<p>We all know what a knot is. Even more we all had to untie some annoyingly tangled knot at some point. Is there any way to rigorously tell if one knot is more difficult to be untangled than another? Or even if two unlike looking knots are the same or actually different? You might be tempted to think that in practice it is easy to tell. Then consider the (un)knots in Fig. 1 and Fig. 2:</p>
 
  <div class="row">
   <div class="column">
@@ -28,7 +28,7 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 
 <p>First, we need to say what techniques of disentangling knots are allowed. You might be sneaky, and just like Alexander the Great (at least in one version of the <a href="https://en.wikipedia.org/wiki/Gordian_Knot">legend</a>) start cutting the knot under consideration. To the disappointment of Zeus, this is not allowed: we deal with the beautiful branch of math known as topology. In topology, we are already allowed to do a lot of things (e.g., we can deform the precise geometrical shape of the knot in any way we want!), but cutting/glueing stuff is not one of it, period.</p>
 
-<p>Second, what does "the simplest possible form of the knot" mean? I claim it means that it corresponds to the alternating knot. An alternating knot has the following property: if one followed the thread on the knot diagram, she would see over-crossing, followed by under-crossing, followed by over-crossing, followed by ... - you get the "alternating" pattern.</p>
+<p>Second, what does "the simplest possible form of the knot" mean? I claim it means that it corresponds to the alternating knot. An alternating knot has the following property: if one followed the thread on the knot diagram, she would see over-crossing, followed by under-crossing, followed by over-crossing, followed by ... - you get the "alternating" pattern. See Fig below</p>
 
 <p>Exercise: Convince yourself that alternating knot cannot be further simplified. Are there any exceptions to this?</p>
 
