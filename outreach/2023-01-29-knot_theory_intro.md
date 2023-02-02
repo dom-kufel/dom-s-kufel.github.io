@@ -7,21 +7,19 @@ description: This is a brief, rough, sketch of the workshops I conducted for the
 [In construction...]
 
 We all know what a knot is. Even more we all had to untie some annoyingly tangled knot at some point. Is there any way to rigorously tell if one knot is more difficult to be untangled than the other? Or even if two unlike looking knots are the smae or actually different? You might be tempted to think that in practice it is easy to tell. Then consider the (un)knots in Fig. 1:
-
  <div class="row">
   <div class="column">
   <figure>
     <p style="text-align:center;"><img src="/assets/img/outreach/haken.png" width="50"></p>
   </div>
+    <figcaption>Fig. 1: Haken's unknot. Yes, if you spent long enough untangling it, you would be able to make a simple loop!</figcaption>
   <div class="column">
     <p style="text-align:center;"><img src="/assets/img/outreach/thistlethwaite.png" width="50"></p>
-    <figcaption>Fig. 1: Haken and Thistlethwaite unknots. Yes, if you spent long enough untangling them, you would be able to make a simple loop! </figcaption>
+    <figcaption>Fig. 1: Thistlethwaite's unknot. Same story: you can disentangle it to get a simple loop (or Haken's unknot if you really wish...)!</figcaption>
   </div>
 </div> 
+Curious! Okay, since it might not be so easy to tell if two knots are different: is there at least any algorithm, which, if one followed rigorously, would result in the simplest possible form of the knot?
 
-
-
-Okay, so it might not be 
 
  <!-- <div class="row">
   <figure>
