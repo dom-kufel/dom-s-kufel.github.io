@@ -14,9 +14,11 @@ description: This is a brief, rough, sketch of the workshops I conducted for the
     <p style="text-align:center;"><img src="/assets/img/outreach/haken.png" width="450"></p>
   </div>
     <figcaption>Fig. 1: Haken's unknot. Yes, if you spent long enough untangling it, you would be able to make a simple loop!</figcaption>
+  </figure>
   <div class="column">
     <p style="text-align:center;"><img src="/assets/img/outreach/thistlethwaite.png" width="450"></p>
-    <figcaption>Fig. 2: Thistlethwaite's unknot. Same story: you can disentangle it to get a simple loop (or Haken's unknot if you really wish...)!</figcaption>
+    <figcaption>Fig. 2: Thistlethwaite's unknot. Same story: you can disentangle it to get a simple loop (or transform it to the Haken's unknot if you really wish...)!</figcaption>
+    </figure>
   </div>
 </div> 
 
@@ -27,6 +29,10 @@ description: This is a brief, rough, sketch of the workshops I conducted for the
 <p>Second, what does "the simplest possible form of the knot" mean? I claim it means that it corresponds to the alternating knot. An alternating knot is the one where, if one followed the thread on the knot diagram, she would see over-crossing, followed by under-crossing, followed by over-crossing, followed by ... - you get the "alternating" pattern.</p>
 
 <p>Convince yourself that alternating knot cannot be further simplify. Are there any exceptions to this?</p>
+
+Equipped with these two points we can proceed to the algorithm. The algorithm consists of iterative application of three basic disentangling moves, known as Reideimeister moves, and presented in Fig. 3 below:
+
+
 
 
  <!-- <div class="row">
