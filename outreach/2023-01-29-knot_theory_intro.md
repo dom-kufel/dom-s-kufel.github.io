@@ -6,7 +6,8 @@ description: This is a brief, rough, sketch of the workshops I conducted for the
 
 [In construction...]
 
-We all know what a knot is. Even more we all had to untie some annoyingly tangled knot at some point. Is there any way to rigorously tell if one knot is more difficult to be untangled than the other? Or even if two unlike looking knots are the smae or actually different? You might be tempted to think that in practice it is easy to tell. Then consider the (un)knots in Fig. 1:
+<p>We all know what a knot is. Even more we all had to untie some annoyingly tangled knot at some point. Is there any way to rigorously tell if one knot is more difficult to be untangled than the other? Or even if two unlike looking knots are the same or actually different? You might be tempted to think that in practice it is easy to tell. Then consider the (un)knots in Fig. 1 and Fig. 2:</p>
+
  <div class="row">
   <div class="column">
   <figure>
@@ -15,10 +16,17 @@ We all know what a knot is. Even more we all had to untie some annoyingly tangle
     <figcaption>Fig. 1: Haken's unknot. Yes, if you spent long enough untangling it, you would be able to make a simple loop!</figcaption>
   <div class="column">
     <p style="text-align:center;"><img src="/assets/img/outreach/thistlethwaite.png" width="450"></p>
-    <figcaption>Fig. 1: Thistlethwaite's unknot. Same story: you can disentangle it to get a simple loop (or Haken's unknot if you really wish...)!</figcaption>
+    <figcaption>Fig. 2: Thistlethwaite's unknot. Same story: you can disentangle it to get a simple loop (or Haken's unknot if you really wish...)!</figcaption>
   </div>
 </div> 
-Curious! Okay, since it might not be so easy to tell if two knots are different: is there at least any algorithm, which, if one followed rigorously, would result in the simplest possible form of the knot?
+
+<p>What is plotted above are 2D projections (known as knot diagrams) of the simple loop (living in 3D), just twisted in some elaborate ways. Curious! Okay, since it might not be so easy to tell if two knot diagrams are different. At least, is there any algorithm, which, if one followed it rigorously, would guarantee that in finite number of steps we would get the simplest possible form of the knot? Short answer: yes. To understand it, though, we will have to clarify few things.</p>
+
+<p>First, we need to say what techniques of disentangling knots are allowed. You might be sneaky, and just like Alexander the Great (at least in one version of the <a href="https://en.wikipedia.org/wiki/Gordian_Knot">legend</a>) start cutting the knot under consideration. To the disappointment of Zeus, this is not allowed: we deal with the beautiful branch of math known as topology. In topology, we are already allowed to do a lot of things (e.g., we can deform the precise geometrical shape of the knot in any way we want!), but cutting/glueing stuff is not one of it, period.</p>
+
+<p>Second, what does "the simplest possible form of the knot" mean? I claim it means that it corresponds to the alternating knot. An alternating knot is the one where, if one followed the thread on the knot diagram, she would see over-crossing, followed by under-crossing, followed by over-crossing, followed by ... - you get the "alternating" pattern.</p>
+
+<p>Convince yourself that alternating knot cannot be further simplify. Are there any exceptions to this?</p>
 
 
  <!-- <div class="row">
