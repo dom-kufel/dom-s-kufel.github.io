@@ -26,9 +26,9 @@ description: This is a brief, rough, sketch of the workshops I conducted for the
 
 <p>First, we need to say what techniques of disentangling knots are allowed. You might be sneaky, and just like Alexander the Great (at least in one version of the <a href="https://en.wikipedia.org/wiki/Gordian_Knot">legend</a>) start cutting the knot under consideration. To the disappointment of Zeus, this is not allowed: we deal with the beautiful branch of math known as topology. In topology, we are already allowed to do a lot of things (e.g., we can deform the precise geometrical shape of the knot in any way we want!), but cutting/glueing stuff is not one of it, period.</p>
 
-<p>Second, what does "the simplest possible form of the knot" mean? I claim it means that it corresponds to the alternating knot. An alternating knot is the one where, if one followed the thread on the knot diagram, she would see over-crossing, followed by under-crossing, followed by over-crossing, followed by ... - you get the "alternating" pattern.</p>
+<p>Second, what does "the simplest possible form of the knot" mean? I claim it means that it corresponds to the alternating knot. An alternating knot has the following property: if one followed the thread on the knot diagram, she would see over-crossing, followed by under-crossing, followed by over-crossing, followed by ... - you get the "alternating" pattern.</p>
 
-<p>Convince yourself that alternating knot cannot be further simplify. Are there any exceptions to this?</p>
+<p>Exercise: Convince yourself that alternating knot cannot be further simplified. Are there any exceptions to this?</p>
 
 Equipped with these two points we can proceed to the algorithm. The algorithm consists of iterative application of three basic disentangling moves, known as Reideimeister moves, and presented in Fig. 3 below:
 
