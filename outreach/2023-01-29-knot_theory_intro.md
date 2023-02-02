@@ -10,11 +10,11 @@ We all know what a knot is. Even more we all had to untie some annoyingly tangle
  <div class="row">
   <div class="column">
   <figure>
-    <p style="text-align:center;"><img src="/assets/img/outreach/haken.png" width="50"></p>
+    <p style="text-align:center;"><img src="/assets/img/outreach/haken.png" width="450"></p>
   </div>
     <figcaption>Fig. 1: Haken's unknot. Yes, if you spent long enough untangling it, you would be able to make a simple loop!</figcaption>
   <div class="column">
-    <p style="text-align:center;"><img src="/assets/img/outreach/thistlethwaite.png" width="50"></p>
+    <p style="text-align:center;"><img src="/assets/img/outreach/thistlethwaite.png" width="450"></p>
     <figcaption>Fig. 1: Thistlethwaite's unknot. Same story: you can disentangle it to get a simple loop (or Haken's unknot if you really wish...)!</figcaption>
   </div>
 </div> 
