@@ -31,19 +31,35 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 <p>Second, what does "the simplest possible form of the knot" mean? Simplest possible knot corresponds to the alternating knot. An alternating knot has the following property: if one followed the thread on the knot diagram, she would see over-crossing, followed by under-crossing, followed by over-crossing, followed by ... - you get the "alternating" pattern. See Fig below</p>
 
 <p style="text-align:center;"><img src="/assets/img/outreach/alternating.jpeg" width="450"></p>
-<figcaption>Fig. 2: Thistlethwaite's unknot. Same story: you can disentangle it to get a simple loop (or transform it to the Haken's unknot if you really wish...)!</figcaption>
+<figcaption>Fig. 3: Alternating knot example. (This not is known as a trefoil knot)</figcaption>
 </figure>
 
-<blockquote style="border: 2px solid #666; padding: 10px; background-color: #ccc;"> Exercise: Convince yourself that alternating knot cannot be further simplified. Are there any exceptions to this?</blockquote> <br>
+<blockquote style="border: 2px solid #666; padding: 10px; background-color: #ccc;"> Exercise: Convince yourself that alternating knot cannot be further simplified. Can you think about any exceptions to this? (Hint: think about a loop with a single twist)</blockquote> <br>
 
 (The fact that alternating knot cannot be further simplified is the reason why all knots in knot tables - such as one in Fig. !!! - have the alternating knot property...)
 
-<p>Equipped with these two points we can proceed to the algorithm. The algorithm consists of iterative application of three basic disentangling moves, known as Reideimeister moves, and presented in Fig. 3 below: </p>
+<p>Equipped with these two points we can proceed to the algorithm. The algorithm consists of iterative application of three basic disentangling moves, known as Reideimeister moves, and presented in Fig. 4 below: </p>
 
-<p style="text-align:center;"><img src="/assets/img/outreach/reidemeister.jpeg" width="450"></p>
-<figcaption>Fig. 2: Thistlethwaite's unknot. Same story: you can disentangle it to get a simple loop (or transform it to the Haken's unknot if you really wish...)!</figcaption>
+<p style="text-align:center;"><img src="/assets/img/outreach/reidemeister.jpeg" width="550"></p>
+<figcaption>Fig. 4: Three Reideimeister moves. I hope it is intuitively clear why these moves do not change the knot in the disallowed way! <br>
+</figcaption>
 </figure>
 
+<p>Simple! We will demonstrate the R-moves by disentangling the knot below (which corresponds to trefoil knot in Fig. 3 with one crossing changed from overcrossing to undercrossing): </p>
+
+<p style="text-align:center;"><img src="/assets/img/outreach/disentangling.jpeg" width="550"></p>
+<figcaption>Fig. 5: Algorithmically disentangling a knot with the help of R-moves. <br>
+</figcaption>
+</figure>
+
+<p>In the above case it turned out that the original knot was in fact equivalent to the simple loop (unknot). Okay, great! To test your understanding solve the following exercise:</p> <br>
+
+<blockquote style="border: 2px solid #666; padding: 10px; background-color: #ccc;"> Exercise: Simplify the knot in Fig. 6 as much as possible using three Reidemeister moves.</blockquote> <br>
+
+<p style="text-align:center;"><img src="/assets/img/outreach/exercise_rmoves.png" width="550"></p>
+<figcaption>Fig. 6: Knot to be simplified.
+</figcaption>
+</figure>
 
 
 
