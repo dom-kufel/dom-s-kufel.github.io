@@ -28,11 +28,22 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 
 <p>First, we need to say what techniques of disentangling knots are allowed. You might be sneaky, and just like Alexander the Great (at least in one version of the <a href="https://en.wikipedia.org/wiki/Gordian_Knot">legend</a>) start cutting the knot under consideration. To the disappointment of Zeus, this is not allowed: we deal with the beautiful branch of math known as topology. In topology, we are already allowed to do a lot of things (e.g., we can deform the precise geometrical shape of the knot in any way we want!), but cutting/glueing stuff is not one of it, period.</p>
 
-<p>Second, what does "the simplest possible form of the knot" mean? I claim it means that it corresponds to the alternating knot. An alternating knot has the following property: if one followed the thread on the knot diagram, she would see over-crossing, followed by under-crossing, followed by over-crossing, followed by ... - you get the "alternating" pattern. See Fig below</p>
+<p>Second, what does "the simplest possible form of the knot" mean? Simplest possible knot corresponds to the alternating knot. An alternating knot has the following property: if one followed the thread on the knot diagram, she would see over-crossing, followed by under-crossing, followed by over-crossing, followed by ... - you get the "alternating" pattern. See Fig below</p>
 
-<p>Exercise: Convince yourself that alternating knot cannot be further simplified. Are there any exceptions to this?</p>
+<p style="text-align:center;"><img src="/assets/img/outreach/alternating.jpeg" width="450"></p>
+<figcaption>Fig. 2: Thistlethwaite's unknot. Same story: you can disentangle it to get a simple loop (or transform it to the Haken's unknot if you really wish...)!</figcaption>
+</figure>
 
-Equipped with these two points we can proceed to the algorithm. The algorithm consists of iterative application of three basic disentangling moves, known as Reideimeister moves, and presented in Fig. 3 below:
+<blockquote style="border: 2px solid #666; padding: 10px; background-color: #ccc;"> Exercise: Convince yourself that alternating knot cannot be further simplified. Are there any exceptions to this?</blockquote> <br>
+
+(The fact that alternating knot cannot be further simplified is the reason why all knots in knot tables - such as one in Fig. !!! - have the alternating knot property...)
+
+<p>Equipped with these two points we can proceed to the algorithm. The algorithm consists of iterative application of three basic disentangling moves, known as Reideimeister moves, and presented in Fig. 3 below: </p>
+
+<p style="text-align:center;"><img src="/assets/img/outreach/reidemeister.jpeg" width="450"></p>
+<figcaption>Fig. 2: Thistlethwaite's unknot. Same story: you can disentangle it to get a simple loop (or transform it to the Haken's unknot if you really wish...)!</figcaption>
+</figure>
+
 
 
 
