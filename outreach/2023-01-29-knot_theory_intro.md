@@ -4,8 +4,6 @@ title: Intro to the knotty subject
 description: This is a brief, rough, sketch of the workshops I conducted for gifted high-school students in Lublin, Poland, Dec 2022.
 ---
 
-[In construction...]
-
 <section><h2>Intro</h2>
 
 <p>We all know what a knot is. Even more we all had to untie some annoyingly tangled knot at some point. Is there any way to rigorously tell if one knot is more difficult to be untangled than another? Or even if two unlike looking knots are the same or actually different? You might be tempted to think that in practice it is easy to tell. Then consider the (un)knots in Fig. 1 and Fig. 2:</p>
