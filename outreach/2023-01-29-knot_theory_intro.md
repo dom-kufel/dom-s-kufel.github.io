@@ -61,20 +61,22 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 
 <p>In the above case it turned out that the original knot was in fact equivalent to the simple loop (unknot). Okay, great! To test your understanding solve the following exercise:</p> <br>
 
-<blockquote style="border: 2px solid #666; padding: 10px; background-color: #ccc;"> Exercise: Simplify the knot in Fig. 6 as much as possible using three Reidemeister moves.</blockquote> <br>
+<blockquote style="border: 2px solid #666; padding: 10px; background-color: #ccc;"> Exercise: Simplify the knot diagram in Fig. 6 as much as possible using three Reidemeister moves.</blockquote> <br>
 
 <p style="text-align:center;"><img src="/assets/img/outreach/exercise_rmoves.png" width="550"></p>
-<figcaption>Fig. 6: Knot to be simplified.
+<figcaption>Fig. 6: Knot diagram to be simplified.
 </figcaption>
 </figure>
 
 </section>
 
-<section><h1>Knot invariant</h1>
+<section><h2>Knot invariants</h2>
+
+We have repeatadely seen that by Reidemeister moves we can convert knot diagrams which initially do not look alike might in fact correspond to the same knot. 
 
 </section>
 
-<section><h1>Applications</h1>
+<section><h2>Applications</h2>
 
 
 
