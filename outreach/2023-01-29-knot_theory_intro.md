@@ -93,20 +93,19 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 </section>
 
 <section><h2>Applications</h2>
-<p>Before we finish this very brief intro to knot theory it would be good to discuss some interesting applications of it to the other fields: biology and quantum computing.</p>
-
-<section><h3>Topoisomerase</h3>
-It turns out that the double helix of DNA is super-coiled. Topoisomerase is an enzyme which.
-</section>
-
-<section><h3>Topological quantum computation</h3>
-
-</section>
-
+<p>Before we finish this very brief intro to knot theory we will briefly mention the key intuition behind application of it to quantum computing. </p>
 
 </section>
 
 <section><h2>Further reading</h2>
+
+<p>For a better mathematical grounding of knot theory ideas, and exploration of other knot invariants see section 4 of these excellent <a href="https://people.math.harvard.edu/~ctm/home/text/class/harvard/101/22/html/home/course/course.pdf 
+">lecture notes</a> </p><br>
+
+<p>There is some research on knotedness of DNA. (Very rough idea: It turns out that it is energetically favorable fot the DNA double-helix to form a <a href="https://en.wikipedia.org/wiki/DNA_supercoil#/media/File:Helix_vs_superhelix.png">super-coiled</a> structure which contains knots. Topoisomerase is an enzyme which is able to cut and reglue the super-coiled structure - effectively converting over-crossing to under-crossing. Thus using unknotting number we might calculate the number of required topoisomerase passes before DNA will be unknotted - something which seems to be neccesary for the DNA replication and its prevention e.g., in cancer treatment.) See: <a href="https://www.pathlms.com/siam/courses/2724/sections/3585/video_presentations/29347#">Video (2012) on research on topoisomerase in biology and links to knot theory</a><br> <a href="https://iubmb.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/bmb.20244">Review on DNA topology studies (2009)</a> <br> <a href="https://math.mit.edu/research/highschool/primes/circle/documents/2020/Ayinon_2020.pdf">Popular-science article on topoisomerase and knot theory </a> </p><br>
+
+<p>Knot theory and quantum computation: <a href="http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2020/TopoBookOct27hyperlink.pdf">- Chp 1 and Chp 2 are rather advanced but still somewhat accessible notes, to appreciate them requires basic knowledge of quantum mechanics</a></p>
+
 
 </section>
 
