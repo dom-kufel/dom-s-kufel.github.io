@@ -94,6 +94,11 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 Before we finish this very brief intro to knot theory it would be good to discuss some interesting applications of it to the other fields: biology and quantum computing. 
 </section>
 
+<section><h2>Further reading</h2>
+
+</section>
+
+
 
  <!-- <div class="row">
   <figure>
