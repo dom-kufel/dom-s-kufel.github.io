@@ -13,11 +13,11 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
   <figure>
     <p style="text-align:center;"><img src="/assets/img/outreach/haken.png" width="450"></p>
   </div>
-    <figcaption>Fig. 1: Haken's unknot. Yes, if you spent long enough untangling it, you would be able to make a simple loop!</figcaption>
+    <figcaption><b>Fig. 1</b>: Haken's unknot. Yes, if you spent long enough untangling it, you would be able to make a simple loop!</figcaption>
   </figure>
   <div class="column">
     <p style="text-align:center;"><img src="/assets/img/outreach/thistlethwaite.png" width="450"></p>
-    <figcaption>Fig. 2: Thistlethwaite's unknot. Same story: you can disentangle it to get a simple loop (or transform it to the Haken's unknot if you really wish...)!</figcaption>
+    <figcaption><b>Fig. 2</b>: Thistlethwaite's unknot. Same story: you can disentangle it to get a simple loop (or transform it to the Haken's unknot if you really wish...)!</figcaption>
     </figure>
   </div>
 </div> 
@@ -36,7 +36,7 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 <p>Second, what does "the simplest possible form of the knot" mean? Simplest possible knot corresponds to the alternating knot. An alternating knot has the following property: if one followed the thread on the knot diagram, she would see over-crossing, followed by under-crossing, followed by over-crossing, followed by ... - you get the "alternating" pattern. See Fig below</p>
 
 <p style="text-align:center;"><img src="/assets/img/outreach/alternating.jpeg" width="450"></p>
-<figcaption>Fig. 3: Alternating knot example. (This not is known as a trefoil knot)</figcaption>
+<figcaption><b>Fig. 3</b>: Alternating knot example. This knot is known as a trefoil knot. </figcaption>
 </figure>
 
 <blockquote style="border: 2px solid #666; padding: 10px; background-color: #ccc;"> Exercise: Convince yourself that alternating knot cannot be further simplified. Can you think about any exceptions to this? (Hint: think about a loop with a single twist)</blockquote> <br>
@@ -46,14 +46,14 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 <p>Equipped with these two points we can proceed to the algorithm. The algorithm consists of iterative application of three basic disentangling moves, known as Reideimeister moves, and presented in Fig. 4 below: </p>
 
 <p style="text-align:center;"><img src="/assets/img/outreach/reidemeister.jpeg" width="550"></p>
-<figcaption>Fig. 4: Three Reideimeister moves. I hope it is intuitively clear why these moves do not change the knot in the disallowed way! <br>
+<figcaption><b>Fig. 4</b>: Three Reideimeister moves. I hope it is intuitively clear why these moves do not change the knot in the disallowed way! <br>
 </figcaption>
 </figure>
 
 <p>Simple! We will demonstrate the R-moves by disentangling the knot below (which corresponds to trefoil knot in Fig. 3 with one crossing changed from overcrossing to undercrossing): </p>
 
 <p style="text-align:center;"><img src="/assets/img/outreach/disentangling.jpeg" width="550"></p>
-<figcaption>Fig. 5: Algorithmically disentangling a knot with the help of R-moves. <br>
+<figcaption><b>Fig. 5</b>: Algorithmically disentangling a knot with the help of R-moves. <br>
 </figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 <blockquote style="border: 2px solid #666; padding: 10px; background-color: #ccc;"> Exercise: Simplify the knot diagram in Fig. 6 as much as possible using three Reidemeister moves.</blockquote> <br>
 
 <p style="text-align:center;"><img src="/assets/img/outreach/exercise_rmoves.png" width="550"></p>
-<figcaption>Fig. 6: Knot diagram to be simplified.
+<figcaption><b>Fig. 6</b>: Knot diagram to be simplified.
 </figcaption>
 </figure>
 
@@ -73,7 +73,7 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 <p>We have repeatadely seen that by Reidemeister moves we can convert knot diagrams which initially do not look alike might in fact correspond to the same knot. It of course means that each knot might have many different diagrams which are related by a series of R-moves (or in this context we might also loosely say "topologically equivalent"). It would be nice if to each knot diagram we might have associated a number (or set of numbers) which would be neccesarily the same for two knot diagrams corresponding to the same knot. This is the idea of a <b>knot invariant</b> and restated in the Fig. 7 below: </p> <br>
 
 <p style="text-align:center;"><img src="/assets/img/outreach/invariant.jpeg" width="450"></p>
-<figcaption>Fig. 7: Idea of knot invariants: for any knot diagram (D1,D2, D3, etc.) of knot K we associate the same quantity I (knot invariant).
+<figcaption><b>Fig. 7</b>: Idea of knot invariants: for any knot diagram (D1,D2, D3, etc.) of knot K we associate the same quantity I (knot invariant).
 </figcaption>
 </figure>
 
@@ -84,7 +84,7 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 <blockquote style="border: 2px solid #666; padding: 10px; background-color: #ccc;"> Exercise: Calculate the unknotting number of the knots in Fig. 8.</blockquote> <br>
 
 <p style="text-align:center;"><img src="/assets/img/outreach/exercise_unknotting.png" width="450"></p>
-<figcaption>Fig. 8: Calculate the unknotting number of these knots. 
+<figcaption><b>Fig. 8</b>: Calculate the unknotting number of these knots. 
 </figcaption>
 </figure>
 
@@ -93,10 +93,6 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 <section><h2>Conclusion</h2>
 Alright, we have studied how to convert one equivalent knot diagram into another such that we can create simplest-looking knot diagram (use Reidemeister moves). We have also discussed idea of knot invariants and learnt how to calculate one of them (unknotting number). If you would like to learn more about mathematical basics or applications of knot theory to other fields (such as DNA biology or quantum computing) see further reading below. 
 </section>
-<!-- <section><h2>Applications</h2>
-<p>Before we finish this very brief intro to knot theory we will briefly mention the key intuition behind application of it to (topological) quantum computing. </p>
-On a quantum computer we could directly measure knot invariant (Jones polynomial). Since this is an exponentially hard problem classically, quantum computing gives us an enormous speed-up. 
-</section> -->
 
 <section><h2>Further reading</h2>
 
