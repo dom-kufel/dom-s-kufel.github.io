@@ -93,7 +93,9 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 </section>
 
 <section><h2>Applications</h2>
-<p>Before we finish this very brief intro to knot theory we will briefly mention the key intuition behind application of it to quantum computing. </p>
+<p>Before we finish this very brief intro to knot theory we will briefly mention the key intuition behind application of it to (topological) quantum computing. </p>
+
+On a quantum computer we could directly measure knot invariant (Jones polynomial). Since this is an exponentially hard problem classically, quantum computing gives us an enormous speed-up. 
 
 </section>
 
