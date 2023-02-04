@@ -92,6 +92,9 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 
 </section>
 
+<section><h2>Conclusion</h2>
+Alright, we have studied how to convert one equivalent knot diagram into another such that we can create simplest-looking knot diagram (use Reidemeister moves). We have also discussed idea of knot invariants and learnt how to calculate one of them (unknotting number). If you would like to learn more about mathematical basics or applications of knot theory to other fields (such as DNA biology or quantum computing) see further reading below. 
+</section>
 <!-- <section><h2>Applications</h2>
 <p>Before we finish this very brief intro to knot theory we will briefly mention the key intuition behind application of it to (topological) quantum computing. </p>
 On a quantum computer we could directly measure knot invariant (Jones polynomial). Since this is an exponentially hard problem classically, quantum computing gives us an enormous speed-up. 
