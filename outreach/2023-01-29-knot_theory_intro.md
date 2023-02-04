@@ -74,24 +74,36 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 
 <p>We have repeatadely seen that by Reidemeister moves we can convert knot diagrams which initially do not look alike might in fact correspond to the same knot. It of course means that each knot might have many different diagrams which are related by a series of R-moves (or in this context we might also loosely say "topologically equivalent"). It would be nice if to each knot diagram we might have associated a number (or set of numbers) which would be neccesarily the same for two knot diagrams corresponding to the same knot. This is the idea of a <b>knot invariant</b> and restated in the Fig. 7 below: </p> <br>
 
-<p style="text-align:center;"><img src="/assets/img/outreach/exercise_rmoves.png" width="550"></p>
-<figcaption>Fig. 7: Idea of knot invariants.
+<p style="text-align:center;"><img src="/assets/img/outreach/invariant.jpef" width="550"></p>
+<figcaption>Fig. 7: Idea of knot invariants: for any knot diagram (D1,D2, D3, etc.) of knot K we associate the same quantity I (knot invariant).
 </figcaption>
 </figure>
 
-<p>What are some examples of knot invariants? Here I will just list some of them: unknotting number, Jones polynomial, X-polynomial, fundamental group of the knot, existence of knot tri-coloring etc. Perhaps the simplest invariant to describe is the unknotting number. Unknotting number is the minimum number of changes of overcrossings to undercrossings (or vice versa) one would have to perform to get a knot equivalent (up to R-moves) to a simple loop (unknot). We have seen before in Fig. 5 that trefoil knot has an unknotting number 1. To train the unknotting number calculation consider the following exercise: </p> <br>
+<p>What are some examples of knot invariants? Here I will just list some of them: unknotting number, Jones polynomial, X-polynomial, fundamental group of the knot, existence of knot tri-coloring etc. To any knot we might associate multiple knot invariants. We will see that, sometimes, a particular invariant for two <i>different knots</i> might return the same value.</p><br>
+
+<p>Perhaps the simplest invariant to describe is the unknotting number. Unknotting number is the minimum number of changes of overcrossings to undercrossings (or vice versa) one would have to perform to get a knot equivalent (up to R-moves) to a simple loop (unknot). We have seen before in Fig. 5 that trefoil knot has an unknotting number 1. To train the unknotting number calculation consider the following exercise: </p> <br>
 
 <blockquote style="border: 2px solid #666; padding: 10px; background-color: #ccc;"> Exercise: Calculate the unknotting number of the knots in Fig. 8.</blockquote> <br>
 
-<p style="text-align:center;"><img src="/assets/img/outreach/exercise_rmoves.png" width="550"></p>
-<figcaption>Fig. 7: Calculate the unknotting number of these knots. 
+<p style="text-align:center;"><img src="/assets/img/outreach/exercise_unknotting.png" width="550"></p>
+<figcaption>Fig. 8: Calculate the unknotting number of these knots. 
 </figcaption>
 </figure>
 
 </section>
 
 <section><h2>Applications</h2>
-Before we finish this very brief intro to knot theory it would be good to discuss some interesting applications of it to the other fields: biology and quantum computing. 
+<p>Before we finish this very brief intro to knot theory it would be good to discuss some interesting applications of it to the other fields: biology and quantum computing.</p>
+
+<section><h3>Topoisomerase and cancer</h3>
+
+</section>
+
+<section><h3>Topological quantum computation</h3>
+
+</section>
+
+
 </section>
 
 <section><h2>Further reading</h2>
