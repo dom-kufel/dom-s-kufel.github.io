@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Intro to the knotty subject
+title: Quick intro to the knotty subject
 description: This is a brief, rough, sketch of the workshops I conducted for gifted high-school students in Lublin, Poland, Dec 2022.
 ---
 
