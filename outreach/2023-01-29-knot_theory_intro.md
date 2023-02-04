@@ -26,7 +26,7 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 
 <br>
 
-<p>What is plotted above are 2D projections (known as knot diagrams) of the simple loop (living in 3D), just twisted in some elaborate ways. Curious! Okay, since it might not be so easy to tell if two knot diagrams are different. At least, is there any algorithm, which, if one followed it rigorously, would guarantee that in finite number of steps we would get the simplest possible form of the knot? Short answer: yes and we will explore it in the next section. </p>
+<p>What is plotted above are 2D projections (known as knot diagrams) of the simple loop (living in 3D), just twisted in some elaborate ways. Curious! Okay, since it might not be so easy to tell if two knot diagrams correspond to the same or different knot. At least, is there any algorithm, which, if one followed it rigorously, would guarantee that in finite number of steps we would get the simplest possible form of the knot? Short answer: yes. We will explore it in the next section. </p>
 
 </section>
 <section><h2>Reideimeister moves</h2>
