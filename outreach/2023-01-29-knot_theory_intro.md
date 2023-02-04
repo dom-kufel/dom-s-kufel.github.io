@@ -74,7 +74,7 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 
 <p>We have repeatadely seen that by Reidemeister moves we can convert knot diagrams which initially do not look alike might in fact correspond to the same knot. It of course means that each knot might have many different diagrams which are related by a series of R-moves (or in this context we might also loosely say "topologically equivalent"). It would be nice if to each knot diagram we might have associated a number (or set of numbers) which would be neccesarily the same for two knot diagrams corresponding to the same knot. This is the idea of a <b>knot invariant</b> and restated in the Fig. 7 below: </p> <br>
 
-<p style="text-align:center;"><img src="/assets/img/outreach/invariant.jpef" width="550"></p>
+<p style="text-align:center;"><img src="/assets/img/outreach/invariant.jpeg" width="450"></p>
 <figcaption>Fig. 7: Idea of knot invariants: for any knot diagram (D1,D2, D3, etc.) of knot K we associate the same quantity I (knot invariant).
 </figcaption>
 </figure>
@@ -85,7 +85,7 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 
 <blockquote style="border: 2px solid #666; padding: 10px; background-color: #ccc;"> Exercise: Calculate the unknotting number of the knots in Fig. 8.</blockquote> <br>
 
-<p style="text-align:center;"><img src="/assets/img/outreach/exercise_unknotting.png" width="550"></p>
+<p style="text-align:center;"><img src="/assets/img/outreach/exercise_unknotting.png" width="450"></p>
 <figcaption>Fig. 8: Calculate the unknotting number of these knots. 
 </figcaption>
 </figure>
@@ -95,8 +95,8 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 <section><h2>Applications</h2>
 <p>Before we finish this very brief intro to knot theory it would be good to discuss some interesting applications of it to the other fields: biology and quantum computing.</p>
 
-<section><h3>Topoisomerase and cancer</h3>
-
+<section><h3>Topoisomerase</h3>
+It turns out that the double helix of DNA is super-coiled. Topoisomerase is an enzyme which.
 </section>
 
 <section><h3>Topological quantum computation</h3>
