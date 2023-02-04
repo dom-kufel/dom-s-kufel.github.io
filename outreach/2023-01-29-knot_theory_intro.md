@@ -43,7 +43,7 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 
 <blockquote style="border: 2px solid #666; padding: 10px; background-color: #ccc;"> Exercise: Convince yourself that alternating knot cannot be further simplified. Can you think about any exceptions to this? (Hint: think about a loop with a single twist)</blockquote> <br>
 
-(The fact that alternating knot cannot be further simplified is the reason why all knots in knot tables - such as one in Fig. !!! - have the alternating knot property...)
+<!-- (The fact that alternating knot cannot be further simplified is the reason why all knots in knot tables - such as one in Fig. !!! - have the alternating knot property...) -->
 
 <p>Equipped with these two points we can proceed to the algorithm. The algorithm consists of iterative application of three basic disentangling moves, known as Reideimeister moves, and presented in Fig. 4 below: </p>
 
