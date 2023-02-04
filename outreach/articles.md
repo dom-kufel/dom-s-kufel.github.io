@@ -8,7 +8,7 @@ permalink: /outreach/
 ## Unsorted list of outreach talks and/or associated articles
 * [Knots]{:.heading.flip-title} --- Simple introduction to knot theory - targeted for high-schoolers.
 * [Chicken]{:.heading.flip-title} --- "How to cook delicious spherical chicken ft. thermodynamics" - targeted for freshmen.
-* [Tweezers]{:.heading.flip-title} --- "When physicists and doctors meet to resolve the roots of the leading cause of blindness." - targeted for virtually anyone.
+* [Tweezers]{:.heading.flip-title} --- Using optical tweezers to understand the roots of the leading cause of blindness  - targeted for virtually anyone.
 
 [Knots]: 2023-01-29-knot_theory_intro.md
 [Chicken]: 2020-02-21-cooking_chicken.md
