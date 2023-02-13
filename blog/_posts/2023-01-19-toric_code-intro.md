@@ -335,6 +335,6 @@ adder(2, 6);
 <details>
 <summary>Solution</summary>
 <div markdown="1">
-<span style="font-size:0.85em;"> **Solution**: Consider a single plaquette. Product of $$Z$$ operators around the plaquette corresponds simply to the $$B_p$$ operator. Now take two plaquettes sharing an edge. Product of $$Z$$ operators around these two plaquettes corresponds to a product of two $$B_p$$ operators (this applies $$Z$$ operator to the shared edge twice and thus is equivalent to applying no operator at all - exactly as required). </span>
+<span style="font-size:0.85em;"> **Solution**: Consider a single plaquette. Product of $$Z$$ operators around the plaquette corresponds simply to the $$B_p$$ operator. Now take two plaquettes sharing an edge. Product of $$Z$$ operators around these two plaquettes corresponds to a product of two $$B_p$$ operators (this applies $$Z$$ operator to the shared edge twice and thus is equivalent to applying no operator at all - exactly as required). You can now iterate this process to cover any set of connected plaquettes thus proving the desired statement. </span>
 </div>
 </details>

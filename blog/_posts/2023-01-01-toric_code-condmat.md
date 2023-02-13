@@ -16,9 +16,10 @@ Connection of **information** to physical notion of **matter** is puzzling me fo
 
 <!-- I remember fondly how amazed I was when I have learnt about Aristotelian "essence" of objects: a set of properties without which the entity loses its identity. In the same spirit, afterwards, studying entropy taught me that the amount of this "essence" might be quantified by the **information** contained in it. "Information" though was a mysterious concept to me, difficult to be connected to any physical notion of **matter** I could envision. Ugh, at that stage things seemed too *nebulous* to me. But then I heard about the recent effort in quantum: deriving "it from qubit" became a *concrete* research direction through study of "highly" entangled quantum matter from the quantum information perspective. -->
 
-In this blogpost I would like to follow the "it from qubit" spirit and discuss concrete aspects of a 2D toric code model displaying some striking connections between quantum matter *and* information. Specifically we will study (somewhat confusing) properties of the toric code such as presence of the long-range entanglement (yet $$0$$ correlation length!) and discuss how it links to a wider class of so-called quantum spin liquids - models which recently came within reach of the experiments. I assume basic familiarity with the 2D toric code model (see e.g., my other blogpost giving a very short intro to it). In section <a href="long-range-entanglement">1</a> we will discuss what we mean by saying that toric code has "long-range entanglement" and provide a simple proof that this is indeed the case. In section <a href="long-range-entanglement-and-observables-correlations">2</a> how to reconcile long-range entangled property with the statement about its $$0$$ correlation length; in section <a href="quantum-spin-liquids">3</a> we will show how toric code fits within a wider class of models and how they might be experimentally realized. Stay tuned: I promise there are few cute ideas along the way!
+In this blogpost I would like to follow the "it from qubit" spirit and discuss concrete aspects of a 2D toric code model displaying some striking connections between quantum matter *and* information. Specifically we will study (somewhat confusing) properties of the toric code such as presence of the long-range entanglement (yet $$0$$ correlation length!) and discuss how it links to a wider class of so-called quantum spin liquids - models which recently came within reach of the experiments. I assume basic familiarity with the 2D toric code model (see e.g., my other blogpost giving a very short intro to it). In section <a href="long-range-entanglement">1</a> we will discuss what we mean by saying that toric code has "long-range entanglement" and provide a simple proof that this is indeed the case. In section <a href="long-range-entanglement-and-anyons">2</a> we will discuss peculiar fact of excitations in toric code costing only constant energy (regardless of how far they are separated) and connect it to the long-range entanglement. In section <a href="long-range-entanglement-and-observables-correlations">3</a> how to reconcile long-range entangled property with the statement about its $$0$$ correlation length; in section <a href="quantum-spin-liquids">4</a> we will show how toric code fits within a wider class of models and how they might be experimentally realized. Stay tuned: I promise there are few cute ideas along the way!
 
 * Long-range Entanglement
+* Long-range Entanglement and anyons
 * Entanglement and correlations
 * Quantum Spin Liquids
 {:toc}
@@ -30,7 +31,7 @@ Perhaps the simplest example is preparation of the $$\vert \textrm{GHZ} \rangle 
 
 <p style="text-align:center;"><img src="/assets/img/blog/GHZpreparation.png" width="500"/></p>
 
-That example is all good, but what we intend to show is different: namely that there exists no way of preparing the $$\vert GHZ \rangle$$ other than the circuit depth scaling with the system size. Perhaps the simplest way of showing this formally is to use the following lemma due to <a href="#references">[Piroli et al. (2021)]</a>
+That example is all good, but what we intend to show is different: namely that there exists no way of preparing the $$\vert GHZ \rangle$$ other than the circuit depth scaling with the system size. One of the ways of proving this formally is to use the following lemma due to <a href="#references">[Piroli et al. (2021)]</a>
 
 [Piroli et al. (2021) Prop. 1 (informal)]Let $$A,B$$ be regions (collection of points) on the regular lattice in $$D$$ dimensions, defined such that $$d(A,B)>2 l$$ (where $$d(A,B)$$ is the minimum graph distance between $$A$$ and $$B$$) and operators $$Q_A$$ and $$Q_B$$ to be supported on $$A$$ and $$B$$ respectively. If state $$\vert \phi \rangle$$ may be prepared by a quantum circuit of depth (at most) $$l$$ from a product state $$\vert 0 \rangle$$ then the following is true $$\forall \ Q_A, Q_B $$:
 $$\langle \phi \vert Q_A Q_B \vert \phi \rangle = \langle \phi \vert Q_A \vert \phi \rangle \langle \phi \vert Q_B \vert \phi \rangle$$
@@ -56,6 +57,7 @@ H = -\sum_v A_v - \sum_p B_p
 \end{equation}
 where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices. -->
 
+## Long-range entanglement and anyons
 
 ## Long-range entanglement and observables correlations
 
