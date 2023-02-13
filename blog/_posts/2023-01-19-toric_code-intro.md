@@ -50,7 +50,7 @@ In the simplest realization, toric code is a model of qubits (two-level systems)
 \begin{equation}
 H = -\sum_v A_v - \sum_p B_p
 \end{equation}
-where $$B_p= \prod_j Z_j$$ acts on plaquettes and $$A_v = \prod_j X_j$$ acts on each of the vertices[^2] - see Fig. 1. For later we will (i) define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. 2; and (ii) note that on torus we can draw four *topologically inequivalent*[^3] loops - see Fig. 3.   
+where $$B_p= \prod_{j \in \textrm{p}} Z_j$$ acts on plaquettes and $$A_v = \prod_{j \in \textrm{v}} X_j$$ acts on each of the vertices[^2] - see Fig. 1. For later we will (i) define a dual lattice as the one shifted by $$[1/2,1/2]$$ vector from the “primal” one - see Fig. 2; and (ii) note that on torus we can draw four *topologically inequivalent*[^3] loops - see Fig. 3.   
 
 <p style="text-align:center;"><img src="/assets/img/blog/toric_code_hamiltonian.png" width="500"/></p>
 Fig. 1: 4-body operators present in the toric code Hamiltonian.
@@ -130,7 +130,7 @@ Okay, so summarizing what we have arrived at so far: we cannot create single exc
 
 If excitations are indeed "particle-like" and they are indistinguishable, can we classify them in a similar fashion to elementary particles (being either bosons or fermions)? Yes, we say that there are three types of anyons in the toric code: $$e$$ anyon (single vertex excitation), $$m$$ anyon (single plaquette excitation) and $$\epsilon$$ anyon (or a dyon) consisting of vertex and plaquette excitations bound together. $$e$$ and $$m$$ anyons in the toric code have abelian bosonic statistics i.e. the many-body state is invariant under exchanging two identical $$e$$ and $$m$$ anyons[^10].
 
-It turns out that $$\epsilon$$ anyons are fermions. To see this we need to first show that braiding the $$e$$ particle around $$m$$ particle (and vice-versa) accumulates $$-1$$ phase. In other words we want to prove that $$\vert \psi_{final} \rangle = - \vert \psi_{init} \rangle$$. The action of moving $$e$$ around $$m$$ might be written as $$\vert \psi_{final} \rangle = \prod_j Z_j \vert \psi_{init} \rangle$$ and corresponds pictorially to the Fig. 7 below.
+It turns out that $$\epsilon$$ anyons are fermions. To see this we need to first show that braiding the $$e$$ particle around $$m$$ particle (and vice-versa) accumulates $$-1$$ phase. In other words we want to prove that $$\vert \psi_{final} \rangle = - \vert \psi_{init} \rangle$$. The action of moving $$e$$ around $$m$$ might be written as $$\vert \psi_{final} \rangle = \prod_{j \in \textrm{loop}} Z_j \vert \psi_{init} \rangle$$ and corresponds pictorially to the Fig. 7 below.
 
 <p style="text-align:center;"><img src="/assets/img/blog/statistics.png" width="500" loading="lazy"/></p>
 Fig. 7: Braiding $$e$$ particle around $$m$$ particle.
@@ -138,7 +138,7 @@ Fig. 7: Braiding $$e$$ particle around $$m$$ particle.
 
 Noting that $$\prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle = - \vert \psi_{init} \rangle$$ (plaquette excitation present) and using the result of the exercise below we show what is intended.
 
-**Exercise:** Show that $$\prod_j Z_j \vert \psi_{init} \rangle = \prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle$$ <a href="#hint2">Hint</a>
+**Exercise:** Show that $$\prod_j Z_{j \in \textrm{loop}} \vert \psi_{init} \rangle = \prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle$$ <a href="#hint2">Hint</a>
 {:.message}
 
 Okay, so braiding $$e$$ around $$m$$ accumulates $$-1$$ phase for the state. Now, I claim that the proof of fermionic statistics of $$\epsilon$$ particle follows from the Fig. 8 below <a href="#references">[Kitaev&Laumann (2010) p. 15]</a>:
@@ -324,7 +324,6 @@ adder(2, 6);
 
 ## Hints to exercises
 <a id="hint1">**Hint:**</a> Whenever Pauli X and Z meet on the same site they anti-commute, otherwise (e.g., $$[X \otimes \mathbb{1},\mathbb{1} \otimes Z]$$ they commute.
-
 <details>
 <summary>Solution</summary>
 <div markdown="1">
@@ -332,4 +331,10 @@ adder(2, 6);
 </div>
 </details>
 
-<a id="hint2">**Hint:**</a> Think about the discrete version of Stokes' theorem. Why should it apply here?
+<a id="hint2">**Hint:**</a> Think in spirit of the discrete version of Stokes' theorem. Why should it apply here?
+<details>
+<summary>Solution</summary>
+<div markdown="1">
+<span style="font-size:0.85em;"> **Solution**: Consider a single plaquette. Product of $$Z$$ operators around the plaquette corresponds simply to the $$B_p$$ operator. Now take two plaquettes sharing an edge. Product of $$Z$$ operators around these two plaquettes corresponds to a product of two $$B_p$$ operators (this applies $$Z$$ operator to the shared edge twice and thus is equivalent to applying no operator at all - exactly as required). </span>
+</div>
+</details>
