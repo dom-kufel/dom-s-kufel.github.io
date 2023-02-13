@@ -325,4 +325,11 @@ adder(2, 6);
 ## Hints to exercises
 <a id="hint1">**Hint:**</a> Whenever Pauli X and Z meet on the same site they anti-commute, otherwise (e.g., $$[X \otimes \mathbb{1},\mathbb{1} \otimes Z]$$ they commute.
 
+<details>
+<summary>Solution</summary>
+<div markdown="1">
+<span style="font-size:0.85em;"> **Solution**: First note that each vertex (plaquette) operator commutes with all other vertex (plaquette) operators (since all involve purely Pauli X (or Pauli Z) operators).  Next, if plaquette operator and vertex operator do not touch one another they trivially commute (see hint). Finally even if we take plaquette operator touching vertex operator nearby, they will intersect on exactly two edges. On each edge Pauli operators anti-commute so their *product* will commute.  </span>
+</div>
+</details>
+
 <a id="hint2">**Hint:**</a> Think about the discrete version of Stokes' theorem. Why should it apply here?
