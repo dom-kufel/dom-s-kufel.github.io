@@ -50,12 +50,16 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 </figcaption>
 </figure>
 
+<br>
+
 <p>Simple! We will demonstrate the R-moves by disentangling the knot below (which corresponds to trefoil knot in Fig. 3 with one crossing changed from overcrossing to undercrossing): </p>
 
 <p style="text-align:center;"><img src="/assets/img/outreach/disentangling.jpeg" width="550"></p>
 <figcaption><b>Fig. 5</b>: Algorithmically disentangling a knot with the help of R-moves. <br>
 </figcaption>
 </figure>
+
+<br>
 
 <p>In the above case it turned out that the original knot was in fact equivalent to the simple loop (unknot). Okay, great! To test your understanding solve the following exercise:</p> <br>
 
