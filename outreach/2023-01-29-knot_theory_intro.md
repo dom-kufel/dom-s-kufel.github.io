@@ -6,7 +6,7 @@ description: This is a brief, rough, sketch of the workshops I conducted for gif
 
 <section><h2>Intro</h2>
 
-<p>We all know what a knot is. Even more we all had to untie some annoyingly tangled knot at some point. Is there any way to rigorously tell if one knot is more difficult to be untangled than another? Or even if two unlike looking knots are the same or actually different? You might be tempted to think that in practice it is easy to tell. Then consider the (un)knots in Fig. 1 and Fig. 2:</p>
+<p>No doubt: we all had to untie some annoyingly tangled knot at some point. So here's a fun problem: Is there any way to rigorously tell if one knot is more difficult to be untangled than another? Or even if two unlike looking knots are the same or actually different? You might be tempted to think that in practice it is easy to tell. Then consider the (un)knots in Fig. 1 and Fig. 2:</p>
 
  <div class="row">
   <div class="column">

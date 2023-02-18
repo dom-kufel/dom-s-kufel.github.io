@@ -49,6 +49,9 @@ Wonderful! Let us summarize what we have learnt
 **Fact 1:** State is long-range entangled if it cannot be prepared from a product state using circuit with depth not scaling with the system size. Toric code ground states and GHZ states might be shown to be long-range entangled.  
 {:.note}
 
+
+<!-- Mention: GHZ long-range entangled and topo entangled are different. -->
+
 <!-- Is any state reachable by an arbitrarily deep circuit? -->
 
 <!-- We define the 2D toric code as a set of qubits placed on the links of the 2D square lattice with periodic boundary conditions with the following <a id="eq:H_TC">Hamiltonian</a>
