@@ -5,7 +5,7 @@ description: >
   A real quick introduction to the 2D toric code viewed from the condensed matter angle.
 sitemap: false
 related_posts:
-  - /blog/_posts/2023-01-01-toric_code-condmat.md
+  - /blog/_posts/2023-07-04-toric_code-lre.md
 ---
 
 <!-- image: /assets/img/blog/example-content-ii.jpg -->
