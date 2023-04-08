@@ -117,7 +117,7 @@ for the toric code defined on periodic boundary conditions (on torus) - as descr
 **Exercise:** Convince yourself (in drawing) that this observation is true.
 {:.message}
 
-Equipped with the observation above it is easy to show why creation of single (or more generally any odd number of) excitations is impossible: this would violate the condition in the above <a href="eq:observation">equation</a> which holds throughout.
+Equipped with the observation above it is quite easy to show why creation of single (or more generally any odd number of) excitations is impossible: this would yield the product of vertex/plaquette operator eigenvalues to be $-1$ and to violate the condition in the above equation which holds throughout.
 
 ### Loop excitations and error correction
 

@@ -59,10 +59,6 @@ Wonderful! Let us summarize what we have learnt
 **Fact 1:** State is long-range entangled if it cannot be prepared from a product state using circuit with depth not scaling with the system size. Toric code ground states and GHZ states might be shown to be long-range entangled.  
 {:.note}
 
-## Toric code vs GHZ
-<!-- Mention: GHZ long-range entangled and topo entangled are different. -->
-
-
 ## Long-range entanglement and anyons
 
 Okay, so what we have done so far is to elaborate on the definition of the long-range entanglement and shown that under this definition GHZ and toric code are long-range entangled. As hinted before this definition is supposed to convey that some states are "more distant" to product states than the others. What consequences might it have? It turns out that in the toric code it has profound consequences for the properties of the excitations ("anyons") in the many-body system <a href="#references">[Savary&Balents (2016)]</a>. From !!! recall a peculiar property of these anyons: after creating a pair of anyons, you pay no energy for moving them around! It turns out that this property directly stems out from the "loopy" form of the toric code ground states. 
@@ -81,11 +77,18 @@ Now imagine you apply $$X$$ operator to some edge of the lattice. This will frus
 
 So what is the underlying reason for such peculiar behaviour of the toric code excitations? The key is careful analysis of the meaning of the "loop-gas" structure of the toric code. Consider one of the toric code ground states and then create a pair of far-separated anyons by applying a string of Pauli operators (anyons are its endpoints). Focus on the regions of the toric code away from the endpoints of the string. If you zoom in such regions you will notice that despite of applying the error string the loop-gas structure of the toric code state is exactly preserved. This is because different loop configurations within the massive superposition will simply get mapped into one another under the application of the Pauli string (see Fig. !!!). Of course, at the precise endpoints of the string this will no longer be true and we will "disturb" the original ground state. But this is precisely why we only pay the energy cost for excitations only at the endpoints of the string! Since a string has always to endpoints we will pay only a constant (in system size) energy cost for propagating the anyons! And now we see that this is all due to the loopiness of the ground state!  
 
+**Fact 2:** Zero energy cost for moving around the excitations in the toric code directly stems from the loop-gas form of its ground state.
+{:.note}
+
+## Toric code vs GHZ
+<!-- Mention: GHZ long-range entangled and topo entangled are different. -->
+
+
 ## Long-range entanglement and observables correlations
 
+Alright, so we have seen how long-range entanglement in toric code is responsible for some of its other peculiar properties. But what is precisely "long-range" in a "long-range entanglement"?
 
-
-People often mention 
+ <!-- Roughly speaking it means that there exist some operators  -->
 
 ## Quantum Spin liquids
 
