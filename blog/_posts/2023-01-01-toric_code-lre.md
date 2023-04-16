@@ -23,11 +23,13 @@ I think it first struck me when I studied entropy in thermodynamics: this myster
 
 <!-- I remember fondly how amazed I was when I have learnt about Aristotelian "essence" of objects: a set of properties without which the entity loses its identity. In the same spirit, afterwards, studying entropy taught me that the amount of this "essence" might be quantified by the **information** contained in it. "Information" though was a mysterious concept to me, difficult to be connected to any physical notion of **matter** I could envision. Ugh, at that stage things seemed too *nebulous* to me. But then I heard about the recent effort in quantum: deriving "it from qubit" became a *concrete* research direction through study of "highly" entangled quantum matter from the quantum information perspective. -->
 
+
+
 In this blogpost I would like to follow the "it from qubit" spirit and discuss concrete aspects of a 2D toric code model displaying some striking connections between quantum matter *and* information. Specifically we will study (somewhat confusing) properties of the toric code such as presence of the long-range entanglement (yet $$0$$ correlation length!) and discuss how it links to a wider class of so-called quantum spin liquids - models which recently came within reach of the experiments. I assume basic familiarity with the 2D toric code model (see e.g., my other blogpost giving a very short intro to it). In section <a href="long-range-entanglement">1</a> we will discuss what we mean by saying that toric code ground state and GHZ state has "long-range entanglement" and provide a simple proof that this is indeed the case. Next, in section <a href="toric-code-vs-ghz">2</a> we will discuss finer differences between the entanglement structure of toric code and GHZ state. In section <a href="long-range-entanglement-and-anyons">3</a> we will discuss peculiar fact of excitations in toric code costing only constant energy (regardless of how far they are separated) and connect it to the long-range entanglement. In section <a href="long-range-entanglement-and-observables-correlations">4</a> how to reconcile long-range entangled property with the statement about its $$0$$ correlation length; in section <a href="quantum-spin-liquids">5</a> we will show how toric code fits within a wider class of models and how they might be experimentally realized. This blogpost assumes basic familiarity with the toric code physics: if you have not studied it in detail see my previous [blogpost](https://dom-kufel.github.io/blog/2023-08-04-toric_code-intro/) to get a concise introduction. Stay tuned: I promise there are few cute ideas along the way!
 
 * Long-range Entanglement
-* Long-range Entanglement and anyons
-* Toric code vs GHZ
+* Toric code vs GHZ long-range entanglement 
+* Toric code long-range entanglement and anyons
 * Entanglement and correlations
 * Quantum Spin Liquids
 {:toc}
@@ -59,9 +61,13 @@ Wonderful! Let us summarize what we have learnt
 **Fact 1:** State is long-range entangled if it cannot be prepared from a product state using circuit with depth not scaling with the system size. Toric code ground states and GHZ states might be shown to be long-range entangled.  
 {:.note}
 
-## Long-range entanglement and anyons
+## Toric code vs GHZ
+Alright, so both toric code and GHZ state can be prepared using local quantum circuit with depth necessarily scaling with the system size. But surely GHZ and toric code states are very different!  
+<!-- Mention: GHZ long-range entangled and topo entangled are different. Proper study. -->
 
-Okay, so what we have done so far is to elaborate on the definition of the long-range entanglement and shown that under this definition GHZ and toric code are long-range entangled. As hinted before this definition is supposed to convey that some states are "more distant" to product states than the others. What consequences might it have? It turns out that in the toric code it has profound consequences for the properties of the excitations ("anyons") in the many-body system <a href="#references">[Savary&Balents (2016)]</a>. From !!! recall a peculiar property of these anyons: after creating a pair of anyons, you pay no energy for moving them around! It turns out that this property directly stems out from the "loopy" form of the toric code ground states. 
+## Toric code long-range entanglement and anyons
+
+Okay, so what we have done so far is to elaborate what long-range entanglement is and how does entanglement structure of a toric code differ from the GHZ one. As hinted before this definition is supposed to convey that some states are "more distant" to product states than the others. What consequences might it have? It turns out that in the toric code it has profound consequences for the properties of the excitations ("anyons") in the many-body system <a href="#references">[Savary&Balents (2016)]</a>. From !!! recall a peculiar property of these anyons: after creating a pair of anyons, you pay no energy for moving them around! It turns out that this property directly stems out from the "loopy" form of the toric code ground states. 
 
 <!-- Does the loopy structure neccesarily imply LRE?-->
 
@@ -79,10 +85,6 @@ So what is the underlying reason for such peculiar behaviour of the toric code e
 
 **Fact 2:** Zero energy cost for moving around the excitations in the toric code directly stems from the loop-gas form of its ground state.
 {:.note}
-
-## Toric code vs GHZ
-<!-- Mention: GHZ long-range entangled and topo entangled are different. Proper study. -->
-
 
 ## Long-range entanglement and observables correlations
 
