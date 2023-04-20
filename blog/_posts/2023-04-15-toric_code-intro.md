@@ -31,11 +31,12 @@ sitemap: false
 [^8]: We will discuss what happens if we consider topologically inequivalent loops in the next <a href="#long-range-entanglement">section</a>.  
 [^9]: This observation allows us to prove the 4-fold ground state degeneracy in an alternative way to the one described in the <a href="#hamiltonian-and-ground-states">first section</a>. The main idea is as follows: eigenvalues of each of the vertex/plaquette operators can be $+1$ or $-1$ (they are formed of Pauli operators which are both unitary and Hermitian); this means that there are $$2^N$$ possible states. The conditions $$\prod_{\textrm{all} \ \ v} A_v = \mathbb{1} \ \ \ \prod_{\textrm{all} \ \ p} B_p = \mathbb{1}$$ however imply that two of these operators will not be independent: effectively we have $$2^{N-2}$$ independent quantum numbers. This means that the ground state degeneracy will be $$2^N/2^{N-2}=4$$.
 [^10]: One way of showing this is to show that the "twist factor" in a topological quantum theory <a href="#references">[Simon (2020) Chp. 26.2]</a> is +1 (moving $$e$$ (or $$m$$) particle involves only applying $$X$$ (or $$Z$$) operators which all commute with each other).
-[^11]: Or in our case more of a 1D spatial projection of the 2D trajectory of the particle defined on a 2D toric code!
-[^12]: In case this explanation was unclear or too quick: see e.g., <a href="#references">[Simon (2020) Chp. 2 and Chp. 26.2]</a>.
-[^13]: If this is not surprising I would encourage you to study symmetry-breaking paradigm due to Landau. The point of the topological order is precisely to 'disavow Landau' as [John Preskill would say](http://theory.caltech.edu/~preskill/colloquium/Balents.htm).    
-[^14]: This in principle should be considered in the thermodynamic limit (infinite number of qubits), see <a href="#references">[Bravyi et al. (2010)] p. 8</a>.
-[^15]: Main idea is as follows: loosely speaking, for quantum error correction, the longer the error string the larger chance that it corresponds to uncorrectable error. As described <a href="#quasiparticle-excitations">before</a>, energy cost paid for the pair of excitations of any length is the same; for self-correcting memory (for storing quantum information) we want to retain non-locality of information encoding but yet penalize for longer excitation strings. It turns out that due to their dimensionality, 3D and 4D toric code energetically penalize long excitations one and two types of Pauli errors respectively.
+[^11]: If the context is unfamiliar see: https://en.wiktionary.org/wiki/spooky_action_at_a_distance
+[^12]: Or in our case more of a 1D spatial projection of the 2D trajectory of the particle defined on a 2D toric code!
+[^13]: In case this explanation was unclear or too quick: alternative way of seeing this is the following. Imagine two $$e$$ anyons connected by a Pauli $$X$$ string. We can make them to be behaving as an $$\epsilon$$ anyon by attaching to each $$e$$ anyon an $$m$$ particle together with a long string (which connects to two copies of $$m$$ particles located at infinity - remember, we have shown that anyons always come in pairs!). Now exchanging two $$\epsilon$$ particles would correspond to e.g., dragging one of the $$e$$ particles (together with $$m$$ anyon and its string!) on a semicircle while the other along the shortest line connecting original positions of two anyons. One can see that at some point of this process, Pauli $$X$$ string attached to one of the $$m$$ anyon will necessarily cross the Pauli string $$Z$$ used to move $$e$$ anyon - and since those anti-commute, such exchange will yield an extra minus sign! If this explanation does not help either: see e.g., <a href="#references">[Simon (2020) Chp. 2 and Chp. 26.2]</a>.
+[^14]: If this is not surprising I would encourage you to study symmetry-breaking paradigm due to Landau. The point of the topological order is precisely to 'disavow Landau' as [John Preskill would say](http://theory.caltech.edu/~preskill/colloquium/Balents.htm) (at least while disregarding gneralization of Landau's paradigm to so-called ["higher-form" symmetries](https://arxiv.org/pdf/2303.01817.pdf)).     
+[^15]: This in principle should be considered in the thermodynamic limit (infinite number of qubits), see <a href="#references">[Bravyi et al. (2010)] p. 8</a>.
+[^16]: Main idea is as follows: loosely speaking, for quantum error correction, the longer the error string the larger chance that it corresponds to uncorrectable error. As described <a href="#quasiparticle-excitations">before</a>, energy cost paid for the pair of excitations of any length is the same; for self-correcting memory (for storing quantum information) we want to retain non-locality of information encoding but yet penalize for longer excitation strings. It turns out that due to their dimensionality, 3D and 4D toric code energetically penalize long excitations one and two types of Pauli errors respectively.
 
 <p style="text-align:center;"><img src="/assets/img/blog/summary.png" width="1000"/></p>
 
@@ -139,10 +140,12 @@ It turns out that $$\epsilon$$ anyons are fermions. To see this we need to first
 Fig. 7: Braiding $$e$$ particle around $$m$$ particle.
 {:.figure}
 
-Noting that $$\prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle = - \vert \psi_{init} \rangle$$ (plaquette excitation present) and using the result of the exercise below we show what is intended.
+Noting that $$\prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle = - \vert \psi_{init} \rangle$$ (plaquette excitation present) and using the result of the exercise below we show what is intended. 
 
 **Exercise:** Show that $$\prod_j Z_{j \in \textrm{loop}} \vert \psi_{init} \rangle = \prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle$$ <a href="#hint2">Hint</a>
 {:.message}
+
+Let's pause here for a second and properly appreciate the above result. Note that the argument is true regardless of how far the $$e$$ and $$m$$ particles are: it means that $$e$$ senses presence of $$m$$, even if they are separated very far away i.e. we are witnessing "spooky actions at a distance"[^11] which demonstrate "long-range" structure of the entanglement (a topic which we will explore further in other blogposts!).
 
 Okay, so braiding $$e$$ around $$m$$ accumulates $$-1$$ phase for the state. Now, I claim that the proof of fermionic statistics of $$\epsilon$$ particle follows from the Fig. 8 below <a href="#references">[Kitaev&Laumann (2010) p. 15]</a>:
 
@@ -152,7 +155,7 @@ Fig. 8: Wordline braiding diagrams for the $$\epsilon$$ particle consisting of a
 
 <!-- Can they change distance -->
 
-Okay, I understand that initially it might seem that there is a lot to unpack here, but in fact everything is plain and simple. Lines in Fig. 8 correspond to the $$(2+1)-D$$ worldlines of the anyons. Wordlines are nothing else than space-time graph[^11] of the particle motion with time going up on the image and particles moving around each other in space (horizontal direction). We first draw the diagram corresponding to taking the $$e$$ particle around $$m$$ particle (considered above). Next, we utilize identities found before (bottom row) to simplify each of the crossings in the top row: picking up a $$-1$$ factor for braiding $$e$$ around $$m$$ translates into the fermionic statistics of $$\epsilon$$ particle![^12]  
+Okay, I understand that initially it might seem that there is a lot to unpack here, but in fact everything is plain and simple. Lines in Fig. 8 correspond to the $$(2+1)-D$$ worldlines of the anyons. Wordlines are nothing else than space-time graph[^12] of the particle motion with time going up on the image and particles moving around each other in space (horizontal direction). We first draw the diagram corresponding to taking the $$e$$ particle around $$m$$ particle (considered above). Next, we utilize identities found before (bottom row) to simplify each of the crossings in the top row: picking up a $$-1$$ factor for braiding $$e$$ around $$m$$ translates into the fermionic statistics of $$\epsilon$$ particle![^13]
 
 **Fact 4:** Three types of (anyonic) excitations correspond to vertex, plaquette and "dyonic" violations and these have bosonic, bosonic and fermionic exchange statistics respectively.  
 {:.note}
@@ -175,7 +178,7 @@ We might restate the above result in the following way: if operator $$M$$ is *lo
 
 <!-- Mention the distance etc. -->
 
-Interestingly, local indistinguishability is one of the key components for system to possess **topological order** i.e. loosely speaking to exhibit topology-dependent ground state degeneracy without breaking any underlying symmetry[^13] which cannot be removed[^14] by any local, sufficiently weak perturbation of the Hamiltonian <a href="#references">[Zeng et al. (2015) p. 166]</a>. In the case of the toric code we indeed see the 4-fold ground state degeneracy which purely depends on the topology of the space and using local indistinguishability it might be shown that its ground state degeneracy cannot be lifted by any local, sufficiently weak perturbations <a href="#references">[Bravyi et al. (2010)]</a>.
+Interestingly, local indistinguishability is one of the key components for system to possess **topological order** i.e. loosely speaking to exhibit topology-dependent ground state degeneracy without breaking any underlying symmetry[^14] which cannot be removed[^15] by any local, sufficiently weak perturbation of the Hamiltonian <a href="#references">[Zeng et al. (2015) p. 166]</a>. In the case of the toric code we indeed see the 4-fold ground state degeneracy which purely depends on the topology of the space and using local indistinguishability it might be shown that its ground state degeneracy cannot be lifted by any local, sufficiently weak perturbations <a href="#references">[Bravyi et al. (2010)]</a>.
 
 <!-- Analyze TPQO conditions -->
 
@@ -188,7 +191,7 @@ Obviously, there is still so much to say about the toric code! If this post stil
 
 ## FAQ
 1. Can toric code be defined only on a square lattice? No, in principle we can define toric code on any lattice. See e.g., <a href="#references">[Simon (2020) Chp. 25.5]</a>.
-2. Can toric code be defined in the systems beyond 2D? Yes, in particular a 4D toric code is model particularly interesting from the perspective of error correction since it might act as a self-correcting quantum memory[^15]. For a gentle intro from condensed matter-ish view on toric codes beyond 2D see e.g., <a href="#references">[Savary&Balents (2016) p. 7]</a>.
+2. Can toric code be defined in the systems beyond 2D? Yes, in particular a 4D toric code is model particularly interesting from the perspective of error correction since it might act as a self-correcting quantum memory[^16]. For a gentle intro from condensed matter-ish view on toric codes beyond 2D see e.g., <a href="#references">[Savary&Balents (2016) p. 7]</a>.
 3. Can toric code be defined for system other than qubits? Yes, for $$N$$ level system we have $$Z_N$$ toric code generalization; which we can further extend to more general groups in so-called a Kitaev double model (possibly possessing non-Abelian anyons)! See e.g., <a href="#references">[Simon (2020) Chp. 25.6 and Chp. 29]</a>
 4. Given the 4-body interaction term in the toric code Hamiltonian, can it be feasibly implemented in the lab? Yes, there are experimental demonstrations of a toric code in the lab (we will briefly discuss them in another blogpost!). If you particularly worry about the 4-body term specifically you might think of a toric code as a lowest order in perturbation theory description of the Kitaev Honeycomb model in the $$J_z \gg J_x,J_y$$ regime: see e.g., <a href="#references">[Kitaev (2006)]</a>.
 
