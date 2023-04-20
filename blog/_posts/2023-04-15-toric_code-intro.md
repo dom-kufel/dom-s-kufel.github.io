@@ -195,7 +195,7 @@ Obviously, there is still so much to say about the toric code! If this post stil
 3. Can toric code be defined for system other than qubits? Yes, for $$N$$ level system we have $$Z_N$$ toric code generalization; which we can further extend to more general groups in so-called a Kitaev double model (possibly possessing non-Abelian anyons)! See e.g., <a href="#references">[Simon (2020) Chp. 25.6 and Chp. 29]</a>
 4. Given the 4-body interaction term in the toric code Hamiltonian, can it be feasibly implemented in the lab? Yes, there are experimental demonstrations of a toric code in the lab (we will briefly discuss them in another blogpost!). If you particularly worry about the 4-body term specifically you might think of a toric code as a lowest order in perturbation theory description of the Kitaev Honeycomb model in the $$J_z \gg J_x,J_y$$ regime: see e.g., <a href="#references">[Kitaev (2006)]</a>.
 
-**Acknowledgements**: I thank Arthur Pesah and Leo Lo for many fun discussions on toric code and beyond. I also thank Quynh Nguyen, Iria Wang and Shashvat Shukla for helpful comments on the draft of this blogpost. 
+**Acknowledgements**: I thank Arthur Pesah and Leo Lo for many fun discussions on toric code and beyond. I also thank Quynh Nguyen, Iria Wang and Shashvat Shukla for helpful comments on the draft of this blogpost. Feel free to contact me at dkufel (at) g.harvard.edu if you have any questions or comments! 
 {:.message}
 
 <!--
