@@ -17,7 +17,7 @@ redirect_from:
 
 <!-- <p style="text-align:center;"><img src="/assets/img/prof_pic.jpg" width="150"/></p> -->
 
-I am a PhD student at Harvard in many-body quantum physics. I am fortunate to be working with [Professor Norman Yao](https://www.physics.harvard.edu/people/norman-y-yao). I am a member of the inaugural cohort of the Quantum Science and Engineering program, part of the [Harvard Quantum Initiative](https://quantum.harvard.edu/). I am broadly interested in theoretical out-of-equilibrium many-body physics, topological phases and aspects of AI in many-body physics.
+I am a PhD student at Harvard in many-body quantum physics. I am fortunate to be currently working with [Professor Norman Yao](https://www.physics.harvard.edu/people/norman-y-yao) and [Professor Mikhail Lukin](https://www.physics.harvard.edu/people/facpages/lukin). I am a member of the inaugural cohort of the Quantum Science and Engineering program, part of the [Harvard Quantum Initiative](https://quantum.harvard.edu/). I am broadly interested in theoretical out-of-equilibrium many-body physics, topological phases and aspects of AI in many-body physics.
 
 Not doing physics I mostly spend my time exercising, running/cycling and playing banjo.
 
