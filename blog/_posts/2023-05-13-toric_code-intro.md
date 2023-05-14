@@ -42,7 +42,7 @@ sitemap: false
 
 Working in the field of quantum technologies I often chat to people from a variety of quantum-focused fields. A weird thing happens if people from traditionally different communities talk about the same stuff. This is how I have first heard about the toric code: both condensed matter and quantum error correction people spoke about it a lot. Soon afterwards I discovered why: toric code is a paradigmatic example for both topological quantum error correction and topological order in condensed matter. What makes this model to be famous and which of its properties make it so fun to work with?
 
-In this blogpost, I would like to answer these questions by discusing the toric code basics as viewed from the perspective of condensed matter physics: for a complimentary viewpoint from the quantum error correction perspective see excellent [post](https://www.arthurpesah.me) by Arthur Pesah. In section <a href="hamiltonian-and-ground-states">1</a> we will discuss the toric code Hamiltonian and find its ground states, then in section <a href="excitations">2</a> we will describe excited states and how they might be treated as 2D-confined particles (often known as anyons). Finally in section <a href="local-indistinguishability">3</a> we will come back to ground states and consider how they can be mapped onto each other, discovering non-local information encoding. Without a further ado, let's roll!
+In this blogpost, I would like to answer these questions by discusing the toric code basics as viewed from the perspective of condensed matter physics: for a complimentary viewpoint from the quantum error correction perspective see excellent [post](https://arthurpesah.me/blog/2023-05-08-surface-code/) by Arthur Pesah. In section <a href="hamiltonian-and-ground-states">1</a> we will discuss the toric code Hamiltonian and find its ground states, then in section <a href="excitations">2</a> we will describe excited states and how they might be treated as 2D-confined particles (often known as anyons). Finally in section <a href="local-indistinguishability">3</a> we will come back to ground states and consider how they can be mapped onto each other, discovering non-local information encoding. Without a further ado, let's roll!
 
 * table of contents
 {:toc}
@@ -318,9 +318,9 @@ adder(2, 6);
 ## References
 <a id="wenchenbook">*[Zeng et al. (2015)]*</a> Zeng, B., Chen, X., Zhou, D.L. and Wen, X.G., 2015. Quantum Information Meets Quantum Matter--From Quantum Entanglement to Topological Phase in Many-Body Systems. [*arXiv version*](https://arxiv.org/abs/1508.02595).
 
-<a id="simonbook">*[Simon (2020)]*</a> Simon, S.H., 2020. Topological Quantum: Lecture Notes and Proto-Book. Unpublished prototype. [*Online*](http://www-thphys.physics.ox.ac.uk/people/SteveSimon).
+<a id="simonbook">*[Simon (2020)]*</a> Simon, S.H., 2020. Topological Quantum: Lecture Notes and Proto-Book. Unpublished prototype. [*Online Open-Access*](http://www-thphys.physics.ox.ac.uk/people/SteveSimon).
 
-<a id="wilczek">*[Wilczek (1982)]*</a> Wilczek, F., 1982. Quantum mechanics of fractional-spin particles. Physical review letters, 49(14), p.957. [*open access version*](https://www.fuw.edu.pl/~pzdybel/WilczekAnyon.pdf)
+<a id="wilczek">*[Wilczek (1982)]*</a> Wilczek, F., 1982. Quantum mechanics of fractional-spin particles. Physical review letters, 49(14), p.957. [*Online Open-Access*](https://www.fuw.edu.pl/~pzdybel/WilczekAnyon.pdf)
 
 <a id="leshouchestopo">*[Kitaev&Laumann (2010)]*</a> Kitaev, A. and Laumann, C., 2010. Topological phases and quantum computation. Exact methods in low-dimensional statistical physics and quantum computing, Lecture Notes of the Les Houches Summer School, (89), pp.101-125. [*arXiv version*](https://arxiv.org/abs/0904.2771).
 
