@@ -132,9 +132,9 @@ Okay, so summarizing what we have arrived at so far: we cannot create single exc
 
 ### Anyons and their statistics
 
-We found that the excitations of the toric code are "particle-like" and indistinguishable. In undergraduate quantum mechanics we are taught that 
+We found that the excitations of the toric code are "particle-like" and indistinguishable. Let's try to understand what are the implications of this. In undergraduate quantum mechanics we were taught that indistinguishable particles divide into two broad classes: bosons and fermions. Those differ by a sign acquired by the wavefunction under exchanging them (i.e. they pick up an extra $$\theta=0$$ or $$\theta=\pi$$ phase). What is interesting in (effectively) 2D systems is that sometimes those particle-like excitations can acquire *any* phase $$\theta \in [0,2 \pi )$$ under exchange (hence those excitations are known as *anyons*). This idea (and the funny name for such particles) traces back to works of Frank Wilczek and collegaues in 1980s <a href="#references">[Wilczek (1982)].
 
- can we classify them in a similar fashion to elementary particles (being either bosons or fermions)? Yes, we say that there are three types of anyons in the toric code: $$e$$ anyon (single vertex excitation), $$m$$ anyon (single plaquette excitation) and $$\epsilon$$ anyon (or a dyon) consisting of vertex and plaquette excitations bound together. $$e$$ and $$m$$ anyons in the toric code have abelian bosonic statistics i.e. the many-body state is invariant under exchanging two identical $$e$$ and $$m$$ anyons[^10].
+Now back to the toric code: can we classify its excitations by looking through the lens of exchange statistics? Yes, we say that there are three types of anyons in the toric code: $$e$$ anyon (single vertex excitation), $$m$$ anyon (single plaquette excitation) and $$\epsilon$$ anyon (or a dyon) consisting of vertex and plaquette excitations bound together. $$e$$ and $$m$$ anyons in the toric code have abelian bosonic statistics i.e. the many-body state is invariant under exchanging two identical $$e$$ and $$m$$ anyons[^10].
 
 It turns out that $$\epsilon$$ anyons are fermions. To see this we need to first show that braiding the $$e$$ particle around $$m$$ particle (and vice-versa) accumulates $$-1$$ phase. In other words we want to prove that $$\vert \psi_{final} \rangle = - \vert \psi_{init} \rangle$$. The action of moving $$e$$ around $$m$$ might be written as $$\vert \psi_{final} \rangle = \prod_{j \in \textrm{loop}} Z_j \vert \psi_{init} \rangle$$ and corresponds pictorially to the Fig. 7 below.
 
@@ -142,7 +142,7 @@ It turns out that $$\epsilon$$ anyons are fermions. To see this we need to first
 Fig. 7: Braiding $$e$$ particle around $$m$$ particle.
 {:.figure}
 
-Noting that the product of the plaquette stabilizers enclosed by the loop is equal to $$-1$$ (there is a single m excitation present inside the loop) i.e. $$\prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle = - \vert \psi_{init} \rangle$$, and using the result of the exercise below we show what is intended. 
+Noting that the product of the plaquette stabilizers enclosed by the loop is equal to $$-1$$ (there is a single $$m$$ excitation present inside the loop) i.e. $$\prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle = - \vert \psi_{init} \rangle$$, and using the result of the exercise below we show what is intended. 
 
 **Exercise:** Show that $$\prod_j Z_{j \in \textrm{loop}} \vert \psi_{init} \rangle = \prod_{p \ \textrm{enclosed}} B_p \vert \psi_{init} \rangle$$ <a href="#hint2">Hint</a>
 {:.message}
@@ -155,9 +155,7 @@ Okay, so braiding $$e$$ around $$m$$ accumulates $$-1$$ phase for the state. Now
 Fig. 8: Wordline braiding diagrams for the $$\epsilon$$ particle consisting of an $$e$$ and $$m$$ bound together.
 {:.figure}
 
-<!-- Can they change distance -->
-
-Okay, I understand that initially it might seem that there is a lot to unpack here, but in fact everything is plain and simple. Lines in Fig. 8 correspond to the $$(2+1)-D$$ worldlines of the anyons. Wordlines are nothing else than space-time graph[^12] of the particle motion with time going up on the image and particles moving around each other in space (horizontal direction). We first draw the diagram corresponding to taking the $$e$$ particle around $$m$$ particle (considered above). Next, we utilize identities found before (bottom row) to simplify each of the crossings in the top row: picking up a $$-1$$ factor for braiding $$e$$ around $$m$$ translates into the fermionic statistics of $$\epsilon$$ particle![^13]
+Okay, I understand that initially it might seem that there is a lot to unpack here, but in fact everything is plain and simple. Lines in Fig. 8 correspond to the $$(2+1)-D$$ worldlines of the anyons. Wordlines are nothing else than space-time graph[^12] of the particle motion with time going up on the image and particles moving around each other in space (horizontal direction). We first draw the diagram corresponding to taking the $$e$$ particle around $$m$$ particle (considered above). Next, we utilize identities found before (bottom row) to simplify each of the crossings in the top row: picking up a $$-1$$ factor for braiding $$e$$ around $$m$$ translates into the fermionic statistics of $$\epsilon$$ particle![^13] Although, all anyons in the toric code are still bosonic/fermionic, generalizations of the toric code (briefly described in the <a href="#FAQ">[FAQ]) that contain more exotic excitations. 
 
 **Fact 4:** Three types of (anyonic) excitations correspond to vertex, plaquette and "dyonic" violations and these have bosonic, bosonic and fermionic exchange statistics respectively.  
 {:.note}
@@ -321,6 +319,8 @@ adder(2, 6);
 <a id="wenchenbook">*[Zeng et al. (2015)]*</a> Zeng, B., Chen, X., Zhou, D.L. and Wen, X.G., 2015. Quantum Information Meets Quantum Matter--From Quantum Entanglement to Topological Phase in Many-Body Systems. [*arXiv version*](https://arxiv.org/abs/1508.02595).
 
 <a id="simonbook">*[Simon (2020)]*</a> Simon, S.H., 2020. Topological Quantum: Lecture Notes and Proto-Book. Unpublished prototype. [*Online*](http://www-thphys.physics.ox.ac.uk/people/SteveSimon).
+
+<a id="wilczek">*[Wilczek (1982)]*</a> Wilczek, F., 1982. Quantum mechanics of fractional-spin particles. Physical review letters, 49(14), p.957. [*open access version*](https://www.fuw.edu.pl/~pzdybel/WilczekAnyon.pdf)
 
 <a id="leshouchestopo">*[Kitaev&Laumann (2010)]*</a> Kitaev, A. and Laumann, C., 2010. Topological phases and quantum computation. Exact methods in low-dimensional statistical physics and quantum computing, Lecture Notes of the Les Houches Summer School, (89), pp.101-125. [*arXiv version*](https://arxiv.org/abs/0904.2771).
 
