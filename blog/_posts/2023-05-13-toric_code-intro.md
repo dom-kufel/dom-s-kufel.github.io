@@ -39,7 +39,7 @@ sitemap: false
 [^15]: This in principle should be considered in the thermodynamic limit (infinite number of qubits), see <a href="#references">[Bravyi et al. (2010)] p. 8</a>.
 [^16]: The main idea is as follows: loosely speaking, for quantum error correction, the longer the error string the larger chance that it corresponds to an uncorrectable error. As described <a href="#anyons-and-their-statistics">before</a>, the energy cost paid for the pair of excitations of any length is the same; for self-correcting memory (for storing quantum information) we want to retain non-locality of information encoding but yet penalize for longer excitation strings. It turns out that due to their dimensionality, 3D and 4D toric code energetically penalize long excitations one of the two or both types of Pauli errors respectively.
 
-<p style="text-align:center;"><img src="/assets/img/blog/summary.png" width="1000"/></p>
+<!-- <p style="text-align:center;"><img src="/assets/img/blog/summary.png" width="1000"/></p> -->
 
 Working in the field of quantum technologies I often chat to people from a variety of quantum-focused fields. A weird thing happens if people from traditionally different communities talk about the same stuff. This is how I first heard about the toric code: both condensed matter and quantum error correction people spoke about it a lot. Soon afterwards I discovered why: toric code is a paradigmatic example for both topological quantum error correction and topological order in condensed matter. What makes this model to be famous and which of its properties make it so fun to work with?
 
